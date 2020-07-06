@@ -49,7 +49,7 @@ p {
 }
 
 .headlinetext{
-  font-size:2em;
+  font-size:2.5em;
   text-align: center;
   color:black;
 }
@@ -82,11 +82,10 @@ p {
 .bigtitletext {
   position:relative;
   transform: rotate(-90deg);
-  font-size: 11vw;
-  margin-left: 4vw;
-  transform: rotate(-90deg) translate(-30.8vw) scaleY(2.5);
+  font-size: 10.5vw;
+  margin-left: 6vw;
+  transform: rotate(-90deg) translate(-34vw) scaleY(2.5);
   white-space: nowrap;
-  border:2px solid orange;
 }
 
 .bigtoolbox {
@@ -129,17 +128,14 @@ display:flex;
 
 .namebox{
   width:70%;
-  display: flex;
+  display:flex;
   align-items: center;
-  justify-content: center;
-
 }
 
 .thename{
-  font-size: 6.5vw;
+  font-size: 10vw;
   line-height: 6vw;
-  transform: scaleY(1.5);
-  text-align: center;
+  text-align: left;
 }
 
 .headbox {
@@ -166,12 +162,210 @@ display:flex;
 .detlinksbox {
   flex:2;
   border:2px solid black;
+  flex-direction: row;
+  display: flex;
+}
+
+.linkboxwrap1 {
+  flex:1;
+  border:2px solid purple;
+  width:100%;
+  height:100%;
+}
+
+.linkboxwrap1 a {
+  width:100%;
+  height:100%;
+}
+
+.linkbox1 {
+  flex:1;
+  border:2px solid red;
+  width:120px;
+  height:120px;
+  background-image: url("./github.png");
+  background-size: 120px 120px;
+  background-repeat: no-repeat;
+  margin-left:calc(50% - 60px);
+  margin-top:calc(50% - 100px)
+}
+
+.linkbox1:hover{
+  flex:1;
+  border:2px solid red;
+  width:120px;
+  height:120px;
+  background-image: url("./githubhover.png");
+  background-size: 120px 120px;
+  background-repeat: no-repeat;
+  margin-left:calc(50% - 60px);
+  margin-top:calc(50% - 100px);
+}
+
+.linkboxwrap2 {
+  flex:1;
+  border:2px solid red;
+}
+
+.linkboxwrap2 {
+  flex:1;
+  border:2px solid purple;
+  width:100%;
+  height:100%;
+}
+
+.linkboxwrap2 a {
+  width:100%;
+  height:100%;
+}
+
+.linkbox2 {
+  flex:1;
+  border:2px solid red;
+  width:120px;
+  height:120px;
+  background-image: url("./linkedin.png");
+  background-size: 120px 120px;
+  background-repeat: no-repeat;
+  margin-left:calc(50% - 60px);
+  margin-top:calc(50% - 100px);
+}
+
+.linkbox2:hover{
+  flex:1;
+  border:2px solid red;
+  width:120px;
+  height:120px;
+  background-image: url("./linkedinhover.png");
+  background-size: 120px 120px;
+  background-repeat: no-repeat;
+  margin-left:calc(50% - 60px);
+  margin-top:calc(50% - 100px);
+}
+
+.linkboxwrap3 {
+  flex:1;
+  border:2px solid purple;
+}
+
+.linkboxwrap3 {
+  flex:1;
+  border:2px solid purple;
+  width:100%;
+  height:100%;
+}
+
+.linkboxwrap3 a {
+  width:100%;
+  height:100%;
+}
+
+.linkbox3 {
+  flex:1;
+  border:2px solid red;
+  width:120px;
+  height:120px;
+  background-image: url("./instagram.png");
+  background-size: 120px 120px;
+  background-repeat: no-repeat;
+  margin-left:calc(50% - 60px);
+  margin-top:calc(50% - 100px);
+}
+
+.linkbox3:hover{
+  flex:1;
+  border:2px solid red;
+  width:120px;
+  height:120px;
+  background-image: url("./instagramhover.png");
+  background-size: 120px 120px;
+  background-repeat: no-repeat;
+  margin-left:calc(50% - 60px);
+  margin-top:calc(50% - 100px);
+}
+
+
+.linkboxwrap4 {
+  flex:1;
+  border:2px solid red;
+}
+
+.linkboxwrap4 {
+  flex:1;
+  border:2px solid purple;
+  width:100%;
+  height:100%;
+}
+
+.linkboxwrap4 a {
+  width:100%;
+  height:100%;
+}
+
+.linkbox4 {
+  flex:1;
+  border:2px solid red;
+  width:120px;
+  height:120px;
+  background-image: url("./email.png");
+  background-size: 120px 120px;
+  background-repeat: no-repeat;
+  margin-left:calc(50% - 60px);
+  margin-top:calc(50% - 100px);
+}
+
+.linkbox4:hover{
+  flex:1;
+  border:2px solid red;
+  width:120px;
+  height:120px;
+  background-image: url("./emailhover.png");
+  background-size: 120px 120px;
+  background-repeat: no-repeat;
+  margin-left:calc(50% - 60px);
+  margin-top:calc(50% - 100px);
 }
 
 .descriptionone{
   font-size:0.1em;
   line-height: 0.8em;
   text-align:justify;
+}
+
+/* aboutbox */
+
+.aboutboxwrap {
+  width:100%;
+  height:100%;
+  border:2px solid navy;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.aboutbox {
+  width:90%;
+  height:90%;
+  border:2px solid navy;
+  display:flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.aboutdescription {
+  text-align: justify;
+  font-size: 0.1em;
+  width:100%;
+}
+
+.aboutdescriptionfinal {
+  text-align: center;
+  font-size: 0.1em;
+  width:100%;
+}
+
+p br {
+   line-height: 50px;
 }
 
 /* rightbox details, see /components/projectbox.js*/

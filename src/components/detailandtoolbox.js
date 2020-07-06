@@ -1,6 +1,4 @@
 import React, { Component } from "react"
-import {BrowserRouter as Router, Route } from "react-router-dom";
-import { View } from 'react-native';
 import '../App.css';
 
 import Clocktick from "./clocktick"
@@ -29,6 +27,12 @@ constructor(props) {
     })
   }
 
+  onClickResume() {
+    this.setState({
+      components:[<Portfoliohere />]
+    })
+  }
+
   render() {
   return (
   <div className="bigtoolbox">
@@ -36,6 +40,18 @@ constructor(props) {
       <div className="contextbox">
         {this.state.components[0]}
       <div className="detlinksbox">
+        <div className="linkboxwrap1">
+          <a className="detthumbnail" href="https://github.com/ternlef11"><div className="linkbox1"></div></a>
+        </div>
+        <div className="linkboxwrap2">
+          <a className="detthumbnail" href="https://github.com/ternlef11"><div className="linkbox2"></div></a>
+        </div>
+        <div className="linkboxwrap3">
+          <a className="detthumbnail" href="https://github.com/ternlef11"><div className="linkbox3"></div></a>
+        </div>
+        <div className="linkboxwrap4">
+          <a className="detthumbnail" href="https://github.com/ternlef11"><div className="linkbox4"></div></a>
+        </div>
       </div>
     </div>
     </div>
@@ -73,7 +89,23 @@ constructor(props) {
           </div>
           <div className="projectswrapper">
             <div className="projectitself">
-              <p className="theprojectname">Other</p>
+              <p className="theprojectname">Film</p>
+            </div>
+            <div className="projectyears">
+            <p className="theprojectyears">Last updated</p>
+            </div>
+          </div>
+          <div className="projectswrapper">
+            <div className="projectitself">
+              <p className="theprojectname">Music</p>
+            </div>
+            <div className="projectyears">
+            <p className="theprojectyears">Last updated</p>
+            </div>
+          </div>
+          <div className="projectswrapper">
+            <div className="projectitself">
+              <p className="theprojectname">Reading</p>
             </div>
             <div className="projectyears">
             <p className="theprojectyears">Last updated</p>
@@ -85,22 +117,6 @@ constructor(props) {
             </div>
             <div className="projectyears">
             <p className="theprojectyears">Last updated</p>
-            </div>
-          </div>
-          <div className="projectswrapper">
-            <div className="projectitself">
-              <p className="theprojectname"></p>
-            </div>
-            <div className="projectyears">
-            <p className="theprojectyears"></p>
-            </div>
-          </div>
-          <div className="projectswrapper">
-            <div className="projectitself">
-              <p className="theprojectname"></p>
-            </div>
-            <div className="projectyears">
-            <p className="theprojectyears"></p>
             </div>
           </div>
           <div className="projectswrapper">
