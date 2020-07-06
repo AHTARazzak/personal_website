@@ -1,32 +1,262 @@
-.App {
+* {
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+    overflow: visible;
+}
+
+p {
+  color:white;
+}
+
+.bodyfake {
+  height:100vh;
+  width:100vw;
+  background-color: black;
+}
+
+.flexbody {
+  width:100vw;
+  height:85vh;
+  font-size:300px;
+  display:flex;
+  position:relative;
+
+}
+
+/* headlinebox details, see /components/headlinebox.js*/
+
+.headline {
+  width:100vw;
+  height:10vh;
+  border:1px solid white;
+}
+
+.headlineboxwrap {
+  width:100%;
+  height:100%;
+  border:1px solid red;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.headlinebox{
+  width:90%;
+  height:60%;
+  border:1px solid purple;
+  background-color: white;
+}
+
+.headlinetext{
+  font-size:2em;
+  text-align: center;
+  color:black;
+}
+
+/* leftbox details, see /components/detailbox.js*/
+
+.leftbox{
+  background-color:red;
+  height:100%;
+  flex:2;
+}
+
+
+.textbox {
+  height:100%;
+  width:100%;
+}
+
+.titleitselfwrap {
+  height:100%;
+  width:100%;
+}
+
+.titleitself {
+  height:100%;
+  width:11vw;
+  word-wrap: break-word;
+}
+
+.bigtitletext {
+  position:relative;
+  transform: rotate(-90deg);
+  font-size: 11vw;
+  margin-left: 4vw;
+  transform: rotate(-90deg) translate(-30.8vw) scaleY(2.5);
+  white-space: nowrap;
+  border:2px solid orange;
+}
+
+.bigtoolbox {
+display:flex;
+  flex:9;
+}
+
+/* middlebox details, see /components/detailbox.js*/
+.middlebox{
+  background-color:green;
+  height:100%;
+  flex:6;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contextbox {
+  display:flex;
+  height:95%;
+  width:95%;
+  border:2px solid purple;
+  flex-direction: column;
+
+}
+
+.changecontentbox{
+  flex:7;
+  border:1px solid pink;
+  flex-direction: column;display:flex;
+}
+
+.detheaderbox {
+  flex:1;
+  flex:2.5;
+  border:2px solid black;
+  display:flex;
+  flex-direction: row;
+}
+
+.namebox{
+  width:70%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.thename{
+  font-size: 6.5vw;
+  line-height: 6vw;
+  transform: scaleY(1.5);
   text-align: center;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+.headbox {
+  width:30%;
+  display:flex;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  left:50%;
 }
 
-.App-link {
-  color: #61dafb;
+.thehead{
+  position:relative;
+  width:auto;
+  height:100%;
+  border: 1px solid black;
+
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.detcontextbox {
+  flex:7;
+  border:2px solid black;
+}
+
+.detlinksbox {
+  flex:2;
+  border:2px solid black;
+}
+
+.descriptionone{
+  font-size:0.1em;
+  line-height: 0.8em;
+  text-align:justify;
+}
+
+/* rightbox details, see /components/projectbox.js*/
+
+.rightbox{
+  background-color:blue;
+  height:100%;
+  flex:3;
+}
+
+
+
+.projectwrap {
+  border:2px purple solid;
+  height:100%;
+  width:100%;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.projectbox {
+  width:95%;
+  height:100%;
+  border:2px red solid;
+  flex-direction: column;
+  display:flex;
+}
+
+.projectitlewrap{
+  border:2px solid orange;
+  width:100%;
+  margin-bottom: 5px;
+}
+
+.projectname {
+  justify-content: space-between;
+}
+
+.projecttitletext {
+  font-size:4.5vw;
+  line-height: 4vw;
+  text-align: center;
+  text-justify: inter-word;
+}
+
+.thelcock {
+  font-size:2vw;
+  line-height: 1.5vw;
+  text-align: center;
+  text-justify: inter-word;
+}
+
+.projectswrapper {
+  width:100%;
+  flex: 1;
+}
+
+.projectitself {
+  height:60%;
+  border:2px solid red;
+}
+
+.theprojectname{
+  font-size:2.8vw;
+  line-height:2.5vw;
+}
+
+.projectyears {
+  height:40%;
+  border:2px solid green;
+}
+
+.theprojectyears{
+  font-size:2vw;
+  line-height:1.5vw;
+}
+
+/* footer details*/
+
+.footer {
+  background-color:black;
+  height:6vh;
+  border:1px solid blue;
+  width:100vw;
+  bottom:0px;
+  position:absolute;
 }
