@@ -71,21 +71,35 @@ p {
 .titleitselfwrap {
   height:100%;
   width:100%;
+  transform: rotate(-90deg);
+  border:2px solid blue;
 }
 
 .titleitself {
-  height:100%;
+  height:auto;
   width:11vw;
-  word-wrap: break-word;
+  border:2px solid blue;
 }
+
+
 
 .bigtitletext {
   position:relative;
-  transform: rotate(-90deg);
   font-size: 10.5vw;
   margin-left: 6vw;
-  transform: rotate(-90deg) translate(-34vw) scaleY(2.5);
+  border:2px solid blue;
   white-space: nowrap;
+  transform: translateX(-18vw) translateY(15vw) scaleY(2.5);
+  animation: 1s ease-out 0s 1 rotategetgot;
+}
+
+@keyframes rotategetgot {
+  0% {
+    transform: rotateX(1200deg) translateX(-18vw) translateY(15vw);
+  }
+  100% {
+    transform: translateX(-18vw) translateY(15vw) scaleY(2.5);
+  }
 }
 
 .bigtoolbox {
@@ -127,19 +141,24 @@ display:flex;
 }
 
 .namebox{
-  width:70%;
+  width:100%;
   display:flex;
   align-items: center;
+  padding-left:5%;
+  border:2px solid black;
+
 }
 
 .thename{
-  font-size: 10vw;
+  font-size: 8vw;
   line-height: 6vw;
   text-align: left;
+  text-align: center;
+  border:2px solid black;
 }
 
 .headbox {
-  width:30%;
+  width:20%;
   display:flex;
   align-items: center;
   justify-content: center;
@@ -155,8 +174,13 @@ display:flex;
 }
 
 .detcontextbox {
-  flex:7;
+  flex:8;
   border:2px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  z-index:100000000000;
 }
 
 .detlinksbox {
@@ -164,6 +188,150 @@ display:flex;
   border:2px solid black;
   flex-direction: row;
   display: flex;
+}
+
+.portfoliodetwrap {
+  border:2px solid purple;
+  width:95%;
+  height:95%;
+  display:flex;
+  flex-direction: row;
+}
+
+.portfoliolistwrap {
+  flex:4;
+  border:2px solid orange;
+  display:flex;
+  flex-direction: column;
+}
+
+.portfoliooption {
+  flex:2;
+  border:2px solid red;
+  display:flex;
+  flex-direction: row;
+}
+
+.portfolioopttitle {
+  border:2px solid red;
+  cursor:pointer;
+}
+
+.porttitle{
+  font-size: 0.13em;
+}
+
+.portfoliooptdate {
+  border:2px solid blue;
+  padding-top:4%;
+  cursor:pointer;
+}
+
+.portdate{
+  font-size: 0.075em;
+  bottom:0px;
+}
+
+.portfoliosmalldetwrap {
+  flex:4;
+  border:2px solid black;
+  flex-direction: column;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  width:100%;
+  height:100%;
+}
+
+.portdescwrap {
+  border:2px solid purple;
+  flex:3;
+  width:95%;
+  height:95%;
+}
+
+.portdesc {
+  width:100%;
+  height:100%;
+  border:2px solid red;
+}
+
+.portdesctitle {
+  text-align:center;
+  font-size:0.15em;
+  text-decoration: underline;
+}
+
+.portdesctext {
+  font-size:0.1em;
+  text-align:justify;
+}
+
+.portlinkwrap {
+  flex:1;
+  width:95%;
+  height:95%;
+  border:2px solid black;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.aptitbox {
+  display:flex;
+  width:100%;
+  height:100%;
+  flex-direction: column;
+  border:2px solid purple;
+  flex:1;
+}
+
+.aptitoptionswrap {
+  border:2px solid red;
+  flex:3;
+  height:100%;
+  width:100%;
+  display:flex;
+  align-items: center;
+  justify-content: center
+}
+
+.aptitoptions {
+  width:95%;
+  height:95%;
+  border:2px solid orange;
+}
+
+.apatitentry {
+  font-size:0.13em;
+}
+
+.aptitcatawarp {
+  flex:1;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  border:2px solid green;
+}
+
+.aptitcata {
+  height:95%;
+  width:95%;
+  border:2px solid orange;
+}
+
+.aptitcatatitle {
+  font-size:0.2em;
+  text-align: center;
+  cursor: pointer;
+}
+
+.contecttrial {
+  font-size: 0.3em;
+}
+
+.linktext {
+  font-size:0.2em;
 }
 
 .linkboxwrap1 {
@@ -181,25 +349,29 @@ display:flex;
 .linkbox1 {
   flex:1;
   border:2px solid red;
-  width:120px;
-  height:120px;
+  width:100px;
+  height:100px;
   background-image: url("./github.png");
-  background-size: 120px 120px;
+  background-size: 100px 100px;
   background-repeat: no-repeat;
-  margin-left:calc(50% - 60px);
+  margin-left:calc(50% - 50px);
   margin-top:calc(50% - 100px)
 }
 
 .linkbox1:hover{
   flex:1;
   border:2px solid red;
-  width:120px;
-  height:120px;
+  width:100px;
+  height:100px;
   background-image: url("./githubhover.png");
-  background-size: 120px 120px;
+  background-size: 100px 100px;
   background-repeat: no-repeat;
-  margin-left:calc(50% - 60px);
+  margin-left:calc(50% - 50px);
   margin-top:calc(50% - 100px);
+}
+
+.linkbox1:hover .linkbox1{
+  display:none;
 }
 
 .linkboxwrap2 {
@@ -222,24 +394,24 @@ display:flex;
 .linkbox2 {
   flex:1;
   border:2px solid red;
-  width:120px;
-  height:120px;
+  width:100px;
+  height:100px;
   background-image: url("./linkedin.png");
-  background-size: 120px 120px;
+  background-size: 100px 100px;
   background-repeat: no-repeat;
-  margin-left:calc(50% - 60px);
+  margin-left:calc(50% - 50px);
   margin-top:calc(50% - 100px);
 }
 
 .linkbox2:hover{
   flex:1;
   border:2px solid red;
-  width:120px;
-  height:120px;
+  width:100px;
+  height:100px;
   background-image: url("./linkedinhover.png");
-  background-size: 120px 120px;
+  background-size: 100px 100px;
   background-repeat: no-repeat;
-  margin-left:calc(50% - 60px);
+  margin-left:calc(50% - 50px);
   margin-top:calc(50% - 100px);
 }
 
@@ -263,24 +435,24 @@ display:flex;
 .linkbox3 {
   flex:1;
   border:2px solid red;
-  width:120px;
-  height:120px;
+  width:100px;
+  height:100px;
   background-image: url("./instagram.png");
-  background-size: 120px 120px;
+  background-size: 100px 100px;
   background-repeat: no-repeat;
-  margin-left:calc(50% - 60px);
+  margin-left:calc(50% - 50px);
   margin-top:calc(50% - 100px);
 }
 
 .linkbox3:hover{
   flex:1;
   border:2px solid red;
-  width:120px;
-  height:120px;
+  width:100px;
+  height:100px;
   background-image: url("./instagramhover.png");
-  background-size: 120px 120px;
+  background-size: 100px 100px;
   background-repeat: no-repeat;
-  margin-left:calc(50% - 60px);
+  margin-left:calc(50% - 50px);
   margin-top:calc(50% - 100px);
 }
 
@@ -305,25 +477,29 @@ display:flex;
 .linkbox4 {
   flex:1;
   border:2px solid red;
-  width:120px;
-  height:120px;
+  width:100px;
+  height:100px;
   background-image: url("./email.png");
-  background-size: 120px 120px;
+  background-size: 100px 100px;
   background-repeat: no-repeat;
-  margin-left:calc(50% - 60px);
+  margin-left:calc(50% - 50px);
   margin-top:calc(50% - 100px);
 }
 
 .linkbox4:hover{
   flex:1;
   border:2px solid red;
-  width:120px;
-  height:120px;
+  width:100px;
+  height:100px;
   background-image: url("./emailhover.png");
-  background-size: 120px 120px;
+  background-size: 100px 100px;
   background-repeat: no-repeat;
-  margin-left:calc(50% - 60px);
+  margin-left:calc(50% - 50px);
   margin-top:calc(50% - 100px);
+}
+
+.linkbox4:hover .linkbox4{
+  display:none;
 }
 
 .descriptionone{
@@ -344,8 +520,35 @@ display:flex;
 }
 
 .aboutbox {
-  width:90%;
-  height:90%;
+  width:95%;
+  height:95%;
+  border:2px solid navy;
+  display:flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.sitewrap {
+  width:95%;
+  height:95%;
+  display:flex;
+  flex-direction: row;
+}
+
+.site1 {
+  flex:1;
+  height:100%;
+  border:2px solid black;
+}
+
+.siteentry {
+  font-size: 0.1em;
+  text-align: center;
+}
+
+.resumebox {
+  width:95%;
+  height:95%;
   border:2px solid navy;
   display:flex;
   align-items: center;
@@ -355,6 +558,12 @@ display:flex;
 .aboutdescription {
   text-align: justify;
   font-size: 0.1em;
+  width:100%;
+}
+
+.resumedescription {
+  text-align: justify;
+  font-size: 0.09em;
   width:100%;
 }
 
@@ -432,6 +641,7 @@ p br {
 .theprojectname{
   font-size:2.8vw;
   line-height:2.5vw;
+  cursor:pointer;
 }
 
 .projectyears {
@@ -442,6 +652,7 @@ p br {
 .theprojectyears{
   font-size:2vw;
   line-height:1.5vw;
+  cursor:pointer;
 }
 
 /* footer details*/
@@ -453,4 +664,49 @@ p br {
   width:100vw;
   bottom:0px;
   position:absolute;
+}
+
+.footertext {
+ height: 50px;
+ overflow: hidden;
+ position: relative;
+}
+.footertext p {
+ font-size: 3em;
+ color: white;
+ position: absolute;
+ width: 100%;
+ height: 100%;
+ margin: 0;
+ line-height: 50px;
+ text-align: center;
+ /* Starting position */
+ -moz-transform:translateX(100%);
+ -webkit-transform:translateX(100%);
+ transform:translateX(100%);
+ /* Apply animation to this element */
+ -moz-animation: footertext 10s linear infinite;
+ -webkit-animation: footertext 10s linear infinite;
+ animation: footertext 10s linear infinite;
+}
+/* Move it (define the animation) */
+@-moz-keyframes footertext {
+ 0%   { -moz-transform: translateX(100%); }
+ 100% { -moz-transform: translateX(-100%); }
+}
+@-webkit-keyframes footertext {
+ 0%   { -webkit-transform: translateX(100%); }
+ 100% { -webkit-transform: translateX(-100%); }
+}
+@keyframes footertext {
+ 0%   {
+ -moz-transform: translateX(100%); /* Firefox bug fix */
+ -webkit-transform: translateX(100%); /* Firefox bug fix */
+ transform: translateX(100%);
+ }
+ 100% {
+ -moz-transform: translateX(-100%); /* Firefox bug fix */
+ -webkit-transform: translateX(-100%); /* Firefox bug fix */
+ transform: translateX(-100%);
+ }
 }
