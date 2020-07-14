@@ -3,7 +3,6 @@ import '../App.css';
 
 import screenscrypdf from '../portlinks/screen_scrying.pdf';
 
-
 export default class Screenscrying extends Component {
   render() {
   return (
@@ -11,7 +10,7 @@ export default class Screenscrying extends Component {
         <div className="portdescwrap">
           <div className="portdesc">
             <p className="portdesctitle">Screen Scrying</p>
-            <p className="portdesctext">This project examined how using data driven techniques to address catastrophies can recapitulate hysteria instead of resolving it. To communicate this I utilised data mining, sentiment analysis, and bioinformatics .</p>
+            <p className="portdesctext">This project examined how using data driven techniques to address catastrophies can recapitulate hysteria instead of resolving it. To communicate this I utilised data mining, sentiment analysis, and bioinformatics.</p>
           </div>
         </div>
         <div className="portlinkwrap">

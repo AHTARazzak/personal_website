@@ -13,6 +13,87 @@ import Aspiredom from "./Aspiredom"
 import Contact from "./Contact"
 
 export default class DetandToolbox extends Component {
+  constructor(props){
+    super(props);
+    this.onHoverChangeTBgit = this.onHoverChangeTBgit.bind(this)
+    this.onHoverLeave = this.onHoverLeave.bind(this)
+    this.onHoverChangeTBinsta = this.onHoverChangeTBinsta.bind(this)
+    this.onHoverChangeTBln = this.onHoverChangeTBln.bind(this)
+    this.onHoverChangeTBmail = this.onHoverChangeTBmail.bind(this)
+    this.onHoverChangeTBclock = this.onHoverChangeTBclock.bind(this)
+    this.onHoverChangeTBabout = this.onHoverChangeTBabout.bind(this)
+    this.onHoverChangeTBproj = this.onHoverChangeTBproj.bind(this)
+    this.onHoverChangeTBresume = this.onHoverChangeTBresume.bind(this)
+    this.onHoverChangeTBaptit = this.onHoverChangeTBaptit.bind(this)
+    this.onHoverChangeTBaspir = this.onHoverChangeTBaspir.bind(this)
+    this.onHoverChangeTBlog = this.onHoverChangeTBlog.bind(this)
+    this.getThumbTexttodetbox = this.getThumbTexttodetbox.bind(this)
+
+}
+
+  getThumbTexttodetbox = (deboxTB) => {
+        this.props.onSelectTB(deboxTB);
+    }
+
+  onHoverChangeTBgit() {
+        var tb = <div className="headlinebox"><p className="headlinetext">Check out what codes I've got in the works</p></div>;
+        this.props.onSelectTB(tb);
+}
+
+onHoverChangeTBln() {
+        var tb = <div className="headlinebox"><p className="headlinetext">My more professional side (?)</p></div>;
+        this.props.onSelectTB(tb);
+}
+
+onHoverChangeTBinsta() {
+        var tb = <div className="headlinebox"><p className="headlinetext">A day in the life of my lense</p></div>;
+        this.props.onSelectTB(tb);
+}
+
+onHoverChangeTBmail() {
+        var tb = <div className="headlinebox"><p className="headlinetext">Drop me a line or whatever's on your mind</p></div>;
+        this.props.onSelectTB(tb);
+}
+
+onHoverChangeTBclock() {
+        var tb = <div className="headlinebox"><p className="headlinetext">Tick Tock</p></div>;
+        this.props.onSelectTB(tb);
+}
+
+onHoverChangeTBabout() {
+        var tb = <div className="headlinebox"><p className="headlinetext">A little bit of nothing much about me</p></div>;
+        this.props.onSelectTB(tb);
+}
+
+onHoverChangeTBproj() {
+        var tb = <div className="headlinebox"><p className="headlinetext">Things I am working on (aside from this site)</p></div>;
+        this.props.onSelectTB(tb);
+}
+
+onHoverChangeTBresume() {
+        var tb = <div className="headlinebox"><p className="headlinetext">I'm your multidisciplinary structural bioinformatician</p></div>;
+        this.props.onSelectTB(tb);
+}
+
+onHoverChangeTBaptit() {
+        var tb = <div className="headlinebox"><p className="headlinetext">Bunch of things I reckon are rad</p></div>;
+        this.props.onSelectTB(tb);
+}
+
+onHoverChangeTBaspir() {
+        var tb = <div className="headlinebox"><p className="headlinetext">Sites I look to for "inspiration"</p></div>;
+        this.props.onSelectTB(tb);
+}
+
+onHoverChangeTBlog() {
+        var tb = <div className="headlinebox"><p className="headlinetext">For me to handle you (MIA)</p></div>;
+        this.props.onSelectTB(tb);
+}
+
+onHoverLeave() {
+        var tb = "";
+        this.props.onSelectTB(tb);
+}
 
   render() {
   return (
@@ -20,24 +101,24 @@ export default class DetandToolbox extends Component {
     <Redirect to="/about" />
     <div className="middlebox">
       <div className="contextbox">
-        <Route path="/about" component={Aboutme} />
-        <Route path="/portfolio" exact component={Portfoliohere} />
-        <Route path="/resume" exact component={Resume} />
-        <Route path="/aptitude" exact component={Aptitude} />
-        <Route path="/aspiredom" exact component={Aspiredom} />
-        <Route path="/contact" exact component={Contact} />
+        <Route path="/about" render={() => <Aboutme onSelectTBdetbox={this.getThumbTexttodetbox} />} />
+        <Route path="/portfolio" render={() => <Portfoliohere onSelectTBdetbox={this.getThumbTexttodetbox} />} />
+        <Route path="/resume" render={() => <Resume onSelectTBdetbox={this.getThumbTexttodetbox} />} />
+        <Route path="/aptitude" render={() => <Aptitude onSelectTBdetbox={this.getThumbTexttodetbox} />} />
+        <Route path="/aspiredom" render={() => <Aspiredom onSelectTBdetbox={this.getThumbTexttodetbox}/>} />
+        <Route path="/contact" render={() => <Contact onSelectTBdetbox={this.getThumbTexttodetbox} />} />
       <div className="detlinksbox">
         <div className="linkboxwrap1">
-          <a className="detthumbnail" target="_blank" rel="noopener noreferrer" href="https://github.com/ternlef11"><div className="linkbox1"></div></a>
+          <a className="detthumbnail" target="_blank" rel="noopener noreferrer" href="https://github.com/ternlef11"><div onMouseEnter={this.onHoverChangeTBgit} onMouseLeave={this.onHoverLeave} className="linkbox1"></div></a>
         </div>
         <div className="linkboxwrap2">
-          <a className="detthumbnail" target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/ali-razzak-datasci/"><div className="linkbox2"></div></a>
+          <a className="detthumbnail" target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/ali-razzak-datasci/"><div onMouseEnter={this.onHoverChangeTBln} onMouseLeave={this.onHoverLeave} className="linkbox2"></div></a>
         </div>
         <div className="linkboxwrap3">
-          <a className="detthumbnail" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/slimenbile/"><div className="linkbox3"></div></a>
+          <a className="detthumbnail" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/slimenbile/"><div onMouseEnter={this.onHoverChangeTBinsta} onMouseLeave={this.onHoverLeave} className="linkbox3"></div></a>
         </div>
         <div className="linkboxwrap4">
-          <Link to="/contact"><div className="linkbox4"></div></Link>
+          <Link to="/contact"><div onMouseEnter={this.onHoverChangeTBmail} onMouseLeave={this.onHoverLeave} className="linkbox4"></div></Link>
         </div>
       </div>
     </div>
@@ -46,12 +127,12 @@ export default class DetandToolbox extends Component {
       <div className="projectwrap">
         <div className="projectbox">
           <div className="clockwrap">
-            <div className="clockactual">
+            <div onMouseEnter={this.onHoverChangeTBclock} onMouseLeave={this.onHoverLeave} className="clockactual">
             <Clocktick />
             </div>
           </div>
           <div className="projectswrapper">
-            <Link to="/about"><div className="projectitself">
+            <Link to="/about" onMouseEnter={this.onHoverChangeTBabout} onMouseLeave={this.onHoverLeave}><div className="projectitself">
               <p className="theprojectname">ABOUT</p>
             </div>
             <div className="projectyears">
@@ -59,7 +140,7 @@ export default class DetandToolbox extends Component {
             </div></Link>
           </div>
           <div className="projectswrapper">
-            <Link to="/portfolio"><div className="projectitself">
+            <Link to="/portfolio" onMouseEnter={this.onHoverChangeTBproj} onMouseLeave={this.onHoverLeave}><div className="projectitself">
               <p className="theprojectname">PROJECTS</p>
             </div>
             <div className="projectyears">
@@ -67,7 +148,7 @@ export default class DetandToolbox extends Component {
             </div></Link>
           </div>
           <div className="projectswrapper">
-            <Link to="/resume"><div className="projectitself">
+            <Link to="/resume" onMouseEnter={this.onHoverChangeTBresume} onMouseLeave={this.onHoverLeave}><div className="projectitself">
               <p className="theprojectname">RESUME</p>
             </div>
             <div className="projectyears">
@@ -75,7 +156,7 @@ export default class DetandToolbox extends Component {
             </div></Link>
           </div>
           <div className="projectswrapper">
-            <Link to="/aptitude"><div className="projectitself">
+            <Link to="/aptitude" onMouseEnter={this.onHoverChangeTBaptit} onMouseLeave={this.onHoverLeave}><div className="projectitself">
               <p className="theprojectname">APTITUDE</p>
             </div>
             <div className="projectyears">
@@ -83,7 +164,7 @@ export default class DetandToolbox extends Component {
             </div></Link>
           </div>
           <div className="projectswrapper">
-            <Link to="/aspiredom"><div className="projectitself">
+            <Link to="/aspiredom" onMouseEnter={this.onHoverChangeTBaspir} onMouseLeave={this.onHoverLeave}><div className="projectitself">
               <p className="theprojectname">ASPIREDOM</p>
             </div>
             <div className="projectyears">
@@ -92,7 +173,7 @@ export default class DetandToolbox extends Component {
           </div>
           <div className="projectswrapper">
             <div className="projectitself">
-              <p className="theprojectname">Log in(?)</p>
+              <p className="theprojectname" onMouseEnter={this.onHoverChangeTBlog} onMouseLeave={this.onHoverLeave}>Log in(?)</p>
             </div>
             <div className="projectyears">
             <p className="theprojectyears">Last updated</p>

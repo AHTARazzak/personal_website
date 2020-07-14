@@ -1,13 +1,14 @@
 import React, { Component } from "react"
 import '../App.css';
 
+import Collection from '../collection'
+
 export default class Headline extends Component {
   render() {
+    console.log(headline.theheadline)
   return (
     <div className="headlineboxwrap">
-      <div className="headlinebox">
-        <p className="headlinetext">Ali is a multidisciplinary Structural Bioinformatician. Meander through & let me know if anything grips.</p>
-      </div>
+        {headline.theheadline}
     </div>
   )
 }

@@ -9,7 +9,7 @@ export default class Mujrimeen extends Component {
         <div className="portdescwrap">
           <div className="portdesc">
             <p className="portdesctitle">Mujrimeen</p>
-            <p className="portdesctext">Digital playground where I test out different JavaScript tools & showcase weird animations I think are cool.</p>
+            <p className="portdesctext">Digital playground for testing out different JavaScript tools & showcasing weird animations I think are cool.</p>
           </div>
         </div>
         <div className="portlinkwrap">

@@ -24,7 +24,20 @@ export default class Portfoliohere extends Component {
     this.onClickKstRDynamics = this.onClickKstRDynamics.bind(this);
     this.onClickStreetSymphonies = this.onClickStreetSymphonies.bind(this);
     this.onClickCutThwice = this.onClickCutThwice.bind(this);
+    this.onHoverChangeTBportokay = this.onHoverChangeTBportokay.bind(this)
+    this.onHoverLeave = this.onHoverLeave.bind(this)
+  }
+
+  onHoverChangeTBportokay() {
+        var tb = <div className="headlinebox"><p className="headlinetext">Things I am working on (aside from this site)</p></div>;
+        this.props.onSelectTBdetbox(tb);
 }
+
+onHoverLeave() {
+        var tb = "";
+        this.props.onSelectTBdetbox(tb);
+}
+
   onClickGetgot() {
     this.setState({
       portcomp:<Getgot />
@@ -80,10 +93,10 @@ export default class Portfoliohere extends Component {
       <div className="changecontentbox">
         <div className="detheaderbox">
           <div className="namebox">
-            <p className="thename">Projects</p>
+            <p className="thename" >Projects</p>
           </div>
         </div>
-        <div className="detcontextbox">
+        <div className="detcontextbox"  onMouseEnter={this.onHoverChangeTBportokay} onMouseLeave={this.onHoverLeave}>
           <div className="portfoliodetwrap">
             <div className="portfoliolistwrap">
               <div className="portfoliooption" onClick={this.onClickGetgot}>

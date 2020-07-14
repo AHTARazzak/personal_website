@@ -1,8 +1,11 @@
+@import url('./font.css');
+
 * {
     box-sizing:border-box;
     margin:0;
     padding:0;
     overflow: visible;
+    font-family: 'Quattrocento', serif;
 }
 
 p {
@@ -29,7 +32,6 @@ p {
 .headline {
   width:100vw;
   height:10vh;
-  border:1px solid white;
 }
 
 .headlineboxwrap {
@@ -42,8 +44,7 @@ p {
 }
 
 .headlinebox{
-  width:90%;
-  height:60%;
+  padding:5px 5px 5px 5px;
   border:1px solid purple;
   background-color: white;
 }
@@ -54,11 +55,10 @@ p {
   color:black;
 }
 
-/* leftbox details, see /components/detailbox.js*/
+/* titlebox details, see /components/detailbox.js*/
 
 .leftbox{
   background-color:red;
-  height:100%;
   flex:2;
 }
 
@@ -66,12 +66,13 @@ p {
 .textbox {
   height:100%;
   width:100%;
+  transform: rotate(-90deg) ;
+  border:2px solid cyan;
 }
 
 .titleitselfwrap {
   height:100%;
   width:100%;
-  transform: rotate(-90deg);
   border:2px solid blue;
 }
 
@@ -84,12 +85,11 @@ p {
 
 
 .bigtitletext {
-  position:relative;
-  font-size: 10.5vw;
+  font-size: 11vw;
   margin-left: 6vw;
-  border:2px solid blue;
+  border:2px solid orange;
   white-space: nowrap;
-  transform: translateX(-18vw) translateY(15vw) scaleY(2.5);
+  transform: translateX(-18vw) translateY(15vw) scaleY(2.4) scaleX(0.95);
   animation: 1s ease-out 0s 1 rotategetgot;
 }
 
@@ -98,7 +98,7 @@ p {
     transform: rotateX(1200deg) translateX(-18vw) translateY(15vw);
   }
   100% {
-    transform: translateX(-18vw) translateY(15vw) scaleY(2.5);
+    transform: translateX(-18vw) translateY(15vw) scaleY(2.4) scaleX(0.95);
   }
 }
 
@@ -157,22 +157,6 @@ display:flex;
   border:2px solid black;
 }
 
-.headbox {
-  width:20%;
-  display:flex;
-  align-items: center;
-  justify-content: center;
-  left:50%;
-}
-
-.thehead{
-  position:relative;
-  width:auto;
-  height:100%;
-  border: 1px solid black;
-
-}
-
 .detcontextbox {
   flex:8;
   border:2px solid black;
@@ -228,7 +212,7 @@ display:flex;
 }
 
 .portdate{
-  font-size: 0.075em;
+  font-size: 0.07em;
   bottom:0px;
 }
 
@@ -284,6 +268,7 @@ display:flex;
   flex-direction: column;
   border:2px solid purple;
   flex:1;
+
 }
 
 .aptitoptionswrap {
@@ -293,7 +278,8 @@ display:flex;
   width:100%;
   display:flex;
   align-items: center;
-  justify-content: center
+  justify-content: center;
+
 }
 
 .aptitoptions {
@@ -313,11 +299,13 @@ display:flex;
   justify-content: center;
   border:2px solid green;
 }
-
 .aptitcata {
   height:95%;
   width:95%;
   border:2px solid orange;
+  display:flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .aptitcatatitle {
@@ -341,11 +329,6 @@ display:flex;
   height:100%;
 }
 
-.linkboxwrap1 a {
-  width:100%;
-  height:100%;
-}
-
 .linkbox1 {
   flex:1;
   border:2px solid red;
@@ -355,7 +338,7 @@ display:flex;
   background-size: 100px 100px;
   background-repeat: no-repeat;
   margin-left:calc(50% - 50px);
-  margin-top:calc(50% - 100px)
+  margin-top:calc(50% - 100px);
 }
 
 .linkbox1:hover{
@@ -382,11 +365,6 @@ display:flex;
 .linkboxwrap2 {
   flex:1;
   border:2px solid purple;
-  width:100%;
-  height:100%;
-}
-
-.linkboxwrap2 a {
   width:100%;
   height:100%;
 }
@@ -427,11 +405,6 @@ display:flex;
   height:100%;
 }
 
-.linkboxwrap3 a {
-  width:100%;
-  height:100%;
-}
-
 .linkbox3 {
   flex:1;
   border:2px solid red;
@@ -465,11 +438,6 @@ display:flex;
 .linkboxwrap4 {
   flex:1;
   border:2px solid purple;
-  width:100%;
-  height:100%;
-}
-
-.linkboxwrap4 a {
   width:100%;
   height:100%;
 }
@@ -563,7 +531,7 @@ display:flex;
 
 .resumedescription {
   text-align: justify;
-  font-size: 0.09em;
+  font-size: 0.085em;
   width:100%;
 }
 
@@ -584,8 +552,6 @@ p br {
   height:100%;
   flex:3;
 }
-
-
 
 .projectwrap {
   border:2px purple solid;
@@ -608,17 +574,6 @@ p br {
   border:2px solid orange;
   width:100%;
   margin-bottom: 5px;
-}
-
-.projectname {
-  justify-content: space-between;
-}
-
-.projecttitletext {
-  font-size:4.5vw;
-  line-height: 4vw;
-  text-align: center;
-  text-justify: inter-word;
 }
 
 .thelcock {

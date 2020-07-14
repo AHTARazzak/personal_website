@@ -3,6 +3,21 @@ import '../App.css';
 
 
 export default class Aspiredom extends Component {
+     constructor(props) {
+    super(props);
+    this.onHoverChangeTBSites = this.onHoverChangeTBSites.bind(this)
+    this.onHoverLeave = this.onHoverLeave.bind(this)
+  }
+
+  onHoverChangeTBSites() {
+        var tb = <div className="headlinebox"><p className="headlinetext">Wicked sites</p></div>;
+        this.props.onSelectTBdetbox(tb);
+}
+
+onHoverLeave() {
+        var tb = "";
+        this.props.onSelectTBdetbox(tb);
+}
   render() {
   return (
       <div className="changecontentbox">
@@ -12,7 +27,7 @@ export default class Aspiredom extends Component {
           </div>
         </div>
         <div className="detcontextbox">
-            <div className="sitewrap">
+            <div className="sitewrap" onMouseEnter={this.onHoverChangeTBSites} onMouseLeave={this.onHoverLeave}>
               <div className="site1">
                 <a href="https://cass.si/" target="_blank" rel="noopener noreferrer"><p className="siteentry" >cass.si</p></a>
                 <a href="https://sixey.es/" target="_blank" rel="noopener noreferrer"><p className="siteentry" >sixey.es</p></a>
