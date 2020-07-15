@@ -1,5 +1,4 @@
 import React, { Component } from "react"
-import '../App.css';
 
 import screenscrypdf from '../portlinks/screen_scrying.pdf';
 
@@ -14,7 +13,7 @@ export default class Screenscrying extends Component {
           </div>
         </div>
         <div className="portlinkwrap">
-          <a href = {screenscrypdf} target = "_blank" rel="noopener noreferrer"><p className="linktext">Screen Scrying</p></a>
+          <a href = {screenscrypdf} target = "_blank" rel="noopener noreferrer"><p className="linktext">PDF (savelink)</p></a>
         </div>
       </div>
   )

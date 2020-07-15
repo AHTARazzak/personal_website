@@ -1,5 +1,4 @@
 import React, { Component } from "react"
-import '../App.css';
 
 import kstrdynamicspdf from '../portlinks/master_thesis.pdf';
 
@@ -14,7 +13,7 @@ export default class KstRDynamics extends Component {
           </div>
         </div>
         <div className="portlinkwrap">
-          <a href={kstrdynamicspdf} target="_blank" rel="noopener noreferrer"><p className="linktext">KstR Dynamics</p></a>
+          <a href={kstrdynamicspdf} target="_blank" rel="noopener noreferrer"><p className="linktext">PDF (savelink)</p></a>
         </div>
       </div>
   )

@@ -1,5 +1,4 @@
 import React, { Component } from "react"
-import '../App.css';
 
 import allosterymappdf from '../portlinks/Computational_Biology_Project.pdf';
 
@@ -15,7 +14,7 @@ export default class Allosterymap extends Component {
           </div>
         </div>
         <div className="portlinkwrap">
-          <a href={allosterymappdf} target="_blank" rel="noopener noreferrer"><p className="linktext">Allostery Map</p></a>
+          <a href={allosterymappdf} target="_blank" rel="noopener noreferrer"><p className="linktext">PDF (savelink)</p></a>
         </div>
       </div>
   )

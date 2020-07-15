@@ -1,6 +1,4 @@
 import React, { Component } from "react"
-import '../App.css';
-
 
 export default class Aspiredom extends Component {
      constructor(props) {

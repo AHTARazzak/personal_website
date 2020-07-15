@@ -1,5 +1,4 @@
 import React, { Component } from "react"
-import '../App.css';
 
 import streetsymphspdf from '../portlinks/allposters14072020.pdf';
 
@@ -14,7 +13,7 @@ export default class StreetSymphonies extends Component {
           </div>
         </div>
         <div className="portlinkwrap">
-          <a href= {streetsymphspdf} target= "_blank" rel="noopener noreferrer"><p className="linktext">Street Symph.</p></a>
+          <a href= {streetsymphspdf} target= "_blank" rel="noopener noreferrer"><p className="linktext">PDF (savelink)</p></a>
         </div>
       </div>
   )

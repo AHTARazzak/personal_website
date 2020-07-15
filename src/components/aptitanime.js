@@ -1,6 +1,4 @@
 import React, { Component } from "react"
-import '../App.css';
-
 
 export default class Aptitanime extends Component {
   render() {
@@ -14,6 +12,7 @@ export default class Aptitanime extends Component {
       <a href="https://myanimelist.net/anime/875/Mind_Game" target="_blank" rel="noopener noreferrer"><p className="apatitentry">&bull; Mind Game</p></a>
       <a href="https://myanimelist.net/anime/885/Tenshi_no_Tamago" target="_blank" rel="noopener noreferrer"><p className="apatitentry">&bull; Angel's Egg</p></a>
       <a href="https://myanimelist.net/anime/6/Trigun" target="_blank" rel="noopener noreferrer"><p className="apatitentry">&bull; Trigun</p></a>
+      <a href="https://myanimelist.net/profile/hiskneeshurt" target="_blank" rel="noopener noreferrer"><p className="apatitentrypage">&bull; MyAnimeList &bull;</p></a>
     </div>
   )
 }

@@ -1,0 +1,651 @@
+@import url('./font.css');
+
+* {
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+    overflow: visible;
+    font-family: 'Quattrocento', serif;
+}
+
+p {
+  color:white;
+}
+
+.parentwrap{
+  width:100vw;
+  height:100vh;
+  background-color: purple;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+.parent {
+  max-width: 1900px;
+  height:900px;
+  margin-left:calc(50% - 950px);
+}
+
+.bodyfake {
+  height:100%;
+  width:100%;
+  background-color: black;
+}
+
+.flexbody {
+  width:100%;
+  height:100%;
+  font-size:300px;
+  display:flex;
+  position:relative;
+
+}
+
+/* headlinebox details, see /components/headlinebox.js*/
+
+.headline {
+  width:100%;
+  height:10%;
+}
+
+.headlineboxwrap {
+  width:100%;
+  height:100%;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.headlinebox{
+  padding:5px 5px 5px 5px;
+  background-color: white;
+}
+
+.headlinetext{
+  font-size:2.5em;
+  text-align: center;
+  color:black;
+}
+
+/* titlebox details, see /components/detailbox.js*/
+
+.leftbox{
+  background-color:yellow;
+  flex:2;
+}
+
+
+.textbox {
+  transform: rotate(-90deg) ;
+  margin-left:calc(50% - 700px);
+  margin-top:calc(50% - 70px);
+}
+
+.titleitselfwrap {
+}
+
+.titleitself {
+  height:auto;
+  width:1em;
+}
+
+
+
+.bigtitletext {
+  font-size: 0.8em;
+  cursor: default;
+  margin-left: 40%;
+  white-space: nowrap;
+  transform: translateX(-200%) translateY(100%) scaleY(2.2) scaleX(0.95);
+  animation: 1s ease-out 0s 1 rotategetgot;
+}
+
+@keyframes rotategetgot {
+  0% {
+    transform: rotateX(1200deg) translateX(-200%) translateY(100%);
+  }
+  100% {
+    transform: translateX(-200%) translateY(100%) scaleY(2.2) scaleX(0.95);
+  }
+}
+
+.bigtoolbox {
+display:flex;
+  flex:9;
+}
+
+/* middlebox details, see /components/detailbox.js*/
+.middlebox{
+  background-color:green;
+  height:100%;
+  flex:6;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contextbox {
+  display:flex;
+  height:95%;
+  width:95%;
+  flex-direction: column;
+
+}
+
+.changecontentbox{
+  flex:7;
+  flex-direction: column;display:flex;
+}
+
+.detheaderbox {
+  flex:1;
+  flex:2.5;
+  display:flex;
+  flex-direction: row;
+}
+
+.namebox{
+  width:100%;
+  display:flex;
+  align-items: center;
+  padding-left:5%;
+
+}
+
+.thename{
+  font-size: 0.6em;
+  line-height: 0.7em;
+  text-align: left;
+  text-align: center;
+  cursor: default;
+}
+
+.detcontextbox {
+  flex:8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  z-index:100000000000;
+}
+
+.detlinksbox {
+  flex:2;
+  flex-direction: row;
+  display: flex;
+}
+
+.portfoliodetwrap {
+  width:95%;
+  height:95%;
+  display:flex;
+  flex-direction: row;
+}
+
+.portfoliolistwrap {
+  flex:4;
+  display:flex;
+  flex-direction: column;
+}
+
+.portfoliooption {
+  flex:2;
+  display:flex;
+  flex-direction: row;
+}
+
+.portfolioopttitle {
+  cursor:pointer;
+}
+
+.porttitle{
+  font-size: 0.14em;
+}
+
+.portfoliooptdate {
+  padding-top:4%;
+  cursor:pointer;
+}
+
+.portdate{
+  font-size: 0.08em;
+  bottom:0px;
+}
+
+.portfoliosmalldetwrap {
+  flex:4;
+  flex-direction: column;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  width:100%;
+  height:100%;
+}
+
+.portdescwrap {
+  flex:3;
+  width:95%;
+  height:95%;
+}
+
+.portdesc {
+  width:100%;
+  height:100%;
+}
+
+.portdesctitle {
+  text-align:center;
+  cursor: default;
+  font-size:0.17em;
+  text-decoration: underline;
+}
+
+.portdesctext {
+  font-size:0.1em;
+  cursor: default;
+  text-align:justify;
+}
+
+.portlinkwrap {
+  flex:1;
+  width:95%;
+  height:95%;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.aptitbox {
+  display:flex;
+  width:100%;
+  height:100%;
+  flex-direction: column;
+  flex:1;
+
+}
+
+.aptitoptionswrap {
+  flex:3;
+  height:100%;
+  width:100%;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.aptitoptions {
+  width:95%;
+  height:95%;
+}
+
+.apatitentry {
+  font-size:0.13em;
+}
+
+.apatitentrypage {
+  font-size:0.13em;
+  text-align:center;
+}
+
+.aptitcatawarp {
+  flex:1;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.aptitcata {
+  height:95%;
+  width:95%;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.aptitcatatitle {
+  font-size:0.2em;
+  text-align: center;
+  cursor: pointer;
+}
+
+.contecttrial {
+  font-size: 0.3em;
+}
+
+.linktext {
+  font-size:0.15em;
+}
+
+.linkboxwrap1 {
+  flex:1;
+  width:100%;
+  height:100%;
+}
+
+.linkbox1 {
+  flex:1;
+  width:100px;
+  height:100px;
+  background-image: url("./github.png");
+  background-size: 100px 100px;
+  background-repeat: no-repeat;
+  margin-left:calc(50% - 50px);
+  margin-top:calc(50% - 100px);
+}
+
+.linkbox1:hover{
+  flex:1;
+  width:100px;
+  height:100px;
+  background-image: url("./githubhover.png");
+  background-size: 100px 100px;
+  background-repeat: no-repeat;
+  margin-left:calc(50% - 50px);
+  margin-top:calc(50% - 100px);
+}
+
+.linkbox1:hover .linkbox1{
+  display:none;
+}
+
+.linkboxwrap2 {
+  flex:1;
+}
+
+.linkboxwrap2 {
+  flex:1;
+  width:100%;
+  height:100%;
+}
+
+.linkbox2 {
+  flex:1;
+  width:100px;
+  height:100px;
+  background-image: url("./linkedin.png");
+  background-size: 100px 100px;
+  background-repeat: no-repeat;
+  margin-left:calc(50% - 50px);
+  margin-top:calc(50% - 100px);
+}
+
+.linkbox2:hover{
+  flex:1;
+  width:100px;
+  height:100px;
+  background-image: url("./linkedinhover.png");
+  background-size: 100px 100px;
+  background-repeat: no-repeat;
+  margin-left:calc(50% - 50px);
+  margin-top:calc(50% - 100px);
+}
+
+.linkboxwrap3 {
+  flex:1;
+}
+
+.linkboxwrap3 {
+  flex:1;
+  width:100%;
+  height:100%;
+}
+
+.linkbox3 {
+  flex:1;
+  width:100px;
+  height:100px;
+  background-image: url("./instagram.png");
+  background-size: 100px 100px;
+  background-repeat: no-repeat;
+  margin-left:calc(50% - 50px);
+  margin-top:calc(50% - 100px);
+}
+
+.linkbox3:hover{
+  flex:1;
+  width:100px;
+  height:100px;
+  background-image: url("./instagramhover.png");
+  background-size: 100px 100px;
+  background-repeat: no-repeat;
+  margin-left:calc(50% - 50px);
+  margin-top:calc(50% - 100px);
+}
+
+
+.linkboxwrap4 {
+  flex:1;
+}
+
+.linkboxwrap4 {
+  flex:1;
+  width:100%;
+  height:100%;
+}
+
+.linkbox4 {
+  flex:1;
+  width:100px;
+  height:100px;
+  background-image: url("./email.png");
+  background-size: 100px 100px;
+  background-repeat: no-repeat;
+  margin-left:calc(50% - 50px);
+  margin-top:calc(50% - 100px);
+}
+
+.linkbox4:hover{
+  flex:1;
+  width:100px;
+  height:100px;
+  background-image: url("./emailhover.png");
+  background-size: 100px 100px;
+  background-repeat: no-repeat;
+  margin-left:calc(50% - 50px);
+  margin-top:calc(50% - 100px);
+}
+
+.linkbox4:hover .linkbox4{
+  display:none;
+}
+
+.descriptionone{
+  font-size:0.1em;
+  line-height: 0.8em;
+  text-align:justify;
+  cursor: default;
+}
+
+/* aboutbox */
+
+.aboutboxwrap {
+  width:100%;
+  height:100%;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.aboutbox {
+  width:95%;
+  height:95%;
+  display:flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.sitewrap {
+  width:95%;
+  height:95%;
+  display:flex;
+  flex-direction: row;
+}
+
+.site1 {
+  flex:1;
+  height:100%;
+}
+
+.siteentry {
+  font-size: 0.1em;
+  text-align: center;
+}
+
+.resumebox {
+  width:95%;
+  height:95%;
+  display:flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.aboutdescription {
+  text-align: justify;
+  font-size: 0.12em;
+  width:100%;
+  cursor: default;
+}
+
+.resumedescription {
+  text-align: justify;
+  font-size: 0.095em;
+  width:100%;
+  cursor: default;
+}
+
+.aboutdescriptionfinal {
+  text-align: center;
+  font-size: 0.12em;
+  width:100%;
+  cursor: default;
+}
+
+.resumelink {
+  text-align: center;
+  font-size: 0.12em;
+  width:100%;
+  cursor: pointer;
+}
+
+p br {
+   line-height: 50px;
+}
+
+/* rightbox details, see /components/projectbox.js*/
+
+.rightbox{
+  background-color:blue;
+  height:100%;
+  flex:2;
+}
+
+.projectwrap {
+  border:2px purple solid;
+  height:100%;
+  width:100%;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.projectbox {
+  width:95%;
+  height:100%;
+  border:2px red solid;
+  flex-direction: column;
+  display:flex;
+}
+
+.projectitlewrap{
+  border:2px solid orange;
+  width:100%;
+  margin-bottom: 5px;
+}
+
+.thelcock {
+  font-size:0.12em;
+  line-height: 1em;
+  text-align: center;
+  text-justify: inter-word;
+}
+
+.projectswrapper {
+  width:100%;
+  flex: 1;
+}
+
+.projectitself {
+  height:60%;
+  border:2px solid red;
+}
+
+.theprojectname{
+  font-size:0.2em;
+  line-height:1em;
+  cursor:pointer;
+}
+
+.projectyears {
+  height:40%;
+  border:2px solid green;
+}
+
+.theprojectyears{
+  font-size:0.1em;
+  line-height:1em;
+  cursor:pointer;
+}
+
+/* footer details*/
+
+.footer {
+  background-color:black;
+  height:10%;
+  width:100%;
+}
+
+.footertext {
+ height: 4em;
+ overflow: hidden;
+ position: relative;
+}
+.footertext p {
+ cursor: default;
+ font-size: 4em;
+ color: white;
+ width: 100%;
+ height: 100%;
+ margin: 0;
+ line-height: 1.1em;
+ text-align: center;
+ /* Starting position */
+ -moz-transform:translateX(100%);
+ -webkit-transform:translateX(100%);
+ transform:translateX(100%);
+ /* Apply animation to this element */
+ -moz-animation: footertext 10s linear infinite;
+ -webkit-animation: footertext 10s linear infinite;
+ animation: footertext 10s linear infinite;
+}
+/* Move it (define the animation) */
+@-moz-keyframes footertext {
+ 0%   { -moz-transform: translateX(100%); }
+ 100% { -moz-transform: translateX(-100%); }
+}
+@-webkit-keyframes footertext {
+ 0%   { -webkit-transform: translateX(100%); }
+ 100% { -webkit-transform: translateX(-100%); }
+}
+@keyframes footertext {
+ 0%   {
+ -moz-transform: translateX(100%); /* Firefox bug fix */
+ -webkit-transform: translateX(100%); /* Firefox bug fix */
+ transform: translateX(100%);
+ }
+ 100% {
+ -moz-transform: translateX(-100%); /* Firefox bug fix */
+ -webkit-transform: translateX(-100%); /* Firefox bug fix */
+ transform: translateX(-100%);
+ }
+}

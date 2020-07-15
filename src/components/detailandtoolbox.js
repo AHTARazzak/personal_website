@@ -1,7 +1,5 @@
 import React, { Component } from "react"
-import '../App.css';
 import { Link, Route, Redirect } from 'react-router-dom';
-
 
 import Clocktick from "./clocktick"
 
@@ -95,6 +93,14 @@ onHoverLeave() {
         this.props.onSelectTB(tb);
 }
 
+componentWillMount() {
+         if(window.innerWidth>1900 && window.innerHeight >1000 ) {
+            require('../App.css');
+         } else {
+            require('../App.css');
+         }
+    }
+
   render() {
   return (
   <div className="bigtoolbox">
@@ -173,7 +179,7 @@ onHoverLeave() {
           </div>
           <div className="projectswrapper">
             <div className="projectitself">
-              <p className="theprojectname" onMouseEnter={this.onHoverChangeTBlog} onMouseLeave={this.onHoverLeave}>Log in(?)</p>
+              <p className="theprojectname" onMouseEnter={this.onHoverChangeTBlog} onMouseLeave={this.onHoverLeave}>LOG IN (?)</p>
             </div>
             <div className="projectyears">
             <p className="theprojectyears">Last updated</p>
