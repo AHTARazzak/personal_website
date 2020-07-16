@@ -1,9 +1,9 @@
-/about              /
+https://alirazzak.info/about              https://alirazzak.info
 # Redirect with a 301
-/about        /              301
+https://alirazzak.info/about        https://alirazzak.info              301
 
 # Redirect with a 302
-/about        /              302
+https://alirazzak.info/about       https://alirazzak.info              302
 
 # Show a custom 404 for this path
-/about        /              404
+https://alirazzak.info/about        https://alirazzak.info              404
