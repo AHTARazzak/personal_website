@@ -1,7 +1,5 @@
 import React, { Component } from "react"
 
-import resumepdf from '../portlinks/Ali_Cv_Sci_industry_07072020.pdf';
-
 export default class Resumeme extends Component {
    constructor(props) {
     super(props);
@@ -42,7 +40,7 @@ onHoverLeave() {
                 As a computational biologist I thrive in interdisciplinary settings where members collaboratively contribute their expertise towards resolving biomolecular phenomena.
                 What has remained true to my practice is my thirst for immersive challenging environments and the subsequent learning experience entailed.
                 I am always on the lookout for opportunities where I can utilise my expertise towards innovative endeavours.</p>
-                 <a href={resumepdf} target="_blank" rel="noopener noreferrer"><p className="resumelink"  onMouseEnter={this.onHoverChangeTBCV} onMouseLeave={this.onHoverLeave}>Click for CV</p></a>
+                 <a href='https://www.dropbox.com/s/i04qtg48jcsjfq4/Copy%20of%20Ali_Cv_Sci_industry_15072020.pdf?dl=0' style={{ textDecoration: 'none'}} target="_blank" rel="noopener noreferrer"><p className="resumelink" style={{ color : '#90006A', fontWeight: "bold", fontSize: "0.2em" }}  onMouseEnter={this.onHoverChangeTBCV} onMouseLeave={this.onHoverLeave}>Click for CV</p></a>
               </div>
             </div>
         </div>

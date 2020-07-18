@@ -1,7 +1,5 @@
 import React, { Component } from "react"
 
-import streetsymphspdf from '../portlinks/allposters14072020.pdf';
-
 export default class StreetSymphonies extends Component {
   render() {
   return (
@@ -13,7 +11,7 @@ export default class StreetSymphonies extends Component {
           </div>
         </div>
         <div className="portlinkwrap">
-          <a href= {streetsymphspdf} target= "_blank" rel="noopener noreferrer"><p className="linktext">PDF (savelink)</p></a>
+          <a href= 'https://www.dropbox.com/s/pmwdfnh5sej0v4e/allposters14072020.pdf?dl=0' target= "_blank" rel="noopener noreferrer"><p className="linktext">PDF (savelink)</p></a>
         </div>
       </div>
   )

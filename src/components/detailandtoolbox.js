@@ -107,12 +107,13 @@ componentWillMount() {
     <Redirect to="/about" />
     <div className="middlebox">
       <div className="contextbox">
-        <Route path="/about" render={() => <Aboutme onSelectTBdetbox={this.getThumbTexttodetbox} />} />
-        <Route path="/portfolio" render={() => <Portfoliohere onSelectTBdetbox={this.getThumbTexttodetbox} />} />
-        <Route path="/resume" render={() => <Resume onSelectTBdetbox={this.getThumbTexttodetbox} />} />
-        <Route path="/aptitude" render={() => <Aptitude onSelectTBdetbox={this.getThumbTexttodetbox} />} />
-        <Route path="/aspiredom" render={() => <Aspiredom onSelectTBdetbox={this.getThumbTexttodetbox}/>} />
-        <Route path="/contact" render={() => <Contact onSelectTBdetbox={this.getThumbTexttodetbox} />} />
+        <div className="contentinside">
+          <Route path="/about" render={() => <Aboutme onSelectTBdetbox={this.getThumbTexttodetbox} />} />
+          <Route path="/portfolio" render={() => <Portfoliohere onSelectTBdetbox={this.getThumbTexttodetbox} />} />
+          <Route path="/resume" render={() => <Resume onSelectTBdetbox={this.getThumbTexttodetbox} />} />
+          <Route path="/aptitude" render={() => <Aptitude onSelectTBdetbox={this.getThumbTexttodetbox} />} />
+          <Route path="/aspiredom" render={() => <Aspiredom onSelectTBdetbox={this.getThumbTexttodetbox}/>} />
+          <Route path="/contact" render={() => <Contact onSelectTBdetbox={this.getThumbTexttodetbox} />} />
       <div className="detlinksbox">
         <div className="linkboxwrap1">
           <a className="detthumbnail" target="_blank" rel="noopener noreferrer" href="https://github.com/ternlef11"><div onMouseEnter={this.onHoverChangeTBgit} onMouseLeave={this.onHoverLeave} className="linkbox1"></div></a>
@@ -124,7 +125,8 @@ componentWillMount() {
           <a className="detthumbnail" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/slimenbile/"><div onMouseEnter={this.onHoverChangeTBinsta} onMouseLeave={this.onHoverLeave} className="linkbox3"></div></a>
         </div>
         <div className="linkboxwrap4">
-          <Link to="/contact"><div onMouseEnter={this.onHoverChangeTBmail} onMouseLeave={this.onHoverLeave} className="linkbox4"></div></Link>
+          <Link style={{ textDecoration: 'none' }} to="/contact"><div onMouseEnter={this.onHoverChangeTBmail} onMouseLeave={this.onHoverLeave} className="linkbox4"></div></Link>
+        </div>
         </div>
       </div>
     </div>
@@ -138,54 +140,54 @@ componentWillMount() {
             </div>
           </div>
           <div className="projectswrapper">
-            <Link to="/about" onMouseEnter={this.onHoverChangeTBabout} onMouseLeave={this.onHoverLeave}><div className="projectitself">
+            <Link style={{ textDecoration: 'none' }} to="/about" onMouseEnter={this.onHoverChangeTBabout} onMouseLeave={this.onHoverLeave}><div className="projectitself">
               <p className="theprojectname">ABOUT</p>
             </div>
             <div className="projectyears">
-              <p className="theprojectyears">Last updated</p>
+              <p className="theprojectyears">01/06/2020</p>
             </div></Link>
           </div>
           <div className="projectswrapper">
-            <Link to="/portfolio" onMouseEnter={this.onHoverChangeTBproj} onMouseLeave={this.onHoverLeave}><div className="projectitself">
+            <Link style={{ textDecoration: 'none' }} to="/portfolio" onMouseEnter={this.onHoverChangeTBproj} onMouseLeave={this.onHoverLeave}><div className="projectitself">
               <p className="theprojectname">PROJECTS</p>
             </div>
             <div className="projectyears">
-            <p className="theprojectyears">Last updated</p>
+            <p className="theprojectyears">04/07/2020</p>
             </div></Link>
           </div>
           <div className="projectswrapper">
-            <Link to="/resume" onMouseEnter={this.onHoverChangeTBresume} onMouseLeave={this.onHoverLeave}><div className="projectitself">
+            <Link style={{ textDecoration: 'none' }} to="/resume" onMouseEnter={this.onHoverChangeTBresume} onMouseLeave={this.onHoverLeave}><div className="projectitself">
               <p className="theprojectname">RESUME</p>
             </div>
             <div className="projectyears">
-            <p className="theprojectyears">Last updated</p>
+            <p className="theprojectyears">15/07/2020</p>
             </div></Link>
           </div>
           <div className="projectswrapper">
-            <Link to="/aptitude" onMouseEnter={this.onHoverChangeTBaptit} onMouseLeave={this.onHoverLeave}><div className="projectitself">
+            <Link style={{ textDecoration: 'none' }} to="/aptitude" onMouseEnter={this.onHoverChangeTBaptit} onMouseLeave={this.onHoverLeave}><div className="projectitself">
               <p className="theprojectname">APTITUDE</p>
             </div>
             <div className="projectyears">
-            <p className="theprojectyears">Last updated</p>
+            <p className="theprojectyears">01/07/2020</p>
             </div></Link>
           </div>
           <div className="projectswrapper">
-            <Link to="/aspiredom" onMouseEnter={this.onHoverChangeTBaspir} onMouseLeave={this.onHoverLeave}><div className="projectitself">
+            <Link style={{ textDecoration: 'none' }} to="/aspiredom" onMouseEnter={this.onHoverChangeTBaspir} onMouseLeave={this.onHoverLeave}><div className="projectitself">
               <p className="theprojectname">ASPIREDOM</p>
             </div>
             <div className="projectyears">
-            <p className="theprojectyears">Last updated</p>
+            <p className="theprojectyears">01/07/2020</p>
             </div></Link>
           </div>
-          <div className="projectswrapper">
+          <div className="projectswrapper" style={{zIndex:'-1'}}>
             <div className="projectitself">
-              <p className="theprojectname" onMouseEnter={this.onHoverChangeTBlog} onMouseLeave={this.onHoverLeave}>LOG IN (?)</p>
+              <p className="theprojectname"></p>
             </div>
             <div className="projectyears">
             <p className="theprojectyears">Last updated</p>
             </div>
           </div>
-          <div className="projectswrapper">
+          <div className="projectswrapper" style={{zIndex:'-1'}}>
             <div className="projectitself">
               <p className="theprojectname"></p>
             </div>
@@ -193,7 +195,7 @@ componentWillMount() {
             <p className="theprojectyears"></p>
             </div>
           </div>
-          <div className="projectswrapper">
+          <div className="projectswrapper" style={{zIndex:'-1'}}>
             <div className="projectitself">
               <p className="theprojectname"></p>
             </div>
@@ -201,7 +203,7 @@ componentWillMount() {
             <p className="theprojectyears"></p>
             </div>
           </div>
-          <div className="projectswrapper">
+          <div className="projectswrapper" style={{zIndex:'-1'}}>
             <div className="projectitself">
               <p className="theprojectname"></p>
             </div>

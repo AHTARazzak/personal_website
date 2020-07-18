@@ -4,7 +4,9 @@ import Collection from "./collection"
 
 function App() {
   return (
-        <Collection />
+        <html lang="en">
+            <Collection />
+        </html>
   );
 }
 

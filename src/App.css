@@ -92,6 +92,9 @@ p {
 
 .bigtitletext {
   font-size: 0.8em;
+  -webkit-text-fill-color: black; /* Will override color (regardless of order) */
+  -webkit-text-stroke-width: 3px;
+  -webkit-text-stroke-color: white;
   cursor: default;
   color:white;
   margin-left: 40%;

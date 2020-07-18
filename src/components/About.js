@@ -38,7 +38,7 @@ onHoverLeave() {
                 <br/>Born Iraq, grew up New Zealand, bounced around a bunch and am currently residing in Switzerland. Professional gig-hitter, footage head, web mujrim, & maker on the best & worst days.<br/></p>
                 <p className="aboutdescriptionfinal">I get things done & am always logged on. contact me if you're up for it.</p>
                 <p className="aboutdescriptionfinal">Can't disguise mediocrity.
-                <br/><Link to="/aptitude" onMouseEnter={this.onHoverChangeTBtick} onMouseLeave={this.onHoverLeave}>A better impression.</Link></p>
+                <br/><Link style={{ textDecoration: 'none', color : '#90006A', fontWeight: 'bold'}} to="/aptitude" onMouseEnter={this.onHoverChangeTBtick} onMouseLeave={this.onHoverLeave}><span className="betterimpres">A better impression</span></Link></p>
               </div>
             </div>
         </div>

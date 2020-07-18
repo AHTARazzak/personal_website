@@ -1,7 +1,5 @@
 import React, { Component } from "react"
 
-import screenscrypdf from '../portlinks/screen_scrying.pdf';
-
 export default class Screenscrying extends Component {
   render() {
   return (
@@ -13,7 +11,7 @@ export default class Screenscrying extends Component {
           </div>
         </div>
         <div className="portlinkwrap">
-          <a href = {screenscrypdf} target = "_blank" rel="noopener noreferrer"><p className="linktext">PDF (savelink)</p></a>
+          <a href = 'https://www.dropbox.com/s/qcn36jozqhw0ta8/screen_scrying.pdf?dl=0' target = "_blank" rel="noopener noreferrer"><p className="linktext">PDF (savelink)</p></a>
         </div>
       </div>
   )
