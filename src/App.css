@@ -505,6 +505,10 @@ display:flex;
   font-size: 0.3em;
 }
 
+.detthumbnail {
+    color: #90006A;
+}
+
 .linktext {
   font-size:0.15em;
   padding: 4px 4px 4px 4px;
@@ -1628,6 +1632,10 @@ flex-direction: row;
 
 @media screen and (max-width: 1200px) {
 
+.contecttrial {
+  font-size:0.2em;
+}
+
 .parent {
   max-width: 1200px;
   margin-left:calc(50% - 600px);
@@ -2241,6 +2249,7 @@ flex-direction: row;
 }
 
 @media screen and (max-width: 600px) {
+
 .parent {
   max-width: 600px;
   margin-left:calc(50% - 300px);
@@ -2254,12 +2263,16 @@ flex-direction: row;
   font-size: 0.05em;
 }
 
+.middlebox{
+  margin-left:3%;
+}
+
 .aboutdescriptionfinal {
   font-size: 0.055em;
 }
 
 .theprojectname{
-  font-size:0.09em;
+  font-size:0.085em;
   line-height:1em;
 }
 
@@ -2321,6 +2334,236 @@ flex-direction: row;
 .siteentry {
   font-size:0.035em;
 }
+}
+
+@media screen and (max-width: 500px) {
+.parent {
+  max-width: 500px;
+  margin-left:calc(50% - 250px);
+}
+
+.headlinetext{
+  font-size:1em;
+}
+
+.aboutdescription {
+  font-size: 0.042em;
+}
+
+.aboutdescriptionfinal {
+  font-size: 0.045em;
+}
+
+.theprojectname{
+  font-size:0.07em;
+}
+
+.theprojectyears{
+  font-size:0.07em;
+  line-height:0.8em;
+}
+
+.porttitle{
+  font-size: 0.05em;
+}
+
+.portdate{
+  font-size: 0.04em;
+}
+
+.portdesctitle {
+  font-size:0.07em;
+}
+
+.portdesctext {
+  font-size:0.04em;
+}
+
+.thelcock {
+  font-size:0.08em;
+  line-height: 1em;
+}
+
+.linkbox1 {
+  width:40px;
+  height:40px;
+  background-size: 40px 40px;
+  margin-left:calc(50% - 20px);
+  margin-top:calc(50% - 40px);
+}
+
+.linkbox1:hover{
+  width:40px;
+  height:40px;
+  background-size: 40px 40px;
+  margin-left:calc(50% - 20px);
+  margin-top:calc(50% - 40px);
+}
+
+.linkbox2 {
+  width:40px;
+  height:40px;
+  background-size: 40px 40px;
+  margin-left:calc(50% - 20px);
+  margin-top:calc(50% - 40px);
+}
+
+.linkbox2:hover{
+  width:40px;
+  height:40px;
+  background-size: 40px 40px;
+  margin-left:calc(50% - 20px);
+  margin-top:calc(50% - 40px);
+}
+
+.linkbox3 {
+  width:40px;
+  height:40px;
+  background-size: 40px 40px;
+  margin-left:calc(50% - 20px);
+  margin-top:calc(50% - 40px);
+}
+
+.linkbox3:hover{
+  width:40px;
+  height:40px;
+  background-size: 40px 40px;
+  margin-left:calc(50% - 20px);
+  margin-top:calc(50% - 40px);
+}
+
+.linkbox4 {
+  width:40px;
+  height:40px;
+  background-size: 40px 40px;
+  margin-left:calc(50% - 20px);
+  margin-top:calc(50% - 40px);
+}
+
+.linkbox4:hover{
+  width:40px;
+  height:40px;
+  background-size: 40px 40px;
+  margin-left:calc(50% - 20px);
+  margin-top:calc(50% - 40px);
+}
+
+.resumedescription {
+  font-size: 0.035em;
+}
+
+.linktext {
+  font-size: 0.07em
+}
+
+.resumelink {
+  font-size: 0.07em;
+}
+
+.thename{
+  font-size: 0.12em;
+  line-height: 1em;
+}
+
+.siteentry {
+  font-size: 0.025em;
+}
+
+.apatitentry {
+  font-size:0.05em;
+}
+
+.aptitcatatitle {
+  font-size:0.1em;
+}
+
+.apatitentrypage {
+  font-size:0.06em;
+}
+
+}
+
+@media screen and (max-width: 400px) {
+.parent {
+  max-width: 400px;
+  margin-left:calc(50% - 200px);
+}
+
+.headlinetext{
+  font-size:1em;
+}
+
+.aboutdescription {
+  font-size: 0.04em;
+}
+
+.aboutdescriptionfinal {
+  font-size: 0.045em;
+}
+
+.theprojectname{
+  font-size:0.06em;
+}
+
+.theprojectyears{
+  font-size:0.07em;
+  line-height:0.8em;
+}
+
+.porttitle{
+  font-size: 0.04em;
+}
+
+.portdate{
+  font-size: 0.03em;
+}
+
+.portdesctitle {
+  font-size:0.07em;
+}
+
+.portdesctext {
+  font-size:0.04em;
+}
+
+.thelcock {
+  font-size:0.08em;
+  line-height: 1em;
+}
+
+.resumedescription {
+  font-size: 0.035em;
+}
+
+.linktext {
+  font-size: 0.07em
+}
+
+.resumelink {
+  font-size: 0.04em;
+}
+
+.thename{
+  font-size: 0.1em;
+  line-height: 1em;
+}
+
+.siteentry {
+  font-size: 0.02em;
+}
+
+.apatitentry {
+  font-size:0.04em;
+}
+
+.aptitcatatitle {
+  font-size:0.08em;
+}
+
+.apatitentrypage {
+  font-size:0.04em;
+}
+
 }
 
 }
@@ -3104,6 +3347,10 @@ flex-direction: row;}
 }
 
 @media screen and (max-width: 1200px) {
+.contecttrial {
+  font-size:0.2em;
+}
+
 .parent {
   max-width: 1200px;
   margin-left:calc(50% - 600px);
@@ -3810,13 +4057,244 @@ flex-direction: row;}
   font-size:0.035em;
 }
 }
+@media screen and (max-width: 500px) {
+.parent {
+  max-width: 500px;
+  margin-left:calc(50% - 250px);
+}
 
+.headlinetext{
+  font-size:0.8em;
+}
+
+.aboutdescription {
+  font-size: 0.042em;
+}
+
+.aboutdescriptionfinal {
+  font-size: 0.042em;
+}
+
+.theprojectname{
+  font-size:0.07em;
+}
+
+.theprojectyears{
+  font-size:0.07em;
+  line-height:0.8em;
+}
+
+.porttitle{
+  font-size: 0.05em;
+}
+
+.portdate{
+  font-size: 0.04em;
+}
+
+.portdesctitle {
+  font-size:0.07em;
+}
+
+.portdesctext {
+  font-size:0.04em;
+}
+
+.thelcock {
+  font-size:0.08em;
+  line-height: 1em;
+}
+
+.linkbox1 {
+  width:40px;
+  height:40px;
+  background-size: 40px 40px;
+  margin-left:calc(50% - 20px);
+  margin-top:calc(50% - 40px);
+}
+
+.linkbox1:hover{
+  width:40px;
+  height:40px;
+  background-size: 40px 40px;
+  margin-left:calc(50% - 20px);
+  margin-top:calc(50% - 40px);
+}
+
+.linkbox2 {
+  width:40px;
+  height:40px;
+  background-size: 40px 40px;
+  margin-left:calc(50% - 20px);
+  margin-top:calc(50% - 40px);
+}
+
+.linkbox2:hover{
+  width:40px;
+  height:40px;
+  background-size: 40px 40px;
+  margin-left:calc(50% - 20px);
+  margin-top:calc(50% - 40px);
+}
+
+.linkbox3 {
+  width:40px;
+  height:40px;
+  background-size: 40px 40px;
+  margin-left:calc(50% - 20px);
+  margin-top:calc(50% - 40px);
+}
+
+.linkbox3:hover{
+  width:40px;
+  height:40px;
+  background-size: 40px 40px;
+  margin-left:calc(50% - 20px);
+  margin-top:calc(50% - 40px);
+}
+
+.linkbox4 {
+  width:40px;
+  height:40px;
+  background-size: 40px 40px;
+  margin-left:calc(50% - 20px);
+  margin-top:calc(50% - 40px);
+}
+
+.linkbox4:hover{
+  width:40px;
+  height:40px;
+  background-size: 40px 40px;
+  margin-left:calc(50% - 20px);
+  margin-top:calc(50% - 40px);
+}
+
+.resumedescription {
+  font-size: 0.035em;
+}
+
+.linktext {
+  font-size: 0.07em
+}
+
+.resumelink {
+  font-size: 0.06em;
+}
+
+.thename{
+  font-size: 0.12em;
+  line-height: 1em;
+}
+
+.siteentry {
+  font-size: 0.025em;
+}
+
+.apatitentry {
+  font-size:0.05em;
+}
+
+.aptitcatatitle {
+  font-size:0.1em;
+}
+
+.apatitentrypage {
+  font-size:0.06em;
+}
+
+
+
+}
+
+@media screen and (max-width: 400px) {
+.parent {
+  max-width: 400px;
+  margin-left:calc(50% - 200px);
+}
+
+.headlinetext{
+  font-size:0.8em;
+}
+
+.aboutdescription {
+  font-size: 0.035em;
+}
+
+.aboutdescriptionfinal {
+  font-size: 0.04em;
+}
+
+.theprojectname{
+  font-size:0.06em;
+}
+
+.theprojectyears{
+  font-size:0.07em;
+  line-height:0.8em;
+}
+
+.porttitle{
+  font-size: 0.04em;
+}
+
+.portdate{
+  font-size: 0.03em;
+}
+
+.portdesctitle {
+  font-size:0.05em;
+}
+
+.portdesctext {
+  font-size:0.035em;
+}
+
+.thelcock {
+  font-size:0.08em;
+  line-height: 1em;
+}
+
+.resumedescription {
+  font-size: 0.03em;
+}
+
+.linktext {
+  font-size: 0.06em
+}
+
+.resumelink {
+  font-size: 0.05em;
+}
+
+.thename{
+  font-size: 0.1em;
+  line-height: 1em;
+}
+
+.siteentry {
+  font-size: 0.02em;
+}
+
+.apatitentry {
+  font-size:0.04em;
+}
+
+.aptitcatatitle {
+  font-size:0.08em;
+}
+
+.apatitentrypage {
+  font-size:0.04em;
+}
+
+}
 
 }
 
 @media screen and (max-height: 800px) {
 .parent {
   max-width: 1920px;
+  height:600px;
   margin-left:calc(50% - 960px);
 }
 
@@ -4600,6 +5078,10 @@ flex-direction: row;}
 }
 
 @media screen and (max-width: 1200px) {
+.contecttrial {
+  font-size:0.2em;
+}
+
 .parent {
   max-width: 1200px;
   margin-left:calc(50% - 600px);
@@ -5264,6 +5746,1019 @@ flex-direction: row;}
 
 .siteentry {
   font-size:0.035em;
+}
+}
+@media screen and (max-width: 500px) {
+
+.parent {
+  max-width: 500px;
+  margin-left:calc(50% - 250px);
+}
+
+.headlinetext{
+  font-size:0.8em;
+}
+
+.aboutdescription {
+  font-size: 0.042em;
+}
+
+.aboutdescriptionfinal {
+  font-size: 0.042em;
+}
+
+.theprojectname{
+  font-size:0.07em;
+}
+
+.theprojectyears{
+  font-size:0.07em;
+  line-height:0.8em;
+}
+
+.porttitle{
+  font-size: 0.05em;
+}
+
+.portdate{
+  font-size: 0.04em;
+}
+
+.portdesctitle {
+  font-size:0.07em;
+}
+
+.portdesctext {
+  font-size:0.04em;
+}
+
+.thelcock {
+  font-size:0.08em;
+  line-height: 1em;
+}
+
+.linkbox1 {
+  width:40px;
+  height:40px;
+  background-size: 40px 40px;
+  margin-left:calc(50% - 20px);
+  margin-top:calc(50% - 40px);
+}
+
+.linkbox1:hover{
+  width:40px;
+  height:40px;
+  background-size: 40px 40px;
+  margin-left:calc(50% - 20px);
+  margin-top:calc(50% - 40px);
+}
+
+.linkbox2 {
+  width:40px;
+  height:40px;
+  background-size: 40px 40px;
+  margin-left:calc(50% - 20px);
+  margin-top:calc(50% - 40px);
+}
+
+.linkbox2:hover{
+  width:40px;
+  height:40px;
+  background-size: 40px 40px;
+  margin-left:calc(50% - 20px);
+  margin-top:calc(50% - 40px);
+}
+
+.linkbox3 {
+  width:40px;
+  height:40px;
+  background-size: 40px 40px;
+  margin-left:calc(50% - 20px);
+  margin-top:calc(50% - 40px);
+}
+
+.linkbox3:hover{
+  width:40px;
+  height:40px;
+  background-size: 40px 40px;
+  margin-left:calc(50% - 20px);
+  margin-top:calc(50% - 40px);
+}
+
+.linkbox4 {
+  width:40px;
+  height:40px;
+  background-size: 40px 40px;
+  margin-left:calc(50% - 20px);
+  margin-top:calc(50% - 40px);
+}
+
+.linkbox4:hover{
+  width:40px;
+  height:40px;
+  background-size: 40px 40px;
+  margin-left:calc(50% - 20px);
+  margin-top:calc(50% - 40px);
+}
+
+.resumedescription {
+  font-size: 0.035em;
+}
+
+.linktext {
+  font-size: 0.07em
+}
+
+.resumelink {
+  font-size: 0.06em;
+}
+
+.thename{
+  font-size: 0.12em;
+  line-height: 1em;
+}
+
+.siteentry {
+  font-size: 0.025em;
+}
+
+.apatitentry {
+  font-size:0.05em;
+}
+
+.aptitcatatitle {
+  font-size:0.1em;
+}
+
+.apatitentrypage {
+  font-size:0.06em;
+}
+
+
+
+}
+
+@media screen and (max-width: 400px) {
+.parent {
+  max-width: 400px;
+  margin-left:calc(50% - 200px);
+}
+
+.headlinetext{
+  font-size:0.8em;
+}
+
+.aboutdescription {
+  font-size: 0.032em;
+}
+
+.aboutdescriptionfinal {
+  font-size: 0.032em;
+}
+
+.theprojectname{
+  font-size:0.06em;
+}
+
+.theprojectyears{
+  font-size:0.07em;
+  line-height:0.8em;
+}
+
+.porttitle{
+  font-size: 0.04em;
+}
+
+.portdate{
+  font-size: 0.03em;
+}
+
+.portdesctitle {
+  font-size:0.05em;
+}
+
+.portdesctext {
+  font-size:0.035em;
+}
+
+.thelcock {
+  font-size:0.08em;
+  line-height: 1em;
+}
+
+.resumedescription {
+  font-size: 0.03em;
+}
+
+.linktext {
+  font-size: 0.06em
+}
+
+.resumelink {
+  font-size: 0.05em;
+}
+
+.thename{
+  font-size: 0.1em;
+  line-height: 1em;
+}
+
+.siteentry {
+  font-size: 0.02em;
+}
+
+.apatitentry {
+  font-size:0.04em;
+}
+
+.aptitcatatitle {
+  font-size:0.08em;
+}
+
+.apatitentrypage {
+  font-size:0.04em;
+}
+
+}
+
+}
+
+
+@media screen and (max-height: 700px) {
+
+.parent {
+  max-width: 1100px;
+  height:500px;
+  margin-left:calc(50% - 350px);
+}
+
+.flexbody {
+  display: flex;
+}
+
+.leftbox{
+  display:none;
+}
+
+.bigtoolbox {
+  display:flex;
+  flex:1;
+  flex-direction: row;
+}
+
+.headlinetext{
+  font-size:1.4em;
+}
+
+.middlebox {
+  padding-left:5%;
+  height:100%;
+  flex:2;
+}
+
+.rightbox {
+  height:100%;
+  flex:1;
+}
+
+.aboutdescription {
+  font-size: 0.055em;
+}
+
+.aboutdescriptionfinal {
+  font-size: 0.06em;
+}
+
+.theprojectname{
+  font-size:0.15em;
+}
+
+.theprojectyears{
+  font-size:0.1em;
+}
+
+.porttitle{
+  font-size: 0.08em;
+}
+
+.portdate{
+  font-size: 0.04em;
+}
+
+.portdesctitle {
+  font-size:0.1em;
+}
+
+.portdesctext {
+  font-size:0.06em;
+}
+
+.thelcock {
+  font-size:0.08em;
+}
+
+.resumedescription {
+  font-size: 0.055em;
+}
+
+.resumelink {
+  font-size: 0.1em;
+}
+
+.thename{
+  font-size: 0.3em;
+  line-height: 1em;
+}
+
+.siteentry {
+  font-size: 0.065em;
+}
+
+.apatitentry {
+  font-size:0.08em;
+}
+
+.apatitentrypage {
+  font-size:0.1em;
+}
+
+@media screen and (max-width: 1000px) {
+.parent {
+  max-width: 1000px;
+  margin-left:calc(50% - 500px);
+}
+
+.aboutdescription {
+  font-size: 0.04em;
+}
+
+.aboutdescriptionfinal {
+  font-size: 0.045em;
+}
+
+.theprojectname{
+  font-size:0.14em;
+}
+
+.theprojectyears{
+  font-size:0.1em;
+}
+
+.porttitle{
+  font-size: 0.06em;
+}
+
+.portdate{
+  font-size: 0.04em;
+}
+
+.portdesctitle {
+  font-size:0.1em;
+}
+
+.portdesctext {
+  font-size:0.04em;
+}
+
+.thelcock {
+  font-size:0.08em;
+}
+
+.resumedescription {
+  font-size: 0.04em;
+}
+
+.resumelink {
+  font-size: 0.09em;
+
+}
+.thename{
+  font-size: 0.3em;
+}
+
+.siteentry {
+  font-size: 0.05em;
+}
+
+.apatitentry {
+  font-size:0.06em;
+}
+
+.aptitcatatitle {
+  font-size:0.1em;
+}
+
+.apatitentrypage {
+  font-size:0.1em;
+}
+
+.headlinetext{
+  font-size:1.1em;
+}
+}
+
+@media screen and (max-width: 900px) {
+.parent {
+  max-width: 900px;
+  margin-left:calc(50% - 450px);
+}
+.aboutdescription {
+  font-size: 0.035em;
+}
+
+.aboutdescriptionfinal {
+  font-size: 0.04em;
+}
+
+.theprojectname{
+  font-size:0.12em;
+  line-height:1em;
+}
+
+.theprojectyears{
+  font-size:0.09em;
+  line-height:1em;
+}
+
+.porttitle{
+  font-size: 0.06em;
+}
+
+.portdate{
+  font-size: 0.04em;
+}
+
+.portdesctitle {
+  font-size:0.07em;
+}
+
+.portdesctext {
+  font-size:0.04em;
+}
+
+.thelcock {
+  font-size:0.08em;
+}
+
+.linktext {
+  font-size:0.08em;
+}
+
+.resumedescription {
+  font-size: 0.04em;
+}
+
+.resumelink {
+  font-size: 0.075em;
+}
+
+.thename{
+  font-size: 0.2em;
+}
+
+.siteentry {
+  font-size: 0.04em;
+}
+
+.apatitentry {
+  font-size:0.06em;
+}
+
+.aptitcatatitle {
+  font-size:0.08em;
+}
+
+.apatitentrypage {
+  font-size:0.1em;
+}
+
+}
+
+@media screen and (max-width: 800px) {
+.parent {
+  max-width: 800px;
+  margin-left:calc(50% - 400px);
+}
+
+.aboutdescription {
+  font-size: 0.03em;
+}
+
+.aboutdescriptionfinal {
+  font-size: 0.04em;
+}
+
+.theprojectname{
+  font-size:0.11em;
+}
+
+.theprojectyears{
+  font-size:0.09em;
+}
+
+.porttitle{
+  font-size: 0.06em;
+}
+
+.portdate{
+  font-size: 0.04em;
+}
+
+.portdesctitle {
+  font-size:0.07em;
+}
+
+.portdesctext {
+  font-size:0.035em;
+}
+
+.thelcock {
+  font-size:0.08em;
+}
+
+.linktext {
+  font-size:0.07em;
+}
+
+.resumedescription {
+  font-size: 0.035em;
+}
+
+.resumelink {
+  font-size: 0.06em;
+
+}
+.thename{
+  font-size: 0.25em;
+}
+
+.siteentry {
+  font-size: 0.06em;
+}
+
+.apatitentry {
+  font-size:0.06em;
+}
+
+.aptitcatatitle {
+  font-size:0.08em;
+}
+
+.apatitentrypage {
+  font-size:0.07em;
+}
+
+.siteentry {
+  font-size:0.045em;
+}
+}
+
+@media screen and (max-width: 700px) {
+.headlinetext{
+  font-size:0.6em;
+}
+
+.parent {
+  max-width: 700px;
+  margin-left:calc(50% - 350px);
+}
+
+.aboutdescription {
+  font-size: 0.03em;
+}
+
+.aboutdescriptionfinal {
+  font-size: 0.03em;
+}
+
+.theprojectname{
+  font-size:0.09em;
+  line-height:1em;
+}
+
+.theprojectyears{
+  font-size:0.08em;
+  line-height:0.8em;
+}
+
+.porttitle{
+  font-size: 0.06em;
+}
+
+.portdate{
+  font-size: 0.04em;
+}
+
+.portdesctitle {
+  font-size:0.06em;
+}
+
+.portdesctext {
+  font-size:0.04em;
+}
+
+.thelcock {
+  font-size:0.07em;
+}
+
+.linkbox1 {
+  width:60px;
+  height:60px;
+  background-size: 60px 60px;
+  margin-left:calc(50% - 30px);
+  margin-top:calc(50% - 60px);
+}
+
+.linkbox1:hover{
+  width:60px;
+  height:60px;
+  background-size: 60px 60px;
+  margin-left:calc(50% - 30px);
+  margin-top:calc(50% - 60px);
+}
+
+.linkbox2 {
+  width:60px;
+  height:60px;
+  background-size: 60px 60px;
+  margin-left:calc(50% - 30px);
+  margin-top:calc(50% - 60px);
+}
+
+.linkbox2:hover{
+  width:60px;
+  height:60px;
+  background-size: 60px 60px;
+  margin-left:calc(50% - 30px);
+  margin-top:calc(50% - 60px);
+}
+
+.linkbox3 {
+  width:60px;
+  height:60px;
+  background-size: 60px 60px;
+  margin-left:calc(50% - 30px);
+  margin-top:calc(50% - 60px);
+}
+
+.linkbox3:hover{
+  width:60px;
+  height:60px;
+  background-size: 60px 60px;
+  margin-left:calc(50% - 30px);
+  margin-top:calc(50% - 60px);
+}
+
+.linkbox4 {
+  width:60px;
+  height:60px;
+  background-size: 60px 60px;
+  margin-left:calc(50% - 30px);
+  margin-top:calc(50% - 60px);
+}
+
+.linkbox4:hover{
+  width:60px;
+  height:60px;
+  background-size: 60px 60px;
+  margin-left:calc(50% - 30px);
+  margin-top:calc(50% - 60px);
+}
+
+.resumedescription {
+  font-size: 0.035em;
+}
+
+.resumelink {
+  font-size: 0.05em;
+}
+
+.thename{
+  font-size: 0.2em;
+}
+
+.siteentry {
+  font-size: 0.05em;
+}
+
+.apatitentry {
+  font-size:0.06em;
+}
+
+.aptitcatatitle {
+  font-size:0.07em;
+}
+
+.apatitentrypage {
+  font-size:0.09em;
+}
+
+.siteentry {
+  font-size:0.04em;
+}
+}
+
+@media screen and (max-width: 600px) {
+.parent {
+  max-width: 600px;
+  margin-left:calc(50% - 300px);
+}
+.middlebox {
+  padding-left:6%;
+}
+
+.aboutdescription {
+  font-size: 0.02em;
+}
+
+.aboutdescriptionfinal {
+  font-size: 0.03em;
+}
+
+.theprojectname{
+  font-size:0.08em;
+}
+
+.theprojectyears{
+  font-size:0.08em;
+  line-height:0.8em;
+}
+
+.porttitle{
+  font-size: 0.05em;
+}
+
+.portdate{
+  font-size: 0.04em;
+}
+
+.portdesctitle {
+  font-size:0.04em;
+}
+
+.portdesctext {
+  font-size:0.03em;
+}
+
+.thelcock {
+  font-size:0.06em;
+}
+
+.resumedescription {
+  font-size: 0.03em;
+}
+
+.resumelink {
+  font-size: 0.08em;
+}
+
+.thename{
+  font-size: 0.15em;
+}
+
+.siteentry {
+  font-size: 0.03em;
+}
+
+.apatitentry {
+  font-size:0.04em;
+}
+
+.aptitcatatitle {
+  font-size:0.07em;
+}
+
+.apatitentrypage {
+  font-size:0.05em;
+}
+
+.aptitcatatitle {
+  font-size: 0.1em;
+}
+}
+@media screen and (max-width: 500px) {
+
+.parent {
+  max-width: 500px;
+  margin-left:calc(50% - 250px);
+}
+
+.aboutdescription {
+  font-size: 0.02em;
+}
+
+.aboutdescriptionfinal {
+  font-size: 0.02em;
+}
+
+.theprojectname{
+  font-size:0.06em;
+}
+
+.theprojectyears{
+  font-size:0.07em;
+  line-height:0.8em;
+}
+
+.porttitle{
+  font-size: 0.05em;
+}
+
+.portdate{
+  font-size: 0.04em;
+}
+
+.portdesctitle {
+  font-size:0.06em;
+}
+
+.portdesctext {
+  font-size:0.03em;
+}
+
+.thelcock {
+  font-size:0.08em;
+  line-height: 1em;
+}
+
+.linkbox1 {
+  width:40px;
+  height:40px;
+  background-size: 40px 40px;
+  margin-left:calc(50% - 20px);
+  margin-top:calc(50% - 40px);
+}
+
+.linkbox1:hover{
+  width:40px;
+  height:40px;
+  background-size: 40px 40px;
+  margin-left:calc(50% - 20px);
+  margin-top:calc(50% - 40px);
+}
+
+.linkbox2 {
+  width:40px;
+  height:40px;
+  background-size: 40px 40px;
+  margin-left:calc(50% - 20px);
+  margin-top:calc(50% - 40px);
+}
+
+.linkbox2:hover{
+  width:40px;
+  height:40px;
+  background-size: 40px 40px;
+  margin-left:calc(50% - 20px);
+  margin-top:calc(50% - 40px);
+}
+
+.linkbox3 {
+  width:40px;
+  height:40px;
+  background-size: 40px 40px;
+  margin-left:calc(50% - 20px);
+  margin-top:calc(50% - 40px);
+}
+
+.linkbox3:hover{
+  width:40px;
+  height:40px;
+  background-size: 40px 40px;
+  margin-left:calc(50% - 20px);
+  margin-top:calc(50% - 40px);
+}
+
+.linkbox4 {
+  width:40px;
+  height:40px;
+  background-size: 40px 40px;
+  margin-left:calc(50% - 20px);
+  margin-top:calc(50% - 40px);
+}
+
+.linkbox4:hover{
+  width:40px;
+  height:40px;
+  background-size: 40px 40px;
+  margin-left:calc(50% - 20px);
+  margin-top:calc(50% - 40px);
+}
+
+.resumedescription {
+  font-size: 0.03em;
+}
+
+.linktext {
+  font-size: 0.055em;
+}
+
+.resumelink {
+  font-size: 0.055em;
+}
+
+.thename{
+  font-size: 0.12em;
+  line-height: 1em;
+}
+
+.siteentry {
+  font-size: 0.025em;
+}
+
+.apatitentry {
+  font-size:0.04em;
+}
+
+.aptitcatatitle {
+  font-size:0.08em;
+}
+
+.apatitentrypage {
+  font-size:0.06em;
+}
+
+p br {
+  line-height:30px;
+}
+
+}
+
+@media screen and (max-width: 400px) {
+.parent {
+  max-width: 400px;
+  margin-left:calc(50% - 200px);
+}
+
+.aboutdescription {
+  font-size: 0.025em;
+}
+
+.aboutdescriptionfinal {
+  font-size: 0.025em;
+}
+
+.theprojectname{
+  font-size:0.06em;
+}
+
+.theprojectyears{
+  font-size:0.07em;
+  line-height:0.8em;
+}
+
+.porttitle{
+  font-size: 0.03em;
+}
+
+.portdate{
+  font-size: 0.03em;
+}
+
+.portdesctitle {
+  font-size:0.03em;
+}
+
+.portdesctext {
+  font-size:0.025em;
+}
+
+.thelcock {
+  font-size:0.08em;
+  line-height: 1em;
+}
+
+.resumedescription {
+  font-size: 0.02em;
+}
+
+.linktext {
+  font-size: 0.035em
+}
+
+.resumelink {
+  font-size: 0.05em;
+}
+
+.thename{
+  font-size: 0.1em;
+  line-height: 1em;
+}
+
+.siteentry {
+  font-size: 0.015em;
+}
+
+.apatitentry {
+  font-size:0.03em;
+}
+
+.aptitcatatitle {
+  font-size:0.06em;
+}
+
+.apatitentrypage {
+  font-size:0.04em;
 }
 }
 }
