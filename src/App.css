@@ -5,7 +5,44 @@
     margin:0;
     padding:0;
     overflow: visible;
-    font-family: 'Quattrocento', serif;
+    font-family: 'Source Serif Pro', serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+::selection {
+  background: #90006A; /* WebKit/Blink Browsers */
+  color: transparent;
+  text-shadow: 0 0 2px white;
+}
+::-moz-selection {
+  background: #90006A; /* Gecko Browsers */
+  color: transparent;
+  text-shadow: 0 0 2px white;
+}
+
+.betterimpres {
+  padding: 4px 4px 4px 4px;
+  border:3px solid #90006A;
+  border-radius: 20px;
+}
+
+.betterimpres:hover
+{
+  text-shadow: 10 10 2px white;
+  animation-name: skitzlink;
+  animation-duration: 0.5s;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-out;
+  color: white;
+}
+
+
+@keyframes skitzlink {
+  0%   {text-shadow: -5px 3px 1px white;}
+  100% {text-shadow: -5px 1px 20px white;color: white; background-color:#90006A;}
 }
 
 p {
@@ -20,10 +57,80 @@ p {
   overflow-y: hidden;
 }
 
+.bgweirdtext {
+  position:fixed;
+ font-family: 'Radley', serif;
+ cursor: default;
+ color : #90006A;
+ width: 100%;
+ text-align:center;
+ /* Starting position */
+ -moz-transform:translateX(100%);
+ -webkit-transform:translateX(100%);
+ transform:translateX(100%);
+ /* Apply animation to this element */
+}
+/* Move it (define the animation) */
+@-moz-keyframes parentwrap {
+ 0%   { -moz-transform: translateX(100%); }
+ 100% { -moz-transform: translateX(-100%); }
+}
+@-webkit-keyframes parentwrap {
+ 0%   { -webkit-transform: translateX(100%); }
+ 100% { -webkit-transform: translateX(-100%); }
+}
+@keyframes parentwrap {
+ 0%   {
+ -moz-transform: translateX(100%); /* Firefox bug fix */
+ -webkit-transform: translateX(100%); /* Firefox bug fix */
+ transform: translateX(100%);
+ }
+ 100% {
+ -moz-transform: translateX(-100%); /* Firefox bug fix */
+ -webkit-transform: translateX(-100%); /* Firefox bug fix */
+ transform: translateX(-100%);
+ }
+}
+
+.bgweirdtextbw {
+  position:fixed;
+ font-family: 'Radley', serif;
+ cursor: default;
+ color : #90006A;
+ width: 100%;
+ text-align:center;
+ /* Starting position */
+ -moz-transform:translateX(-100%);
+ -webkit-transform:translateX(-100%);
+ transform:translateX(-100%);
+ /* Apply animation to this element */
+}
+/* Move it (define the animation) */
+@-moz-keyframes parentwrapbw {
+ 0%   { -moz-transform: translateX(-100%); }
+ 100% { -moz-transform: translateX(100%); }
+}
+@-webkit-keyframes parentwrapbw {
+ 0%   { -webkit-transform: translateX(-100%); }
+ 100% { -webkit-transform: translateX(100%); }
+}
+@keyframes parentwrapbw {
+ 0%   {
+ -moz-transform: translateX(-100%); /* Firefox bug fix */
+ -webkit-transform: translateX(-100%); /* Firefox bug fix */
+ transform: translateX(-100%);
+ }
+ 100% {
+ -moz-transform: translateX(100%); /* Firefox bug fix */
+ -webkit-transform: translateX(100%); /* Firefox bug fix */
+ transform: translateX(100%);
+ }
+}
+
 .parent {
-  max-width: 1900px;
+  max-width: 1920px;
   height:900px;
-  margin-left:calc(50% - 950px);
+  margin-left:calc(50% - 960px);
 }
 
 .bodyfake {
@@ -52,6 +159,7 @@ p {
   width:100%;
   height:100%;
   display:flex;
+  padding-top:1%;
   align-items: center;
   justify-content: center;
 }
@@ -59,6 +167,8 @@ p {
 .headlinebox{
   padding:5px 5px 5px 5px;
   background-color: white;
+  border: double 10px #000;
+  z-index:10;
 }
 
 .headlinetext{
@@ -88,9 +198,8 @@ p {
   width:1em;
 }
 
-
-
 .bigtitletext {
+  font-family: 'Radley', serif;
   font-size: 0.8em;
   -webkit-text-fill-color: black; /* Will override color (regardless of order) */
   -webkit-text-stroke-width: 3px;
@@ -99,16 +208,16 @@ p {
   color:white;
   margin-left: 40%;
   white-space: nowrap;
-  transform: translateX(-200%) translateY(100%) scaleY(2.2) scaleX(0.95);
+  transform: translateX(-180%) translateY(87%) scaleY(2.3) scaleX(0.82);
   animation: 1s ease-out 0s 1 rotategetgot;
 }
 
 @keyframes rotategetgot {
   0% {
-    transform: rotateX(1200deg) translateX(-200%) translateY(100%);
+    transform: rotateX(1200deg) translateX(-180%) translateY(87%);
   }
   100% {
-    transform: translateX(-200%) translateY(100%) scaleY(2.2) scaleX(0.95);
+    transform: translateX(-180%) translateY(87%) scaleY(2.3) scaleX(0.82);
   }
 }
 
@@ -128,16 +237,28 @@ display:flex;
 
 .contextbox {
   background-color:white;
+  height:96%;
+  width:96%;
   display:flex;
-  height:95%;
-  width:95%;
+  align-items: center;
+  justify-content: center;
+  border: double 18px #000;
+  flex-direction: column;
+}
+
+.contentinside {
+  display:flex;
+  height:100%;
+  width:100%;
+  display:flex;
   flex-direction: column;
 
 }
 
 .changecontentbox{
   flex:7;
-  flex-direction: column;display:flex;
+  flex-direction: column;
+  display:flex;
 }
 
 .detheaderbox {
@@ -155,6 +276,7 @@ display:flex;
 }
 
 .thename{
+  font-family: 'Radley', serif;
   font-size: 0.55em;
   line-height: 1em;
   text-align: left;
@@ -201,6 +323,17 @@ display:flex;
 
 .porttitle{
   font-size: 0.14em;
+  color : #90006A;
+  font-weight:bold;
+}
+
+.porttitle:hover
+{
+  text-shadow: 10 10 2px white;
+  font-color: white;
+    -webkit-text-fill-color: white; /* Will override color (regardless of order) */
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #90006A;
 }
 
 .portfoliooptdate {
@@ -211,6 +344,7 @@ display:flex;
 .portdate{
   font-size: 0.08em;
   bottom:0px;
+  color : #90006A;
 }
 
 .portfoliosmalldetwrap {
@@ -235,6 +369,7 @@ display:flex;
 }
 
 .portdesctitle {
+  font-family: 'Radley', serif;
   text-align:center;
   cursor: default;
   font-size:0.17em;
@@ -280,13 +415,19 @@ display:flex;
   height:95%;
 }
 
+.aptitoptions a {
+  text-decoration: none;
+}
+
 .apatitentry {
   font-size:0.13em;
+  color : #90006A;
 }
 
 .apatitentrypage {
   font-size:0.13em;
   text-align:center;
+  color : #90006A;
 }
 
 .aptitcatawarp {
@@ -308,6 +449,21 @@ display:flex;
   font-size:0.2em;
   text-align: center;
   cursor: pointer;
+  color : #90006A;
+  font-weight: bold;
+  padding: 4px 4px 4px 4px;
+  border:2px solid #90006A;
+  border-radius: 20px;
+}
+
+.aptitcatatitle:hover
+{
+  text-shadow: 10 10 2px white;
+  animation-name: skitzlink;
+  animation-duration: 0.5s;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-out;
+  color: white;
 }
 
 .contecttrial {
@@ -316,6 +472,21 @@ display:flex;
 
 .linktext {
   font-size:0.15em;
+  padding: 4px 4px 4px 4px;
+  border:2px solid #90006A;
+  border-radius: 20px;
+  color : #90006A;
+  font-weight: bold;
+}
+
+.linktext:hover
+{
+  text-shadow: 10 10 2px white;
+  animation-name: skitzlink;
+  animation-duration: 0.5s;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-out;
+  color: white;
 }
 
 .linkboxwrap1 {
@@ -488,9 +659,14 @@ display:flex;
   height:100%;
 }
 
+.site1 a {
+  text-decoration: none;
+}
+
 .siteentry {
   font-size: 0.1em;
   text-align: center;
+  color : #90006A;
 }
 
 .resumebox {
@@ -506,6 +682,36 @@ display:flex;
   font-size: 0.12em;
   width:100%;
   cursor: default;
+}
+
+.controlCV {display:flex;
+flex-direction: row;}
+
+.resumelink {
+  text-align: center;
+  font-size: 0.14em;
+  cursor: pointer;
+  flex:1;
+  padding: 2px 2px 2px 1px;
+  border:3px solid #90006A;
+  border-radius: 20px;
+}
+
+.resumelink:hover
+{
+  text-shadow: 10 10 2px white;
+  animation-name: skitzlink;
+  animation-duration: 0.5s;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-out;
+  color: white;
+}
+
+.fillresumelink {
+  text-align: center;
+  font-size: 0.1em;
+  cursor: pointer;
+  flex:1;
 }
 
 .resumedescription {
@@ -566,11 +772,19 @@ p br {
   text-align: center;
   text-justify: inter-word;
   color:white;
+  cursor:default;
 }
 
 .projectswrapper {
   width:100%;
   flex: 1;
+  background-color:black;
+  transition: 0.4s;
+}
+
+.projectswrapper:hover {
+  background-color: #90006A;
+  opacity: 1;
 }
 
 .projectitself {
@@ -582,6 +796,8 @@ p br {
   line-height:1em;
   color:white;
   cursor:pointer;
+  font-family: 'Radley', serif;
+  opacity:1;
 }
 
 .projectyears {
@@ -593,12 +809,12 @@ p br {
   line-height:1em;
   cursor:pointer;
   color:white;
+  font-family: 'Radley', serif;
 }
 
 /* footer details*/
 
 .footer {
-  background-color:black;
   height:10%;
   width:100%;
 }
@@ -609,6 +825,7 @@ p br {
  position: relative;
 }
 .footertext p {
+  font-family: 'Radley', serif;
  cursor: default;
  font-size: 4em;
  color: white;

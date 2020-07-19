@@ -11,7 +11,7 @@ export default class KstRDynamics extends Component {
           </div>
         </div>
         <div className="portlinkwrap">
-          <a href='https://www.dropbox.com/s/gaxe39mbwqr2x7c/master_thesis.pdf?dl=0' target="_blank" rel="noopener noreferrer"><p className="linktext">PDF (savelink)</p></a>
+          <a href='https://www.dropbox.com/s/gaxe39mbwqr2x7c/master_thesis.pdf?dl=0' target="_blank" rel="noopener noreferrer"><p className="linktext">PDF</p></a>
         </div>
       </div>
   )

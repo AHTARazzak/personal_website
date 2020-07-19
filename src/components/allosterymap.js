@@ -11,7 +11,7 @@ export default class Allosterymap extends Component {
           </div>
         </div>
         <div className="portlinkwrap">
-          <a href='https://www.dropbox.com/s/cnfw89ow2bn06yr/Computational_Biology_Project.pdf?dl=0' target="_blank" rel="noopener noreferrer"><p className="linktext">PDF (savelink)</p></a>
+          <a href='https://www.dropbox.com/s/cnfw89ow2bn06yr/Computational_Biology_Project.pdf?dl=0' target="_blank" rel="noopener noreferrer"><p className="linktext">PDF</p></a>
         </div>
       </div>
   )

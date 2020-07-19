@@ -11,7 +11,7 @@ export default class Mujrimeen extends Component {
           </div>
         </div>
         <div className="portlinkwrap">
-          <a href="https://www.mujrimeen.com/" target="_blank" rel="noopener noreferrer"><p className="linktext">Mujrimeen</p></a>
+          <a href="https://www.mujrimeen.com/" target="_blank" rel="noopener noreferrer"><p className="linktext">Site</p></a>
         </div>
       </div>
   )

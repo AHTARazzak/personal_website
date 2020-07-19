@@ -11,7 +11,7 @@ export default class CutThwice extends Component {
           </div>
         </div>
         <div className="portlinkwrap">
-          <a href="https://www.cutthwice.com/" target="_blank" rel="noopener noreferrer"><p className="linktext">Cut Thwice</p></a>
+          <a href="https://www.cutthwice.com/" target="_blank" rel="noopener noreferrer"><p className="linktext">Site</p></a>
         </div>
       </div>
   )

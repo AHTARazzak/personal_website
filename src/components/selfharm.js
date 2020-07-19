@@ -11,7 +11,7 @@ export default class SelfHarm extends Component {
           </div>
         </div>
         <div className="portlinkwrap">
-          <a href="https://discord.gg/wM5sJne" target="_blank" rel="noopener noreferrer"><p className="linktext">Discord server</p></a>
+          <a href="https://discord.gg/wM5sJne" target="_blank" rel="noopener noreferrer"><p className="linktext">Discord</p></a>
         </div>
       </div>
   )

@@ -11,7 +11,7 @@ export default class Getgot extends Component {
           </div>
         </div>
         <div className="portlinkwrap">
-          <a href="https://github.com/ternlef11/getgot" target="_blank" rel="noopener noreferrer"><p className="linktext">GetGot</p></a>
+          <a href="https://github.com/ternlef11/getgot" target="_blank" rel="noopener noreferrer"><p className="linktext">Repo</p></a>
         </div>
       </div>
   )

@@ -53,6 +53,8 @@ p {
   width:100vw;
   height:100vh;
   background-color: black;
+  overflow-x: hidden;
+  overflow-y: hidden;
 }
 
 .bgweirdtext {
@@ -127,7 +129,7 @@ p {
 
 .parent {
   max-width: 1920px;
-  height:800px;
+  height:700px;
   margin-left:calc(50% - 960px);
 }
 
@@ -197,7 +199,7 @@ p {
 
 .bigtitletext {
   font-family: 'Radley', serif;
-  font-size: 0.75em;
+  font-size: 0.7em;
   -webkit-text-fill-color: black; /* Will override color (regardless of order) */
   -webkit-text-stroke-width: 3px;
   -webkit-text-stroke-color: white;
@@ -205,16 +207,16 @@ p {
   color:white;
   margin-left: 40%;
   white-space: nowrap;
-  transform: translateX(-130%) translateY(94%) scaleY(2.45) scaleX(0.8);
+  transform: translateX(-80%) translateY(105%) scaleY(2.55) scaleX(0.73);
   animation: 1s ease-out 0s 1 rotategetgot;
 }
 
 @keyframes rotategetgot {
   0% {
-    transform: rotateX(1200deg) translateX(-130%) translateY(92%);
+    transform: rotateX(1200deg) translateX(-80%) translateY(105%);
   }
   100% {
-    transform: translateX(-130%) translateY(94%) scaleY(2.45) scaleX(0.8);
+    transform: translateX(-80%) translateY(105%) scaleY(2.55) scaleX(0.73);
   }
 }
 
@@ -375,7 +377,7 @@ display:flex;
 }
 
 .portdesctext {
-  font-size:0.1em;
+  font-size:0.095em;
   cursor: default;
   text-align:justify;
 }
@@ -418,7 +420,7 @@ display:flex;
 }
 
 .apatitentry {
-  font-size:0.13em;
+  font-size:0.11em;
   color : #90006A;
 }
 
@@ -663,7 +665,7 @@ display:flex;
 }
 
 .siteentry {
-  font-size: 0.095em;
+  font-size: 0.085em;
   text-align: center;
   color : #90006A;
 }
@@ -685,7 +687,7 @@ display:flex;
 
 .resumedescription {
   text-align: justify;
-  font-size: 0.088em;
+  font-size: 0.08em;
   width:100%;
   cursor: default;
 }
@@ -806,25 +808,24 @@ p br {
 /* footer details*/
 
 .footer {
-  height:10%;
+  height:20%;
   width:100%;
 }
 
 .footertext {
- height: 4em;
  overflow: hidden;
  position: relative;
+ height:100%;
 }
 .footertext p {
  font-family: 'Radley', serif;
  cursor: default;
- font-size: 4em;
+ font-size: 2.5em;
  color: white;
  width: 100%;
  height: 100%;
- margin: 0;
- line-height: 1.1em;
  text-align: center;
+ margin: 0;
  /* Starting position */
  -moz-transform:translateX(100%);
  -webkit-transform:translateX(100%);
@@ -874,21 +875,21 @@ p br {
 }
 
 .bigtitletext {
-  font-size: 0.78em;
+  font-size: 0.7em;
   cursor: default;
   color:white;
   margin-left: 40%;
   white-space: nowrap;
-  transform: translateX(-90%) translateY(90%) scaleY(2.7) scaleX(0.76);
+  transform: translateX(-58%) translateY(100%) scaleY(3.1) scaleX(0.73);
   animation: 1s ease-out 0s 1 rotategetgot;
 }
 
 @keyframes rotategetgot {
   0% {
-    transform: rotateX(1200deg) translateX(-90%) translateY(90%);
+    transform: rotateX(1200deg) translateX(-58%) translateY(100%);
   }
   100% {
-      transform: translateX(-90%) translateY(90%) scaleY(2.7) scaleX(0.76);
+  transform: translateX(-58%) translateY(100%) scaleY(3.1) scaleX(0.73);
   }
 }
 
@@ -922,401 +923,15 @@ p br {
 
 .porttitle{
   font-family: 'Radley', serif;
-  font-size: 0.12em;
-}
-
-.portdate{
-  font-family: 'Radley', serif;
-  font-size: 0.07em;
-  bottom:0px;
-}
-
-.thelcock {
-  font-size:0.11em;
-  line-height: 1em;
-  text-align: center;
-  text-justify: inter-word;
-  color:white;
-}
-
-.linkbox1 {
-  flex:1;
-  width:80px;
-  height:80px;
-  background-image: url("./github.png");
-  background-size: 80px 80px;
-  background-repeat: no-repeat;
-  margin-left:calc(50% - 40px);
-  margin-top:calc(50% - 80px);
-}
-
-.linkbox1:hover{
-  flex:1;
-  width:80px;
-  height:80px;
-  background-image: url("./githubhover.png");
-  background-size: 80px 80px;
-  background-repeat: no-repeat;
-  margin-left:calc(50% - 40px);
-  margin-top:calc(50% - 80px);
-}
-
-.linkbox2 {
-  flex:1;
-  width:80px;
-  height:80px;
-  background-image: url("./linkedin.png");
-  background-size: 80px 80px;
-  background-repeat: no-repeat;
-  margin-left:calc(50% - 40px);
-  margin-top:calc(50% - 80px);
-}
-
-.linkbox2:hover{
-  flex:1;
-  width:80px;
-  height:80px;
-  background-image: url("./linkedinhover.png");
-  background-size: 80px 80px;
-  background-repeat: no-repeat;
-  margin-left:calc(50% - 40px);
-  margin-top:calc(50% - 80px);
-}
-
-.linkbox3 {
-  flex:1;
-  width:80px;
-  height:80px;
-  background-image: url("./instagram.png");
-  background-size: 80px 80px;
-  background-repeat: no-repeat;
-  margin-left:calc(50% - 40px);
-  margin-top:calc(50% - 80px);
-}
-
-.linkbox3:hover{
-  flex:1;
-  width:80px;
-  height:80px;
-  background-image: url("./instagramhover.png");
-  background-size: 80px 80px;
-  background-repeat: no-repeat;
-  margin-left:calc(50% - 40px);
-  margin-top:calc(50% - 80px);
-}
-
-.linkbox4 {
-  flex:1;
-  width:80px;
-  height:80px;
-  background-image: url("./email.png");
-  background-size: 80px 80px;
-  background-repeat: no-repeat;
-  margin-left:calc(50% - 40px);
-  margin-top:calc(50% - 80px);
-}
-
-.linkbox4:hover{
-  flex:1;
-  width:80px;
-  height:80px;
-  background-image: url("./emailhover.png");
-  background-size: 80px 80px;
-  background-repeat: no-repeat;
-  margin-left:calc(50% - 40px);
-  margin-top:calc(50% - 80px);
-}
-
-.resumedescription {
-  text-align: justify;
-  font-size: 0.085em;
-  width:100%;
-  cursor: default;
-}
-
-.resumelink {
-  text-align: center;
-  font-size: 0.13em;
-  width:100%;
-  cursor: pointer;
-
-}
-.thename{
-  font-size: 0.4em;
-  line-height: 1em;
-  text-align: left;
-  cursor: default;
-}
-}
-@media screen and (max-width: 1800px) {
-.parentwrap{
-
-  background-color: black;
-
-}
-
-.parent {
-  max-width: 1800px;
-  margin-left:calc(50% - 900px);
-}
-
-.titleitself {
-  height:auto;
-  width:1.5em;
-}
-
-.bigtitletext {
-  font-size: 0.74em;
-  cursor: default;
-  color:white;
-  margin-left: 40%;
-  white-space: nowrap;
-  transform: translateX(-88%) translateY(95%) scaleY(2.8) scaleX(0.79);
-  animation: 1s ease-out 0s 1 rotategetgot;
-}
-
-@keyframes rotategetgot {
-  0% {
-    transform: rotateX(1200deg) translateX(-88%) translateY(95%);
-  }
-  100% {
-    transform: translateX(-88%) translateY(95%) scaleY(2.8) scaleX(0.79);
-  }
-}
-
-.aboutdescription {
-  text-align: justify;
-  font-size: 0.1em;
-  width:100%;
-  cursor: default;
-}
-
-.aboutdescriptionfinal {
-  text-align: center;
-  font-size: 0.1em;
-  width:100%;
-  cursor: default;
-}
-
-.theprojectname{
-  font-size:0.18em;
-  line-height:1em;
-  color:white;
-  cursor:pointer;
-}
-
-.theprojectyears{
-  font-size:0.09em;
-  line-height:1em;
-  cursor:pointer;
-  color:white;
-}
-
-.porttitle{
-  font-family: 'Radley', serif;
-  font-size: 0.12em;
-}
-
-.portdate{
-  font-family: 'Radley', serif;
-  font-size: 0.07em;
-  bottom:0px;
-}
-
-.thelcock {
-  font-size:0.11em;
-  line-height: 1em;
-  text-align: center;
-  text-justify: inter-word;
-  color:white;
-}
-
-.linkbox1 {
-  flex:1;
-  width:80px;
-  height:80px;
-  background-image: url("./github.png");
-  background-size: 80px 80px;
-  background-repeat: no-repeat;
-  margin-left:calc(50% - 40px);
-  margin-top:calc(50% - 80px);
-}
-
-.linkbox1:hover{
-  flex:1;
-  width:80px;
-  height:80px;
-  background-image: url("./githubhover.png");
-  background-size: 80px 80px;
-  background-repeat: no-repeat;
-  margin-left:calc(50% - 40px);
-  margin-top:calc(50% - 80px);
-}
-
-.linkbox2 {
-  flex:1;
-  width:80px;
-  height:80px;
-  background-image: url("./linkedin.png");
-  background-size: 80px 80px;
-  background-repeat: no-repeat;
-  margin-left:calc(50% - 40px);
-  margin-top:calc(50% - 80px);
-}
-
-.linkbox2:hover{
-  flex:1;
-  width:80px;
-  height:80px;
-  background-image: url("./linkedinhover.png");
-  background-size: 80px 80px;
-  background-repeat: no-repeat;
-  margin-left:calc(50% - 40px);
-  margin-top:calc(50% - 80px);
-}
-
-.linkbox3 {
-  flex:1;
-  width:80px;
-  height:80px;
-  background-image: url("./instagram.png");
-  background-size: 80px 80px;
-  background-repeat: no-repeat;
-  margin-left:calc(50% - 40px);
-  margin-top:calc(50% - 80px);
-}
-
-.linkbox3:hover{
-  flex:1;
-  width:80px;
-  height:80px;
-  background-image: url("./instagramhover.png");
-  background-size: 80px 80px;
-  background-repeat: no-repeat;
-  margin-left:calc(50% - 40px);
-  margin-top:calc(50% - 80px);
-}
-
-.linkbox4 {
-  flex:1;
-  width:80px;
-  height:80px;
-  background-image: url("./email.png");
-  background-size: 80px 80px;
-  background-repeat: no-repeat;
-  margin-left:calc(50% - 40px);
-  margin-top:calc(50% - 80px);
-}
-
-.linkbox4:hover{
-  flex:1;
-  width:80px;
-  height:80px;
-  background-image: url("./emailhover.png");
-  background-size: 80px 80px;
-  background-repeat: no-repeat;
-  margin-left:calc(50% - 40px);
-  margin-top:calc(50% - 80px);
-}
-
-.resumedescription {
-  text-align: justify;
-  font-size: 0.082em;
-  width:100%;
-  cursor: default;
-}
-
-.resumelink {
-  text-align: center;
-  font-size: 0.13em;
-  width:100%;
-  cursor: pointer;
-
-}
-.thename{
-  font-size: 0.4em;
-  line-height: 1em;
-  text-align: left;
-  cursor: default;
-}
-
-
-}
-@media screen and (max-width: 1700px) {
-.parentwrap{
-
-  background-color: black;
-
-}
-
-.parent {
-  max-width: 1700px;
-  margin-left:calc(50% - 850px);
-}
-
-.titleitself {
-  height:auto;
-  width:1.2em;
-}
-
-.bigtitletext {
-  font-size: 0.72em;
-  cursor: default;
-  color:white;
-  margin-left: 40%;
-  white-space: nowrap;
-  transform: translateX(-120%) translateY(105%) scaleY(2.25) scaleX(0.82);
-  animation: 1s ease-out 0s 1 rotategetgot;
-}
-
-@keyframes rotategetgot {
-  0% {
-    transform: rotateX(1200deg) translateX(-120%) translateY(105%);
-  }
-  100% {
-    transform: translateX(-120%) translateY(105%) scaleY(2.25) scaleX(0.82);
-  }
-}
-
-.aboutdescription {
-  text-align: justify;
-  font-size: 0.1em;
-  width:100%;
-  cursor: default;
-}
-
-.aboutdescriptionfinal {
-  text-align: center;
-  font-size: 0.1em;
-  width:100%;
-  cursor: default;
-}
-
-.theprojectname{
-  font-size:0.165em;
-  line-height:1em;
-  color:white;
-  cursor:pointer;
-}
-
-.theprojectyears{
-  font-size:0.09em;
-  line-height:1em;
-  cursor:pointer;
-  color:white;
-}
-
-.porttitle{
   font-size: 0.12em;
 }
 
 .portdesctext {
   font-size:0.08em;
-  cursor: default;
-  text-align:justify;
 }
 
 .portdate{
+  font-family: 'Radley', serif;
   font-size: 0.07em;
   bottom:0px;
 }
@@ -1424,6 +1039,408 @@ p br {
   cursor: default;
 }
 
+.resumelink {
+  text-align: center;
+  font-size: 0.13em;
+  width:100%;
+  cursor: pointer;
+
+}
+.thename{
+  font-size: 0.4em;
+  line-height: 1em;
+  text-align: left;
+  cursor: default;
+}
+}
+@media screen and (max-width: 1800px) {
+.parentwrap{
+
+  background-color: black;
+
+}
+
+.parent {
+  max-width: 1800px;
+  margin-left:calc(50% - 900px);
+}
+
+.titleitself {
+  height:auto;
+  width:1.5em;
+}
+
+.bigtitletext {
+  font-size: 0.65em;
+  cursor: default;
+  color:white;
+  margin-left: 40%;
+  white-space: nowrap;
+  transform: translateX(-55%) translateY(110%) scaleY(3.1) scaleX(0.77);
+  animation: 1s ease-out 0s 1 rotategetgot;
+}
+
+@keyframes rotategetgot {
+  0% {
+    transform: rotateX(1200deg) translateX(-55%) translateY(110%);
+  }
+  100% {
+  transform: translateX(-55%) translateY(110%) scaleY(3.1) scaleX(0.77);
+  }
+}
+
+.aboutdescription {
+  text-align: justify;
+  font-size: 0.09em;
+  width:100%;
+  cursor: default;
+}
+
+.aboutdescriptionfinal {
+  text-align: center;
+  font-size: 0.09em;
+  width:100%;
+  cursor: default;
+}
+
+.theprojectname{
+  font-size:0.18em;
+  line-height:1em;
+  color:white;
+  cursor:pointer;
+}
+
+.theprojectyears{
+  font-size:0.09em;
+  line-height:1em;
+  cursor:pointer;
+  color:white;
+}
+
+.porttitle{
+  font-family: 'Radley', serif;
+  font-size: 0.12em;
+}
+
+.portdesctext {
+  font-size:0.08em;
+}
+
+.portdate{
+  font-family: 'Radley', serif;
+  font-size: 0.07em;
+  bottom:0px;
+}
+
+.thelcock {
+  font-size:0.11em;
+  line-height: 1em;
+  text-align: center;
+  text-justify: inter-word;
+  color:white;
+}
+
+.linkbox1 {
+  flex:1;
+  width:80px;
+  height:80px;
+  background-image: url("./github.png");
+  background-size: 80px 80px;
+  background-repeat: no-repeat;
+  margin-left:calc(50% - 40px);
+  margin-top:calc(50% - 80px);
+}
+
+.linkbox1:hover{
+  flex:1;
+  width:80px;
+  height:80px;
+  background-image: url("./githubhover.png");
+  background-size: 80px 80px;
+  background-repeat: no-repeat;
+  margin-left:calc(50% - 40px);
+  margin-top:calc(50% - 80px);
+}
+
+.linkbox2 {
+  flex:1;
+  width:80px;
+  height:80px;
+  background-image: url("./linkedin.png");
+  background-size: 80px 80px;
+  background-repeat: no-repeat;
+  margin-left:calc(50% - 40px);
+  margin-top:calc(50% - 80px);
+}
+
+.linkbox2:hover{
+  flex:1;
+  width:80px;
+  height:80px;
+  background-image: url("./linkedinhover.png");
+  background-size: 80px 80px;
+  background-repeat: no-repeat;
+  margin-left:calc(50% - 40px);
+  margin-top:calc(50% - 80px);
+}
+
+.linkbox3 {
+  flex:1;
+  width:80px;
+  height:80px;
+  background-image: url("./instagram.png");
+  background-size: 80px 80px;
+  background-repeat: no-repeat;
+  margin-left:calc(50% - 40px);
+  margin-top:calc(50% - 80px);
+}
+
+.linkbox3:hover{
+  flex:1;
+  width:80px;
+  height:80px;
+  background-image: url("./instagramhover.png");
+  background-size: 80px 80px;
+  background-repeat: no-repeat;
+  margin-left:calc(50% - 40px);
+  margin-top:calc(50% - 80px);
+}
+
+.linkbox4 {
+  flex:1;
+  width:80px;
+  height:80px;
+  background-image: url("./email.png");
+  background-size: 80px 80px;
+  background-repeat: no-repeat;
+  margin-left:calc(50% - 40px);
+  margin-top:calc(50% - 80px);
+}
+
+.linkbox4:hover{
+  flex:1;
+  width:80px;
+  height:80px;
+  background-image: url("./emailhover.png");
+  background-size: 80px 80px;
+  background-repeat: no-repeat;
+  margin-left:calc(50% - 40px);
+  margin-top:calc(50% - 80px);
+}
+
+.resumedescription {
+  text-align: justify;
+  font-size: 0.073em;
+  width:100%;
+  cursor: default;
+}
+
+.resumelink {
+  text-align: center;
+  font-size: 0.15em;
+  width:100%;
+  cursor: pointer;
+
+}
+.thename{
+  font-size: 0.4em;
+  line-height: 1em;
+  text-align: left;
+  cursor: default;
+}
+
+
+}
+@media screen and (max-width: 1700px) {
+.parentwrap{
+
+  background-color: black;
+
+}
+
+.parent {
+  max-width: 1700px;
+  margin-left:calc(50% - 850px);
+}
+
+.titleitself {
+  height:auto;
+  width:1.2em;
+}
+
+.bigtitletext {
+  font-size: 0.65em;
+  cursor: default;
+  color:white;
+  margin-left: 40%;
+  white-space: nowrap;
+  transform: translateX(-80%) translateY(118%) scaleY(2.5) scaleX(0.8);
+  animation: 1s ease-out 0s 1 rotategetgot;
+}
+
+@keyframes rotategetgot {
+  0% {
+    transform: rotateX(1200deg) translateX(-80%) translateY(118%);
+  }
+  100% {
+    transform: translateX(-80%) translateY(118%) scaleY(2.5) scaleX(0.8);
+  }
+}
+
+.aboutdescription {
+  text-align: justify;
+  font-size: 0.09em;
+  width:100%;
+  cursor: default;
+}
+
+.aboutdescriptionfinal {
+  text-align: center;
+  font-size: 0.09em;
+  width:100%;
+  cursor: default;
+}
+
+.theprojectname{
+  font-size:0.16em;
+  line-height:1em;
+  color:white;
+  cursor:pointer;
+}
+
+.theprojectyears{
+  font-size:0.09em;
+  line-height:1em;
+  cursor:pointer;
+  color:white;
+}
+
+.porttitle{
+  font-size: 0.12em;
+}
+
+.portdesctext {
+  font-size:0.078em;
+  cursor: default;
+  text-align:justify;
+}
+
+.portdate{
+  font-size: 0.07em;
+  bottom:0px;
+}
+
+.thelcock {
+  font-size:0.11em;
+  line-height: 1em;
+  text-align: center;
+  text-justify: inter-word;
+  color:white;
+}
+
+.linkbox1 {
+  flex:1;
+  width:80px;
+  height:80px;
+  background-image: url("./github.png");
+  background-size: 80px 80px;
+  background-repeat: no-repeat;
+  margin-left:calc(50% - 40px);
+  margin-top:calc(50% - 80px);
+}
+
+.linkbox1:hover{
+  flex:1;
+  width:80px;
+  height:80px;
+  background-image: url("./githubhover.png");
+  background-size: 80px 80px;
+  background-repeat: no-repeat;
+  margin-left:calc(50% - 40px);
+  margin-top:calc(50% - 80px);
+}
+
+.linkbox2 {
+  flex:1;
+  width:80px;
+  height:80px;
+  background-image: url("./linkedin.png");
+  background-size: 80px 80px;
+  background-repeat: no-repeat;
+  margin-left:calc(50% - 40px);
+  margin-top:calc(50% - 80px);
+}
+
+.linkbox2:hover{
+  flex:1;
+  width:80px;
+  height:80px;
+  background-image: url("./linkedinhover.png");
+  background-size: 80px 80px;
+  background-repeat: no-repeat;
+  margin-left:calc(50% - 40px);
+  margin-top:calc(50% - 80px);
+}
+
+.linkbox3 {
+  flex:1;
+  width:80px;
+  height:80px;
+  background-image: url("./instagram.png");
+  background-size: 80px 80px;
+  background-repeat: no-repeat;
+  margin-left:calc(50% - 40px);
+  margin-top:calc(50% - 80px);
+}
+
+.linkbox3:hover{
+  flex:1;
+  width:80px;
+  height:80px;
+  background-image: url("./instagramhover.png");
+  background-size: 80px 80px;
+  background-repeat: no-repeat;
+  margin-left:calc(50% - 40px);
+  margin-top:calc(50% - 80px);
+}
+
+.linkbox4 {
+  flex:1;
+  width:80px;
+  height:80px;
+  background-image: url("./email.png");
+  background-size: 80px 80px;
+  background-repeat: no-repeat;
+  margin-left:calc(50% - 40px);
+  margin-top:calc(50% - 80px);
+}
+
+.linkbox4:hover{
+  flex:1;
+  width:80px;
+  height:80px;
+  background-image: url("./emailhover.png");
+  background-size: 80px 80px;
+  background-repeat: no-repeat;
+  margin-left:calc(50% - 40px);
+  margin-top:calc(50% - 80px);
+}
+
+.resumedescription {
+  text-align: justify;
+  font-size: 0.075em;
+  width:100%;
+  cursor: default;
+}
+
+.aboutdescriptionfinal {
+  font-size: 0.09em;
+}
+
+.resumelink {
+  font-size: 0.1em;
+}
+
 .thename{
   font-size: 0.4em;
   line-height: 1em;
@@ -1450,49 +1467,53 @@ p br {
 }
 
 .bigtitletext {
-  font-size: 0.7em;
+  font-size: 0.65em;
   cursor: default;
   color:white;
   margin-left: 40%;
   white-space: nowrap;
-  transform: translateX(-162%) translateY(115%) scaleY(1.9) scaleX(0.83);
+  transform: translateX(-115%) translateY(125%) scaleY(1.9) scaleX(0.77);
   animation: 1s ease-out 0s 1 rotategetgot;
 }
 
 @keyframes rotategetgot {
   0% {
-    transform: rotateX(1200deg) translateX(-162%) translateY(115%);
+    transform: rotateX(1200deg) translateX(-115%) translateY(125%);
   }
   100% {
-    transform: translateX(-162%) translateY(115%) scaleY(1.9) scaleX(0.83);
+  transform: translateX(-115%) translateY(125%) scaleY(1.9) scaleX(0.77);
   }
 }
 
 .aboutdescription {
   text-align: justify;
-  font-size: 0.1em;
+  font-size: 0.09em;
   width:100%;
   cursor: default;
 }
 
 .aboutdescriptionfinal {
   text-align: center;
-  font-size: 0.1em;
+  font-size: 0.09em;
   width:100%;
   cursor: default;
 }
 
 .theprojectname{
-  font-size:0.16em;
+  font-size:0.15em;
   line-height:1em;
   color:white;
   cursor:pointer;
 }
 
 .portdesctext {
-  font-size:0.083em;
+  font-size:0.08em;
   cursor: default;
   text-align:justify;
+}
+
+.portdesctitle {
+  font-size:0.15em;
 }
 
 .theprojectyears{
@@ -1609,14 +1630,14 @@ p br {
 
 .resumedescription {
   text-align: justify;
-  font-size: 0.085em;
+  font-size: 0.07em;
   width:100%;
   cursor: default;
 }
 
 .resumelink {
   text-align: center;
-  font-size: 0.13em;
+  font-size: 0.12em;
   width:100%;
   cursor: pointer;
 
@@ -1652,35 +1673,35 @@ p br {
   color:white;
   margin-left: 40%;
   white-space: nowrap;
-  transform: translateX(-166%) translateY(115%) scaleY(1.8) scaleX(0.82);
+  transform: translateX(-110%) translateY(117%) scaleY(1.8) scaleX(0.72);
   animation: 1s ease-out 0s 1 rotategetgot;
 }
 
 @keyframes rotategetgot {
   0% {
-    transform: rotateX(1200deg) translateX(-166%) translateY(115%);
+    transform: rotateX(1200deg) translateX(-110%) translateY(117%);
   }
   100% {
-    transform: translateX(-166%) translateY(115%) scaleY(1.8) scaleX(0.82)
+  transform: translateX(-110%) translateY(117%) scaleY(1.8) scaleX(0.72);
   }
 }
 
 .aboutdescription {
   text-align: justify;
-  font-size: 0.092em;
+  font-size: 0.085em;
   width:100%;
   cursor: default;
 }
 
 .aboutdescriptionfinal {
   text-align: center;
-  font-size: 0.092em;
+  font-size: 0.085em;
   width:100%;
   cursor: default;
 }
 
 .theprojectname{
-  font-size:0.15em;
+  font-size:0.14em;
   line-height:1em;
   color:white;
   cursor:pointer;
@@ -1695,6 +1716,10 @@ p br {
 
 .porttitle{
   font-size: 0.11em;
+}
+
+.portdesctitle {
+  font-size:0.13em;
 }
 
 .portdesctext {
@@ -1806,7 +1831,7 @@ p br {
 
 .resumedescription {
   text-align: justify;
-  font-size: 0.078em;
+  font-size: 0.074em;
   width:100%;
   cursor: default;
 }
@@ -1826,7 +1851,7 @@ p br {
 }
 
 .siteentry {
-  font-size: 0.09em;
+  font-size: 0.08em;
   text-align: center;
 }
 
@@ -1855,35 +1880,35 @@ p br {
   color:white;
   margin-left: 40%;
   white-space: nowrap;
-  transform: translateX(-183%) translateY(117%) scaleY(1.65) scaleX(0.84);
+  transform: translateX(-120%) translateY(117%) scaleY(1.65) scaleX(0.71);
   animation: 1s ease-out 0s 1 rotategetgot;
 }
 
 @keyframes rotategetgot {
   0% {
-    transform: rotateX(1200deg) translateX(-183%) translateY(117%);
+    transform: rotateX(1200deg) translateX(-120%) translateY(117%);
   }
   100% {
-    transform: translateX(-183%) translateY(117%) scaleY(1.65) scaleX(0.84);
+    transform: translateX(-120%) translateY(117%) scaleY(1.65) scaleX(0.71);
   }
 }
 
 .aboutdescription {
   text-align: justify;
-  font-size: 0.09em;
+  font-size: 0.08em;
   width:100%;
   cursor: default;
 }
 
 .aboutdescriptionfinal {
   text-align: center;
-  font-size: 0.09em;
+  font-size: 0.08em;
   width:100%;
   cursor: default;
 }
 
 .theprojectname{
-  font-size:0.14em;
+  font-size:0.13em;
   line-height:1em;
   color:white;
   cursor:pointer;
@@ -1906,14 +1931,11 @@ p br {
 }
 
 .portdesctitle {
-  text-align:center;
-  cursor: default;
-  font-size:0.14em;
-  text-decoration: underline;
+  font-size:0.12em;
 }
 
 .portdesctext {
-  font-size:0.076em;
+  font-size:0.074em;
   cursor: default;
   text-align:justify;
 }
@@ -2026,14 +2048,14 @@ p br {
 
 .resumedescription {
   text-align: justify;
-  font-size: 0.07em;
+  font-size: 0.065em;
   width:100%;
   cursor: default;
 }
 
 .resumelink {
   text-align: center;
-  font-size: 0.11em;
+  font-size: 0.1em;
   width:100%;
   cursor: pointer;
 
@@ -2046,8 +2068,12 @@ p br {
 }
 
 .siteentry {
-  font-size: 0.085em;
+  font-size: 0.08em;
   text-align: center;
+}
+
+.headlinetext {
+  font-size:2em;
 }
 
 }
@@ -2075,35 +2101,35 @@ p br {
   color:white;
   margin-left: 40%;
   white-space: nowrap;
-  transform: translateX(-185%) translateY(126%) scaleY(1.75) scaleX(0.9);
+  transform: translateX(-125%) translateY(126%) scaleY(1.75) scaleX(0.77);
   animation: 1s ease-out 0s 1 rotategetgot;
 }
 
 @keyframes rotategetgot {
   0% {
-    transform: rotateX(1200deg) translateX(-185%) translateY(126%);
+    transform: rotateX(1200deg) translateX(-125%) translateY(126%);
   }
   100% {
-    transform: translateX(-185%) translateY(126%) scaleY(1.75) scaleX(0.9);
+    transform: translateX(-125%) translateY(126%) scaleY(1.75) scaleX(0.77);
   }
 }
 
 .aboutdescription {
   text-align: justify;
-  font-size: 0.08em;
+  font-size: 0.075em;
   width:100%;
   cursor: default;
 }
 
 .aboutdescriptionfinal {
   text-align: center;
-  font-size: 0.08em;
+  font-size: 0.075em;
   width:100%;
   cursor: default;
 }
 
 .theprojectname{
-  font-size:0.125em;
+  font-size:0.12em;
   line-height:1em;
   color:white;
   cursor:pointer;
@@ -2120,6 +2146,10 @@ p br {
   font-size: 0.09em;
 }
 
+.portdesctitle {
+  font-size:0.12em;
+}
+
 .portdate{
   font-size: 0.05em;
   bottom:0px;
@@ -2128,12 +2158,12 @@ p br {
 .portdesctitle {
   text-align:center;
   cursor: default;
-  font-size:0.14em;
+  font-size:0.12em;
   text-decoration: underline;
 }
 
 .portdesctext {
-  font-size:0.08em;
+  font-size:0.075em;
   cursor: default;
   text-align:justify;
 }
@@ -2246,14 +2276,14 @@ p br {
 
 .resumedescription {
   text-align: justify;
-  font-size: 0.07em;
+  font-size: 0.065em;
   width:100%;
   cursor: default;
 }
 
 .resumelink {
   text-align: center;
-  font-size: 0.1em;
+  font-size: 0.085em;
   width:100%;
   cursor: pointer;
 
@@ -2266,7 +2296,7 @@ p br {
 }
 
 .siteentry {
-  font-size: 0.08em;
+  font-size: 0.075em;
   text-align: center;
 }
 
@@ -2304,29 +2334,29 @@ p br {
   color:white;
   margin-left: 40%;
   white-space: nowrap;
-  transform: translateX(-180%) translateY(125%) scaleY(1.8) scaleX(0.9);
+  transform: translateX(-125%) translateY(125%) scaleY(1.8) scaleX(0.77);
   animation: 1s ease-out 0s 1 rotategetgot;
 }
 
 @keyframes rotategetgot {
   0% {
-    transform: rotateX(1200deg) translateX(-180%) translateY(125%);
+    transform: rotateX(1200deg) translateX(-125%) translateY(125%);
   }
   100% {
-    transform: translateX(-180%) translateY(125%) scaleY(1.8) scaleX(0.9);
+    transform: translateX(-125%) translateY(125%) scaleY(1.8) scaleX(0.77);
   }
 }
 
 .aboutdescription {
   text-align: justify;
-  font-size: 0.07em;
+  font-size: 0.065em;
   width:100%;
   cursor: default;
 }
 
 .aboutdescriptionfinal {
   text-align: center;
-  font-size: 0.085em;
+  font-size: 0.08em;
   width:100%;
   cursor: default;
 }
@@ -2362,7 +2392,7 @@ p br {
 .portdesctitle {
   text-align:center;
   cursor: default;
-  font-size:0.12em;
+  font-size:0.11em;
   text-decoration: underline;
 }
 
@@ -2480,20 +2510,20 @@ p br {
 
 .resumedescription {
   text-align: justify;
-  font-size: 0.06em;
+  font-size: 0.058em;
   width:100%;
   cursor: default;
 }
 
 .resumelink {
   text-align: center;
-  font-size: 0.1em;
+  font-size: 0.09em;
   width:100%;
   cursor: pointer;
 
 }
 .thename{
-  font-size: 0.4em;
+  font-size: 0.35em;
   line-height: 1em;
   text-align: left;
   cursor: default;
@@ -2505,7 +2535,7 @@ p br {
 }
 
 .apatitentry {
-  font-size:0.11em;
+  font-size:0.09em;
 }
 
 .apatitentrypage {
@@ -2560,14 +2590,14 @@ p br {
 
 .aboutdescription {
   text-align: justify;
-  font-size: 0.075em;
+  font-size: 0.07em;
   width:100%;
   cursor: default;
 }
 
 .aboutdescriptionfinal {
   text-align: center;
-  font-size: 0.075em;
+  font-size: 0.07em;
   width:100%;
   cursor: default;
 }
@@ -2716,14 +2746,14 @@ p br {
 
 .resumedescription {
   text-align: justify;
-  font-size: 0.06em;
+  font-size: 0.057em;
   width:100%;
   cursor: default;
 }
 
 .resumelink {
   text-align: center;
-  font-size: 0.11em;
+  font-size: 0.1em;
   width:100%;
   cursor: pointer;
 
@@ -2741,7 +2771,7 @@ p br {
 }
 
 .apatitentry {
-  font-size:0.11em;
+  font-size:0.09em;
 }
 
 .apatitentrypage {
@@ -2797,14 +2827,14 @@ p br {
 
 .aboutdescription {
   text-align: justify;
-  font-size: 0.07em;
+  font-size: 0.06em;
   width:100%;
   cursor: default;
 }
 
 .aboutdescriptionfinal {
   text-align: center;
-  font-size: 0.075em;
+  font-size: 0.07em;
   width:100%;
   cursor: default;
 }
@@ -2835,7 +2865,7 @@ p br {
 .portdesctitle {
   text-align:center;
   cursor: default;
-  font-size:0.11em;
+  font-size:0.1em;
   text-decoration: underline;
 }
 
@@ -2953,7 +2983,7 @@ p br {
 
 .resumedescription {
   text-align: justify;
-  font-size: 0.06em;
+  font-size: 0.055em;
   width:100%;
   cursor: default;
 }
@@ -2992,6 +3022,10 @@ p br {
 
 .siteentry {
   font-size:0.06em;
+}
+
+.headlinetext{
+  font-size:1.2em;
 }
 
 }
@@ -3286,14 +3320,14 @@ p br {
 
 .aboutdescription {
   text-align: justify;
-  font-size: 0.06em;
+  font-size: 0.05em;
   width:100%;
   cursor: default;
 }
 
 .aboutdescriptionfinal {
   text-align: center;
-  font-size: 0.07em;
+  font-size: 0.055em;
   width:100%;
   cursor: default;
 }
@@ -3324,12 +3358,12 @@ p br {
 .portdesctitle {
   text-align:center;
   cursor: default;
-  font-size:0.09em;
+  font-size:0.085em;
   text-decoration: underline;
 }
 
 .portdesctext {
-  font-size:0.06em;
+  font-size:0.05em;
   cursor: default;
   text-align:justify;
 }
@@ -3350,6 +3384,10 @@ p br {
   text-align: center;
   text-justify: inter-word;
   color:white;
+}
+
+.linktext {
+  font-size:0.1em;
 }
 
 .linkbox1 {
@@ -3442,20 +3480,20 @@ p br {
 
 .resumedescription {
   text-align: justify;
-  font-size: 0.053em;
+  font-size: 0.05em;
   width:100%;
   cursor: default;
 }
 
 .resumelink {
   text-align: center;
-  font-size: 0.09em;
+  font-size: 0.07em;
   width:100%;
   cursor: pointer;
 
 }
 .thename{
-  font-size: 0.3em;
+  font-size: 0.25em;
   line-height: 1em;
   text-align: left;
   cursor: default;
@@ -3471,7 +3509,7 @@ p br {
 }
 
 .aptitcatatitle {
-  font-size:0.12em;
+  font-size:0.1em;
 }
 
 .apatitentrypage {
@@ -3480,7 +3518,7 @@ p br {
 }
 
 .siteentry {
-  font-size:0.05em;
+  font-size:0.045em;
 }
 
 }
@@ -3530,20 +3568,20 @@ p br {
 
 .aboutdescription {
   text-align: justify;
-  font-size: 0.055em;
+  font-size: 0.05em;
   width:100%;
   cursor: default;
 }
 
 .aboutdescriptionfinal {
   text-align: center;
-  font-size: 0.055em;
+  font-size: 0.05em;
   width:100%;
   cursor: default;
 }
 
 .theprojectname{
-  font-size:0.09em;
+  font-size:0.075em;
   line-height:1em;
   color:white;
   cursor:pointer;
@@ -3589,251 +3627,7 @@ p br {
 
 
 .thelcock {
-  font-size:0.08em;
-  line-height: 1em;
-  text-align: center;
-  text-justify: inter-word;
-  color:white;
-}
-
-.linkbox1 {
-  flex:1;
-  width:60px;
-  height:60px;
-  background-image: url("./github.png");
-  background-size: 60px 60px;
-  background-repeat: no-repeat;
-  margin-left:calc(50% - 30px);
-  margin-top:calc(50% - 60px);
-}
-
-.linkbox1:hover{
-  flex:1;
-  width:60px;
-  height:60px;
-  background-image: url("./githubhover.png");
-  background-size: 60px 60px;
-  background-repeat: no-repeat;
-  margin-left:calc(50% - 30px);
-  margin-top:calc(50% - 60px);
-}
-
-.linkbox2 {
-  flex:1;
-  width:60px;
-  height:60px;
-  background-image: url("./linkedin.png");
-  background-size: 60px 60px;
-  background-repeat: no-repeat;
-  margin-left:calc(50% - 30px);
-  margin-top:calc(50% - 60px);
-}
-
-.linkbox2:hover{
-  flex:1;
-  width:60px;
-  height:60px;
-  background-image: url("./linkedinhover.png");
-  background-size: 60px 60px;
-  background-repeat: no-repeat;
-  margin-left:calc(50% - 30px);
-  margin-top:calc(50% - 60px);
-}
-
-.linkbox3 {
-  flex:1;
-  width:60px;
-  height:60px;
-  background-image: url("./instagram.png");
-  background-size: 60px 60px;
-  background-repeat: no-repeat;
-  margin-left:calc(50% - 30px);
-  margin-top:calc(50% - 60px);
-}
-
-.linkbox3:hover{
-  flex:1;
-  width:60px;
-  height:60px;
-  background-image: url("./instagramhover.png");
-  background-size: 60px 60px;
-  background-repeat: no-repeat;
-  margin-left:calc(50% - 30px);
-  margin-top:calc(50% - 60px);
-}
-
-.linkbox4 {
-  flex:1;
-  width:60px;
-  height:60px;
-  background-image: url("./email.png");
-  background-size: 60px 60px;
-  background-repeat: no-repeat;
-  margin-left:calc(50% - 30px);
-  margin-top:calc(50% - 60px);
-}
-
-.linkbox4:hover{
-  flex:1;
-  width:60px;
-  height:60px;
-  background-image: url("./emailhover.png");
-  background-size: 60px 60px;
-  background-repeat: no-repeat;
-  margin-left:calc(50% - 30px);
-  margin-top:calc(50% - 60px);
-}
-
-.resumedescription {
-  text-align: justify;
-  font-size: 0.05em;
-  width:100%;
-  cursor: default;
-}
-
-.resumelink {
-  text-align: center;
-  font-size: 0.09em;
-  width:100%;
-  cursor: pointer;
-
-}
-.thename{
-  font-size: 0.3em;
-  line-height: 1em;
-  text-align: left;
-  cursor: default;
-}
-
-.siteentry {
-  font-size: 0.065em;
-  text-align: center;
-}
-
-.apatitentry {
   font-size:0.07em;
-}
-
-.aptitcatatitle {
-  font-size:0.12em;
-}
-
-.apatitentrypage {
-  font-size:0.11em;
-  text-align:center;
-}
-
-.siteentry {
-  font-size:0.045em;
-}
-
-}
-
-@media screen and (max-width: 600px) {
-.parentwrap{
-
-  background-color: black;
-}
-
-
-.parent {
-  max-width: 600px;
-  margin-left:calc(50% - 300px);
-}
-
-.flexbody {
-  display: flex;
-}
-
-.leftbox{
-  display:none;
-}
-
-.bigtoolbox {
-  display:flex;
-  flex:1;
-  flex-direction: row;
-}
-
-.headlinetext{
-  font-size:1em;
-  text-align: center;
-  color:black;
-}
-
-.middlebox {
-  padding-left:6%;
-  height:100%;
-  flex:2;
-}
-
-.rightbox {
-  height:100%;
-  flex:1;
-}
-
-.aboutdescription {
-  text-align: justify;
-  font-size: 0.05em;
-  width:100%;
-  cursor: default;
-}
-
-.aboutdescriptionfinal {
-  text-align: center;
-  font-size: 0.055em;
-  width:100%;
-  cursor: default;
-}
-
-.theprojectname{
-  font-size:0.09em;
-  line-height:1em;
-  color:white;
-  cursor:pointer;
-}
-
-.theprojectyears{
-  font-size:0.08em;
-  line-height:0.8em;
-  cursor:pointer;
-  color:white;
-}
-
-.porttitle{
-  font-size: 0.07em;
-}
-
-.portdate{
-  font-size: 0.04em;
-  bottom:0px;
-}
-
-.portdesctitle {
-  text-align:center;
-  cursor: default;
-  font-size:0.08em;
-  text-decoration: underline;
-}
-
-.portdesctext {
-  font-size:0.05em;
-  cursor: default;
-  text-align:justify;
-}
-
-.portlinkwrap {
-  flex:1;
-  width:95%;
-  height:95%;
-  display:flex;
-  align-items: center;
-  justify-content: center;
-}
-
-
-.thelcock {
-  font-size:0.08em;
   line-height: 1em;
   text-align: center;
   text-justify: inter-word;
@@ -3937,7 +3731,7 @@ p br {
 
 .resumelink {
   text-align: center;
-  font-size: 0.09em;
+  font-size: 0.08em;
   width:100%;
   cursor: pointer;
 
@@ -3955,7 +3749,7 @@ p br {
 }
 
 .apatitentry {
-  font-size:0.065em;
+  font-size:0.07em;
 }
 
 .aptitcatatitle {
@@ -3963,8 +3757,256 @@ p br {
 }
 
 .apatitentrypage {
-  font-size:0.11em;
+  font-size:0.09em;
   text-align:center;
+}
+
+.siteentry {
+  font-size:0.04em;
+}
+
+}
+
+@media screen and (max-width: 600px) {
+.parentwrap{
+
+  background-color: black;
+}
+
+
+.parent {
+  max-width: 600px;
+  margin-left:calc(50% - 300px);
+}
+
+.flexbody {
+  display: flex;
+}
+
+.leftbox{
+  display:none;
+}
+
+.bigtoolbox {
+  display:flex;
+  flex:1;
+  flex-direction: row;
+}
+
+.headlinetext{
+  font-size:1em;
+  text-align: center;
+  color:black;
+}
+
+.middlebox {
+  padding-left:6%;
+  height:100%;
+  flex:2;
+}
+
+.rightbox {
+  height:100%;
+  flex:1;
+}
+
+.aboutdescription {
+  text-align: justify;
+  font-size: 0.045em;
+  width:100%;
+  cursor: default;
+}
+
+.aboutdescriptionfinal {
+  text-align: center;
+  font-size: 0.05em;
+  width:100%;
+  cursor: default;
+}
+
+.theprojectname{
+  font-size:0.085em;
+  line-height:1em;
+  color:white;
+  cursor:pointer;
+}
+
+.theprojectyears{
+  font-size:0.08em;
+  line-height:0.8em;
+  cursor:pointer;
+  color:white;
+}
+
+.porttitle{
+  font-size: 0.07em;
+}
+
+.portdate{
+  font-size: 0.04em;
+  bottom:0px;
+}
+
+.portdesctitle {
+  text-align:center;
+  cursor: default;
+  font-size:0.07em;
+  text-decoration: underline;
+}
+
+.portdesctext {
+  font-size:0.045em;
+  cursor: default;
+  text-align:justify;
+}
+
+.portlinkwrap {
+  flex:1;
+  width:95%;
+  height:95%;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.thelcock {
+  font-size:0.06em;
+  line-height: 1em;
+  text-align: center;
+  text-justify: inter-word;
+  color:white;
+}
+
+.linkbox1 {
+  flex:1;
+  width:60px;
+  height:60px;
+  background-image: url("./github.png");
+  background-size: 60px 60px;
+  background-repeat: no-repeat;
+  margin-left:calc(50% - 30px);
+  margin-top:calc(50% - 60px);
+}
+
+.linkbox1:hover{
+  flex:1;
+  width:60px;
+  height:60px;
+  background-image: url("./githubhover.png");
+  background-size: 60px 60px;
+  background-repeat: no-repeat;
+  margin-left:calc(50% - 30px);
+  margin-top:calc(50% - 60px);
+}
+
+.linkbox2 {
+  flex:1;
+  width:60px;
+  height:60px;
+  background-image: url("./linkedin.png");
+  background-size: 60px 60px;
+  background-repeat: no-repeat;
+  margin-left:calc(50% - 30px);
+  margin-top:calc(50% - 60px);
+}
+
+.linkbox2:hover{
+  flex:1;
+  width:60px;
+  height:60px;
+  background-image: url("./linkedinhover.png");
+  background-size: 60px 60px;
+  background-repeat: no-repeat;
+  margin-left:calc(50% - 30px);
+  margin-top:calc(50% - 60px);
+}
+
+.linkbox3 {
+  flex:1;
+  width:60px;
+  height:60px;
+  background-image: url("./instagram.png");
+  background-size: 60px 60px;
+  background-repeat: no-repeat;
+  margin-left:calc(50% - 30px);
+  margin-top:calc(50% - 60px);
+}
+
+.linkbox3:hover{
+  flex:1;
+  width:60px;
+  height:60px;
+  background-image: url("./instagramhover.png");
+  background-size: 60px 60px;
+  background-repeat: no-repeat;
+  margin-left:calc(50% - 30px);
+  margin-top:calc(50% - 60px);
+}
+
+.linkbox4 {
+  flex:1;
+  width:60px;
+  height:60px;
+  background-image: url("./email.png");
+  background-size: 60px 60px;
+  background-repeat: no-repeat;
+  margin-left:calc(50% - 30px);
+  margin-top:calc(50% - 60px);
+}
+
+.linkbox4:hover{
+  flex:1;
+  width:60px;
+  height:60px;
+  background-image: url("./emailhover.png");
+  background-size: 60px 60px;
+  background-repeat: no-repeat;
+  margin-left:calc(50% - 30px);
+  margin-top:calc(50% - 60px);
+}
+
+.resumedescription {
+  text-align: justify;
+  font-size: 0.04em;
+  width:100%;
+  cursor: default;
+}
+
+.resumelink {
+  text-align: center;
+  font-size: 0.08em;
+  width:100%;
+  cursor: pointer;
+
+}
+.thename{
+  font-size: 0.2em;
+  line-height: 1em;
+  text-align: left;
+  cursor: default;
+}
+
+.siteentry {
+  font-size: 0.065em;
+  text-align: center;
+}
+
+.apatitentry {
+  font-size:0.055em;
+}
+
+.aptitcatatitle {
+  font-size:0.12em;
+}
+
+.apatitentrypage {
+  font-size:0.09em;
+  text-align:center;
+}
+
+.aptitcatatitle {
+  font-size: 0.1em;
 }
 
 .siteentry {
