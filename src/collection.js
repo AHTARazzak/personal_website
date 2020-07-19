@@ -40,16 +40,6 @@ componentWillMount() {
     thep15 : <p className="bgweirdtext" style={{lineHeight:(Math.random() * (1)).toFixed(2)+'em', animationName: 'parentwrap', animationDuration: (Math.random() * (15-2)+2).toFixed(2)+'s', animationTimingFunction: 'linear', animationIterationCount: 'infinite', animationDelay: (Math.random() * (7)).toFixed(2)+'s',fontSize: (Math.random() * (8-3)+3).toFixed(3)+'em', opacity: (Math.random() * (0.7-0.3)+0.3).toFixed(3), top:(Math.random() * (105-5)+5)+'%' }}>{this.state.thewords[Math.floor(Math.random() * Math.floor(this.state.thewords.length))]}</p>
 
 });
-
-          if(window.innerHeight <800 ) {
-            require('./Apph700.css');
-         } else if (window.innerHeight <900 ) {
-            require('./Apph800.css');
-          } else if (window.innerHeight <1000 ) {
-            require('./Apph900.css');
-          } else if (window.innerWidth>1900 && window.innerHeight >1000 ) {
-            require('./App.css');
-          }
     }
 
   render() {
