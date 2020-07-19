@@ -1,9 +1,0 @@
-https://boring-cray-8f7cfc.netlify.app/about      https://boring-cray-8f7cfc.netlify.app/              301!
-# Redirect with a 301
-https://boring-cray-8f7cfc.netlify.app/about      https://boring-cray-8f7cfc.netlify.app/              301!
-
-# Redirect with a 302
-https://boring-cray-8f7cfc.netlify.app/about      https://boring-cray-8f7cfc.netlify.app/              302!
-
-# Show a custom 404 for this path
-https://boring-cray-8f7cfc.netlify.app/about      https://boring-cray-8f7cfc.netlify.app/              404!

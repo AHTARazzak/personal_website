@@ -47,7 +47,7 @@ componentWillMount() {
             require('./Apph800.css');
           } else if (window.innerHeight <1000 ) {
             require('./Apph900.css');
-          } else {
+          } else if (window.innerWidth>1900 && window.innerHeight >1000 ) {
             require('./App.css');
           }
     }
