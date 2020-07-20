@@ -175,7 +175,7 @@ p {
 
 .flexbody {
   width:100%;
-  height:100%;
+  height:84vh;
   font-size:300px;
   display:flex;
   position:relative;
@@ -186,7 +186,7 @@ p {
 
 .headline {
   width:100%;
-  height:10%;
+  height:10vh;
 }
 
 .headlineboxwrap {
@@ -853,12 +853,11 @@ p br {
 /* footer details*/
 
 .footer {
-  height:10%;
+  height:5vh;
   width:100%;
 }
 
 .footertext {
- height: 4em;
  overflow: hidden;
  position: relative;
 }
@@ -907,7 +906,6 @@ p br {
 
 .parent {
   max-width: 1920px;
-  height:800px;
   margin-left:calc(50% - 960px);
 }
 
@@ -915,15 +913,15 @@ p br {
   font-size: 0.75em;
   -webkit-text-fill-color: black; /* Will override color (regardless of order) */
   -webkit-text-stroke-width: 3px;
-  transform: translateX(-130%) translateY(94%) scaleY(2.45) scaleX(0.8);
+  transform: translateX(-120%) translateY(96%) scaleY(2.4) scaleX(0.75);
 }
 
 @keyframes rotategetgot {
   0% {
-    transform: rotateX(1200deg) translateX(-130%) translateY(92%);
+    transform: rotateX(1200deg) translateX(-120%) translateY(96%);
   }
   100% {
-    transform: translateX(-130%) translateY(94%) scaleY(2.45) scaleX(0.8);
+    transform: translateX(-120%) translateY(96%) scaleY(2.4) scaleX(0.75);
   }
 }
 
@@ -1004,25 +1002,18 @@ flex-direction: row;
 
 .thelcock {
   font-size:0.12em;
-  line-height: 1em;
 }
 
 .theprojectname{
   font-size:0.2em;
-  line-height:1em;
 }
 
 .theprojectyears{
   font-size:0.1em;
-  line-height:1em;
 }
 
-.footertext {
- height: 4em;
-}
 .footertext p {
- font-size: 4em;
- line-height: 1.1em;
+ font-size: 3.5em;
 }
 
 
@@ -1034,20 +1025,20 @@ flex-direction: row;
 }
 
 .titleitself {
-  width:1.5em;
+  width:1em;
 }
 
 .bigtitletext {
   font-size: 0.78em;
-  transform: translateX(-90%) translateY(90%) scaleY(2.7) scaleX(0.76);
+  transform: translateX(-120%) translateY(100%) scaleY(2) scaleX(0.72);
 }
 
 @keyframes rotategetgot {
   0% {
-    transform: rotateX(1200deg) translateX(-90%) translateY(90%);
+    transform: rotateX(1200deg) translateX(-120%) translateY(100%);
   }
   100% {
-      transform: translateX(-90%) translateY(90%) scaleY(2.7) scaleX(0.76);
+  transform: translateX(-120%) translateY(100%) scaleY(2) scaleX(0.72);
   }
 }
 
@@ -1061,12 +1052,10 @@ flex-direction: row;
 
 .theprojectname{
   font-size:0.18em;
-  line-height:1em;
 }
 
 .theprojectyears{
   font-size:0.09em;
-  line-height:1em;
 }
 
 .porttitle{
@@ -1079,7 +1068,6 @@ flex-direction: row;
 
 .thelcock {
   font-size:0.11em;
-  line-height: 1em;
 }
 
 .linkbox1 {
@@ -1156,7 +1144,6 @@ flex-direction: row;
 
 .thename{
   font-size: 0.4em;
-  line-height: 1em;
 }
 
 }
@@ -1168,20 +1155,20 @@ flex-direction: row;
 }
 
 .titleitself {
-  width:1.5em;
+  width:1em;
 }
 
 .bigtitletext {
   font-size: 0.74em;
-  transform: translateX(-88%) translateY(95%) scaleY(2.8) scaleX(0.79);
+  transform: translateX(-130%) translateY(108%) scaleY(1.95) scaleX(0.76);
 }
 
 @keyframes rotategetgot {
   0% {
-    transform: rotateX(1200deg) translateX(-88%) translateY(95%);
+    transform: rotateX(1200deg) translateX(-130%) translateY(108%);
   }
   100% {
-    transform: translateX(-88%) translateY(95%) scaleY(2.8) scaleX(0.79);
+  transform: translateX(-130%) translateY(108%) scaleY(1.95) scaleX(0.76);
   }
 }
 
@@ -1195,12 +1182,10 @@ flex-direction: row;
 
 .theprojectname{
   font-size:0.16em;
-  line-height:1em;
 }
 
 .theprojectyears{
   font-size:0.09em;
-  line-height:1em;
 }
 
 .porttitle{
@@ -1213,20 +1198,18 @@ flex-direction: row;
 
 .thelcock {
   font-size:0.11em;
-  line-height: 1em;
 }
 
 .resumedescription {
-  font-size: 0.082em;
+  font-size: 0.08em;
 }
 
 .resumelink {
-  font-size: 0.13em;
+  font-size: 0.12em;
 }
 
 .thename{
   font-size: 0.4em;
-  line-height: 1em;
 }
 
 
@@ -1239,25 +1222,25 @@ flex-direction: row;
 }
 
 .titleitself {
-  width:1.2em;
+  width:0.95em;
 }
 
 .bigtitletext {
   font-size: 0.72em;
-  transform: translateX(-120%) translateY(105%) scaleY(2.25) scaleX(0.82);
+  transform: translateX(-140%) translateY(110%) scaleY(1.9) scaleX(0.78);
 }
 
 @keyframes rotategetgot {
   0% {
-    transform: rotateX(1200deg) translateX(-120%) translateY(105%);
+    transform: rotateX(1200deg) translateX(-140%) translateY(110%);
   }
   100% {
-    transform: translateX(-120%) translateY(105%) scaleY(2.25) scaleX(0.82);
+  transform: translateX(-140%) translateY(110%) scaleY(1.9) scaleX(0.78);
   }
 }
 
 .aboutdescription {
-  font-size: 0.1em;
+  font-size: 0.08em;
 }
 
 .aboutdescriptionfinal {
@@ -1266,16 +1249,14 @@ flex-direction: row;
 
 .theprojectname{
   font-size:0.165em;
-  line-height:1em;
 }
 
 .theprojectyears{
   font-size:0.09em;
-  line-height:1em;
 }
 
 .porttitle{
-  font-size: 0.12em;
+  font-size: 0.1em;
 }
 
 .portdesctext {
@@ -1288,16 +1269,14 @@ flex-direction: row;
 
 .thelcock {
   font-size:0.11em;
-  line-height: 1em;
 }
 
 .resumedescription {
-  font-size: 0.08em;
+  font-size: 0.075em;
 }
 
 .thename{
   font-size: 0.4em;
-  line-height: 1em;
 }
 }
 
@@ -1314,20 +1293,20 @@ flex-direction: row;
 
 .bigtitletext {
   font-size: 0.7em;
-  transform: translateX(-162%) translateY(115%) scaleY(1.9) scaleX(0.83);
+  transform: translateX(-150%) translateY(115%) scaleY(1.9) scaleX(0.8);
 }
 
 @keyframes rotategetgot {
   0% {
-    transform: rotateX(1200deg) translateX(-162%) translateY(115%);
+    transform: rotateX(1200deg) translateX(-150%) translateY(115%);
   }
   100% {
-    transform: translateX(-162%) translateY(115%) scaleY(1.9) scaleX(0.83);
+  transform: translateX(-150%) translateY(115%) scaleY(1.9) scaleX(0.8);
   }
 }
 
 .aboutdescription {
-  font-size: 0.1em;
+  font-size: 0.09em;
 }
 
 .aboutdescriptionfinal {
@@ -1336,7 +1315,6 @@ flex-direction: row;
 
 .theprojectname{
   font-size:0.16em;
-  line-height:1em;
 }
 
 .portdesctext {
@@ -1362,7 +1340,7 @@ flex-direction: row;
 }
 
 .resumedescription {
-  font-size: 0.085em;
+  font-size: 0.08em;
 }
 
 .resumelink {
@@ -1372,7 +1350,10 @@ flex-direction: row;
 
 .thename{
   font-size: 0.4em;
-  line-height: 1em;
+}
+
+.headlinetext {
+  font-size:1.7em;
 }
 
 }
@@ -1390,20 +1371,20 @@ flex-direction: row;
 
 .bigtitletext {
   font-size: 0.7em;
-  transform: translateX(-166%) translateY(115%) scaleY(1.8) scaleX(0.82);
+  transform: translateX(-150%) translateY(115%) scaleY(1.8) scaleX(0.8);
 }
 
 @keyframes rotategetgot {
   0% {
-    transform: rotateX(1200deg) translateX(-166%) translateY(115%);
+    transform: rotateX(1200deg) translateX(-150%) translateY(115%);
   }
   100% {
-    transform: translateX(-166%) translateY(115%) scaleY(1.8) scaleX(0.82)
+  transform: translateX(-150%) translateY(115%) scaleY(1.8) scaleX(0.8);
   }
 }
 
 .aboutdescription {
-  font-size: 0.092em;
+  font-size: 0.09em;
 }
 
 .aboutdescriptionfinal {
@@ -1412,12 +1393,10 @@ flex-direction: row;
 
 .theprojectname{
   font-size:0.15em;
-  line-height:1em;
 }
 
 .theprojectyears{
   font-size:0.1em;
-  line-height:1em;
 }
 
 .porttitle{
@@ -1434,7 +1413,6 @@ flex-direction: row;
 
 .thelcock {
   font-size:0.095em;
-  line-height: 1em;
 }
 
 .resumedescription {
@@ -1447,7 +1425,6 @@ flex-direction: row;
 
 .thename{
   font-size: 0.4em;
-  line-height: 1em;
 }
 
 .siteentry {
@@ -1469,15 +1446,15 @@ flex-direction: row;
 
 .bigtitletext {
   font-size: 0.7em;
-  transform: translateX(-183%) translateY(117%) scaleY(1.65) scaleX(0.84);
+  transform: translateX(-160%) translateY(117%) scaleY(1.65) scaleX(0.8);
 }
 
 @keyframes rotategetgot {
   0% {
-    transform: rotateX(1200deg) translateX(-183%) translateY(117%);
+    transform: rotateX(1200deg) translateX(-160%) translateY(117%);
   }
   100% {
-    transform: translateX(-183%) translateY(117%) scaleY(1.65) scaleX(0.84);
+  transform: translateX(-160%) translateY(117%) scaleY(1.65) scaleX(0.8);
   }
 }
 
@@ -1491,12 +1468,10 @@ flex-direction: row;
 
 .theprojectname{
   font-size:0.14em;
-  line-height:1em;
 }
 
 .theprojectyears{
   font-size:0.1em;
-  line-height:1em;
 }
 
 .porttitle{
@@ -1517,7 +1492,6 @@ flex-direction: row;
 
 .thelcock {
   font-size:0.09em;
-  line-height: 1em;
 }
 
 .resumedescription {
@@ -1529,7 +1503,10 @@ flex-direction: row;
 }
 .thename{
   font-size: 0.4em;
-  line-height: 1em;
+}
+
+.apatitentry {
+  font-size:0.12em;
 }
 
 .siteentry {
@@ -1551,15 +1528,15 @@ flex-direction: row;
 
 .bigtitletext {
   font-size: 0.65em;
-  transform: translateX(-185%) translateY(126%) scaleY(1.75) scaleX(0.9);
+  transform: translateX(-160%) translateY(126%) scaleY(1.75) scaleX(0.85);
 }
 
 @keyframes rotategetgot {
   0% {
-    transform: rotateX(1200deg) translateX(-185%) translateY(126%);
+    transform: rotateX(1200deg) translateX(-160%) translateY(126%);
   }
   100% {
-    transform: translateX(-185%) translateY(126%) scaleY(1.75) scaleX(0.9);
+  transform: translateX(-160%) translateY(126%) scaleY(1.75) scaleX(0.85);
   }
 }
 
@@ -1573,12 +1550,10 @@ flex-direction: row;
 
 .theprojectname{
   font-size:0.125em;
-  line-height:1em;
 }
 
 .theprojectyears{
   font-size:0.1em;
-  line-height:1em;
 }
 
 .porttitle{
@@ -1599,11 +1574,10 @@ flex-direction: row;
 
 .thelcock {
   font-size:0.085em;
-  line-height: 1em;
 }
 
 .resumedescription {
-  font-size: 0.07em;
+  font-size: 0.065em;
 }
 
 .resumelink {
@@ -1612,7 +1586,6 @@ flex-direction: row;
 
 .thename{
   font-size: 0.35em;
-  line-height: 1em;
 }
 
 .siteentry {
@@ -1646,15 +1619,15 @@ flex-direction: row;
 
 .bigtitletext {
   font-size: 0.65em;
-  transform: translateX(-180%) translateY(125%) scaleY(1.8) scaleX(0.9);
+  transform: translateX(-160%) translateY(125%) scaleY(1.8) scaleX(0.85);
 }
 
 @keyframes rotategetgot {
   0% {
-    transform: rotateX(1200deg) translateX(-180%) translateY(125%);
+    transform: rotateX(1200deg) translateX(-160%) translateY(125%);
   }
   100% {
-    transform: translateX(-180%) translateY(125%) scaleY(1.8) scaleX(0.9);
+   transform: translateX(-160%) translateY(125%) scaleY(1.8) scaleX(0.85);
   }
 }
 
@@ -1720,7 +1693,7 @@ flex-direction: row;
 }
 
 .apatitentry {
-  font-size:0.11em;
+  font-size:0.1em;
 }
 
 .apatitentrypage {
@@ -1766,7 +1739,7 @@ flex-direction: row;
 }
 
 .aboutdescription {
-  font-size: 0.075em;
+  font-size: 0.07em;
 }
 
 .aboutdescriptionfinal {
@@ -2571,7 +2544,6 @@ flex-direction: row;
 
 .parent {
   max-width: 1920px;
-  height:700px;
   margin-left:calc(50% - 960px);
 }
 
@@ -2679,21 +2651,18 @@ flex-direction: row;}
 
 .thelcock {
   font-size:0.12em;
-  line-height: 1em;
 }
 
 .theprojectname{
   font-size:0.2em;
-  line-height:1em;
 }
 
 .theprojectyears{
   font-size:0.1em;
-  line-height:1em;
 }
 
 .footertext p {
- font-size: 2.5em;
+ font-size: 3em;
 }
 
 @media screen and (max-width: 1900px) {
@@ -3448,10 +3417,6 @@ flex-direction: row;}
   margin-left:calc(50% - 550px);
 }
 
-.flexbody {
-  display: flex;
-}
-
 .leftbox{
   display:none;
 }
@@ -4199,8 +4164,6 @@ flex-direction: row;}
   font-size:0.06em;
 }
 
-
-
 }
 
 @media screen and (max-width: 400px) {
@@ -4292,37 +4255,29 @@ flex-direction: row;}
 
 .parent {
   max-width: 1920px;
-  height:600px;
   margin-left:calc(50% - 960px);
 }
 
-.flexbody {
-  width:100%;
-  height:100%;
-  display:flex;
-  position:relative;
-}
-
-.headlinetext{
-  font-size:1.8em;
+.titleitself {
+  width:0.9em;
 }
 
 .bigtitletext {
   font-size: 0.7em;
-  transform: translateX(-40%) translateY(105%) scaleY(2.55) scaleX(0.6);
+  transform: translateX(-10%) translateY(105%) scaleY(2.55) scaleX(0.56);
 }
 
 @keyframes rotategetgot {
   0% {
-    transform: rotateX(1200deg) translateX(-40%) translateY(105%);
+    transform: rotateX(1200deg) translateX(-10%) translateY(105%);
   }
   100% {
-  transform: translateX(-40%) translateY(105%) scaleY(2.55) scaleX(0.6);
+  transform: translateX(-10%) translateY(105%) scaleY(2.55) scaleX(0.56);
   }
 }
 
 .thename{
-  font-size: 0.3em;
+  font-size: 0.25em;
 }
 
 .porttitle{
@@ -4469,17 +4424,14 @@ flex-direction: row;}
 
 .thelcock {
   font-size:0.12em;
-  line-height: 1em;
 }
 
 .theprojectname{
   font-size:0.2em;
-  line-height:1em;
 }
 
 .theprojectyears{
   font-size:0.1em;
-  line-height:1em;
 }
 
 .footertext {
@@ -4495,21 +4447,21 @@ flex-direction: row;}
   margin-left:calc(50% - 950px);
 }
 
-.titleitself {
-  width:1.5em;
+.headlinetext{
+  font-size:1.8em;
 }
 
 .bigtitletext {
   font-size: 0.7em;
-  transform: translateX(-20%) translateY(100%) scaleY(3.1) scaleX(0.58);
+  transform: translateX(-20%) translateY(115%) scaleY(2.1) scaleX(0.58);
 }
 
 @keyframes rotategetgot {
   0% {
-    transform: rotateX(1200deg) translateX(-20%) translateY(100%);
+    transform: rotateX(1200deg) translateX(-20%) translateY(115%);
   }
   100% {
-  transform: translateX(-20%) translateY(100%) scaleY(3.1) scaleX(0.58);
+  transform: translateX(-20%) translateY(115%) scaleY(2.1) scaleX(0.58);
   }
 }
 
@@ -4547,7 +4499,6 @@ flex-direction: row;}
 
 .thelcock {
   font-size:0.11em;
-  line-height: 1em;
 }
 
 .resumedescription {
@@ -4571,21 +4522,85 @@ flex-direction: row;}
 }
 
 .titleitself {
-  width:1.5em;
+  width:1em;
 }
 
 .bigtitletext {
   font-size: 0.65em;
-  transform: translateX(-20%) translateY(110%) scaleY(3.1) scaleX(0.6);
+  transform: translateX(-40%) translateY(123%) scaleY(2.2) scaleX(0.62);
 }
 
 @keyframes rotategetgot {
   0% {
-    transform: rotateX(1200deg) translateX(-20%) translateY(110%);
+    transform: rotateX(1200deg) translateX(-40%) translateY(123%);
   }
   100% {
-  transform: translateX(-20%) translateY(110%) scaleY(3.1) scaleX(0.6);
+  transform: translateX(-40%) translateY(123%) scaleY(2.2) scaleX(0.62);
   }
+}
+
+.linkbox1 {
+  width:80px;
+  height:80px;
+  background-size: 80px 80px;
+  margin-left:calc(50% - 40px);
+  margin-top:calc(50% - 80px);
+}
+
+.linkbox1:hover{
+  width:80px;
+  height:80px;
+  background-size: 80px 80px;
+  margin-left:calc(50% - 40px);
+  margin-top:calc(50% - 80px);
+}
+
+.linkbox2 {
+  width:80px;
+  height:80px;
+  background-size: 80px 80px;
+  margin-left:calc(50% - 40px);
+  margin-top:calc(50% - 80px);
+}
+
+.linkbox2:hover{
+  width:80px;
+  height:80px;
+  background-size: 80px 80px;
+  margin-left:calc(50% - 40px);
+  margin-top:calc(50% - 80px);
+}
+
+.linkbox3 {
+  width:80px;
+  height:80px;
+  background-size: 80px 80px;
+  margin-left:calc(50% - 40px);
+  margin-top:calc(50% - 80px);
+}
+
+.linkbox3:hover{
+  width:80px;
+  height:80px;
+  background-size: 80px 80px;
+  margin-left:calc(50% - 40px);
+  margin-top:calc(50% - 80px);
+}
+
+.linkbox4 {
+  width:80px;
+  height:80px;
+  background-size: 80px 80px;
+  margin-left:calc(50% - 40px);
+  margin-top:calc(50% - 80px);
+}
+
+.linkbox4:hover{
+  width:80px;
+  height:80px;
+  background-size: 80px 80px;
+  margin-left:calc(50% - 40px);
+  margin-top:calc(50% - 80px);
 }
 
 .aboutdescription {
@@ -4620,11 +4635,6 @@ flex-direction: row;}
 
 .thelcock {
   font-size:0.11em;
-  line-height: 1em;
-}
-
-.detlinksbox {
-  flex:2;
 }
 
 .resumedescription {
@@ -4636,12 +4646,11 @@ flex-direction: row;}
 }
 
 .thename{
-  font-size: 0.3em;
-  line-height: 1em;
+  font-size: 0.25em;
 }
 
 .siteentry {
-  font-size: 0.07em;
+  font-size: 0.065em;
 }
 
 
@@ -4782,8 +4791,7 @@ flex-direction: row;}
 }
 
 .thename{
-  font-size: 0.3em;
-  line-height: 1em;
+  font-size: 0.25em;
 }
 }
 
@@ -4824,7 +4832,7 @@ flex-direction: row;}
 }
 
 .portdesctext {
-  font-size:0.08em;
+  font-size:0.065em;
 }
 
 .portdesctitle {
@@ -4853,7 +4861,7 @@ flex-direction: row;}
 }
 
 .thename{
-  font-size: 0.35em;
+  font-size: 0.25em;
 }
 }
 
@@ -4878,7 +4886,7 @@ flex-direction: row;}
 }
 
 .aboutdescription {
-  font-size: 0.07em;
+  font-size: 0.065em;
 }
 
 .aboutdescriptionfinal {
@@ -4923,16 +4931,12 @@ flex-direction: row;}
   font-size: 0.11em;
 }
 
-.thename{
-  font-size: 0.3em;
-}
-
 .siteentry {
-  font-size: 0.07em;
+  font-size: 0.06em;
 }
 
 .apatitentry {
-  font-size:0.09em;
+  font-size:0.08em;
 }
 
 }
@@ -4991,21 +4995,18 @@ flex-direction: row;}
 
 .thelcock {
   font-size:0.09em;
-  line-height: 1em;
 }
 
 .resumedescription {
-  font-size: 0.06em;
+  font-size: 0.055em;
 }
 
 .resumelink {
-  font-size: 0.09em;
-  width:100%;
+  font-size: 0.08em;
 }
 
 .thename{
   font-size: 0.3em;
-  line-height: 1em;
 }
 
 .siteentry {
@@ -5078,15 +5079,11 @@ flex-direction: row;}
 }
 
 .resumedescription {
-  font-size: 0.055em;
+  font-size: 0.05em;
 }
 
 .resumelink {
-  font-size: 0.075em;
-}
-
-.thename{
-  font-size: 0.35em;
+  font-size: 0.065em;
 }
 
 .siteentry {
@@ -5135,7 +5132,7 @@ flex-direction: row;}
 }
 
 .aboutdescriptionfinal {
-  font-size: 0.06em;
+  font-size: 0.05em;
 }
 
 .theprojectname{
@@ -5151,7 +5148,7 @@ flex-direction: row;}
 }
 
 .porttitle{
-  font-size: 0.07em;
+  font-size: 0.06em;
   line-height: 0.08em
 }
 
@@ -5179,35 +5176,28 @@ flex-direction: row;}
   font-size: 0.08em;
 }
 
-.thename{
-  font-size: 0.32em;
-}
-
 .siteentry {
-  font-size: 0.065em;
+  font-size: 0.05em;
 }
 
 .apatitentry {
-  font-size:0.08em;
+  font-size:0.07em;
 }
 
 .apatitentrypage {
-  font-size:0.09em;
+  font-size:0.07em;
 }
 
 .linktext {
   font-size:0.13em;
 }
+
 }
 
 @media screen and (max-width: 1100px) {
 .parent {
   max-width: 1100px;
   margin-left:calc(50% - 550px);
-}
-
-.flexbody {
-  display: flex;
 }
 
 .leftbox{
@@ -5238,7 +5228,7 @@ flex-direction: row;}
 }
 
 .aboutdescription {
-  font-size: 0.055em;
+  font-size: 0.045em;
 }
 
 .aboutdescriptionfinal {
@@ -5254,7 +5244,7 @@ flex-direction: row;}
 }
 
 .porttitle{
-  font-size: 0.08em;
+  font-size: 0.06em;
 }
 
 .portdate{
@@ -5262,7 +5252,7 @@ flex-direction: row;}
 }
 
 .portdesctitle {
-  font-size:0.1em;
+  font-size:0.08em;
 }
 
 .portdesctext {
@@ -5274,19 +5264,15 @@ flex-direction: row;}
 }
 
 .resumedescription {
-  font-size: 0.055em;
+  font-size: 0.05em;
 }
 
 .resumelink {
-  font-size: 0.1em;
-}
-
-.thename{
-  font-size: 0.3em;
+  font-size: 0.08em;
 }
 
 .siteentry {
-  font-size: 0.065em;
+  font-size: 0.06em;
 }
 
 .apatitentry {
@@ -5309,7 +5295,7 @@ flex-direction: row;}
 }
 
 .aboutdescription {
-  font-size: 0.05em;
+  font-size: 0.04em;
 }
 
 .aboutdescriptionfinal {
@@ -5337,7 +5323,7 @@ flex-direction: row;}
 }
 
 .portdesctext {
-  font-size:0.06em;
+  font-size:0.05em;
 }
 
 .thelcock {
@@ -5345,19 +5331,16 @@ flex-direction: row;}
 }
 
 .resumedescription {
-  font-size: 0.05em;
+  font-size: 0.045em;
 }
 
 .resumelink {
-  font-size: 0.09em;
+  font-size: 0.07em;
 
-}
-.thename{
-  font-size: 0.3em;
 }
 
 .siteentry {
-  font-size: 0.065em;
+  font-size: 0.055em;
 }
 
 .apatitentry {
@@ -5370,10 +5353,6 @@ flex-direction: row;}
 
 .apatitentrypage {
   font-size:0.1em;
-}
-
-.siteentry {
-  font-size:0.06em;
 }
 
 .headlinetext{
@@ -5399,6 +5378,10 @@ flex-direction: row;}
   font-size: 0.05em;
 }
 
+p br {
+  line-height:30px;
+}
+
 .theprojectname{
   font-size:0.12em;
   line-height:1em;
@@ -5410,7 +5393,7 @@ flex-direction: row;}
 }
 
 .porttitle{
-  font-size: 0.08em;
+  font-size: 0.06em;
 }
 
 .portdate{
@@ -5418,7 +5401,7 @@ flex-direction: row;}
 }
 
 .portdesctitle {
-  font-size:0.07em;
+  font-size:0.06em;
 }
 
 .portdesctext {
@@ -5430,31 +5413,23 @@ flex-direction: row;}
 }
 
 .resumedescription {
-  font-size: 0.047em;
+  font-size: 0.04em;
 }
 
 .resumelink {
   font-size: 0.075em;
 }
 
-.thename{
-  font-size: 0.3em;
-}
-
-.siteentry {
-  font-size: 0.065em;
-}
-
 .apatitentry {
-  font-size:0.08em;
+  font-size:0.06em;
 }
 
 .aptitcatatitle {
-  font-size:0.1em;
+  font-size:0.09em;
 }
 
 .apatitentrypage {
-  font-size:0.1em;
+  font-size:0.08em;
 }
 
 .siteentry {
@@ -5509,15 +5484,15 @@ flex-direction: row;}
 }
 
 .resumedescription {
-  font-size: 0.045em;
+  font-size: 0.04em;
 }
 
 .resumelink {
-  font-size: 0.06em;
-
+  font-size: 0.05em;
 }
-.thename{
-  font-size: 0.25em;
+
+.thename {
+  font-size:0.2em;
 }
 
 .siteentry {
@@ -5650,11 +5625,11 @@ flex-direction: row;}
 }
 
 .resumedescription {
-  font-size: 0.04em;
+  font-size: 0.035em;
 }
 
 .resumelink {
-  font-size: 0.07em;
+  font-size: 0.05em;
 }
 
 .thename{
@@ -5666,7 +5641,7 @@ flex-direction: row;}
 }
 
 .apatitentry {
-  font-size:0.07em;
+  font-size:0.06em;
 }
 
 .aptitcatatitle {
@@ -5687,7 +5662,10 @@ flex-direction: row;}
   max-width: 600px;
   margin-left:calc(50% - 300px);
 }
-
+.footertext {
+  font-size:0.6em;
+  width:300%;
+}
 .headlinetext{
   font-size:1em;
 }
@@ -6011,10 +5989,6 @@ flex-direction: row;}
   max-width: 1100px;
   height:500px;
   margin-left:calc(50% - 350px);
-}
-
-.flexbody {
-  display: flex;
 }
 
 .leftbox{
