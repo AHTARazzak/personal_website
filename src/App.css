@@ -378,7 +378,6 @@ display:flex;
 
 .portdate{
   font-size: 0.08em;
-  bottom:0px;
   color : #90006A;
 }
 
@@ -2616,7 +2615,6 @@ flex-direction: row;
 
 .portdate{
   font-size: 0.08em;
-  bottom:0px;
 }
 
 .portdesctitle {
@@ -3672,7 +3670,6 @@ flex-direction: row;}
 
 .portdate{
   font-size: 0.04em;
-  bottom:0px;
 }
 
 .portdesctitle {
@@ -4292,6 +4289,7 @@ flex-direction: row;}
 }
 
 @media screen and (max-height: 800px) {
+
 .parent {
   max-width: 1920px;
   height:600px;
@@ -4309,34 +4307,26 @@ flex-direction: row;}
   font-size:1.8em;
 }
 
-.titleitselfwrap {
-}
-
-.titleitself {
-  width:1.1em;
-}
-
 .bigtitletext {
   font-size: 0.7em;
-  transform: translateX(-80%) translateY(105%) scaleY(2.55) scaleX(0.7);
+  transform: translateX(-40%) translateY(105%) scaleY(2.55) scaleX(0.6);
 }
 
 @keyframes rotategetgot {
   0% {
-    transform: rotateX(1200deg) translateX(-80%) translateY(105%);
+    transform: rotateX(1200deg) translateX(-40%) translateY(105%);
   }
   100% {
-  transform: translateX(-80%) translateY(105%) scaleY(2.55) scaleX(0.7);
+  transform: translateX(-40%) translateY(105%) scaleY(2.55) scaleX(0.6);
   }
 }
 
 .thename{
-  font-size: 0.35em;
-  line-height: 1em;
+  font-size: 0.3em;
 }
 
 .porttitle{
-  font-size: 0.11em;
+  font-size: 0.1em;
 }
 
 .portfoliooptdate {
@@ -4352,7 +4342,7 @@ flex-direction: row;}
 }
 
 .portdesctitle {
-  font-size:0.15em;
+  font-size:0.13em;
 }
 
 .portdesctext {
@@ -4360,15 +4350,15 @@ flex-direction: row;}
 }
 
 .apatitentry {
-  font-size:0.1em;
+  font-size:0.09em;
 }
 
 .apatitentrypage {
-  font-size:0.11em;
+  font-size:0.1em;
 }
 
 .aptitcatatitle {
-  font-size:0.15em;
+  font-size:0.13em;
 }
 
 .contecttrial {
@@ -4376,7 +4366,7 @@ flex-direction: row;}
 }
 
 .linktext {
-  font-size:0.15em;
+  font-size:0.13em;
 }
 
 .detlinksbox {
@@ -4447,17 +4437,13 @@ flex-direction: row;}
   margin-top:calc(50% - 80px);
 }
 
-.linkbox4:hover .linkbox4{
-  display:none;
-}
-
 .descriptionone{
   font-size:0.1em;
   line-height: 0.7em;
 }
 
 .siteentry {
-  font-size: 0.08em;
+  font-size: 0.065em;
 }
 
 .aboutdescription {
@@ -4465,7 +4451,7 @@ flex-direction: row;}
 }
 
 .resumedescription {
-  font-size: 0.08em;
+  font-size: 0.07em;
 }
 
 .aboutdescriptionfinal {
@@ -4500,7 +4486,7 @@ flex-direction: row;}
  transform:translateY(-50%);
 }
 .footertext p {
- font-size: 3em;
+ font-size: 4em;
 }
 
 @media screen and (max-width: 1900px) {
@@ -4515,38 +4501,40 @@ flex-direction: row;}
 
 .bigtitletext {
   font-size: 0.7em;
-  transform: translateX(-50%) translateY(100%) scaleY(3.1) scaleX(0.7);
+  transform: translateX(-20%) translateY(100%) scaleY(3.1) scaleX(0.58);
 }
 
 @keyframes rotategetgot {
   0% {
-    transform: rotateX(1200deg) translateX(-50%) translateY(100%);
+    transform: rotateX(1200deg) translateX(-20%) translateY(100%);
   }
   100% {
-  transform: translateX(-50%) translateY(100%) scaleY(3.1) scaleX(0.7);
+  transform: translateX(-20%) translateY(100%) scaleY(3.1) scaleX(0.58);
   }
 }
 
 .aboutdescription {
-  font-size: 0.08em;
+  font-size: 0.07em;
 }
 
 .aboutdescriptionfinal {
-  font-size: 0.09em;
+  font-size: 0.08em;
 }
 
 .theprojectname{
-  font-size:0.18em;
-  line-height:1em;
+  font-size:0.17em;
+}
+
+.linktext {
+  font-size:0.1em;
 }
 
 .theprojectyears{
   font-size:0.09em;
-  line-height:1em;
 }
 
 .porttitle{
-  font-size: 0.12em;
+  font-size: 0.1em;
 }
 
 .portdesctext {
@@ -4563,17 +4551,16 @@ flex-direction: row;}
 }
 
 .resumedescription {
-  font-size: 0.073em;
+  font-size: 0.065em;
 }
 
 .resumelink {
   text-align: center;
-  font-size: 0.13em;
+  font-size: 0.11em;
 }
 
 .thename{
   font-size: 0.3em;
-  line-height: 1em;
 }
 }
 
@@ -4589,24 +4576,24 @@ flex-direction: row;}
 
 .bigtitletext {
   font-size: 0.65em;
-  transform: translateX(-50%) translateY(110%) scaleY(3.1) scaleX(0.75);
+  transform: translateX(-20%) translateY(110%) scaleY(3.1) scaleX(0.6);
 }
 
 @keyframes rotategetgot {
   0% {
-    transform: rotateX(1200deg) translateX(-50%) translateY(110%);
+    transform: rotateX(1200deg) translateX(-20%) translateY(110%);
   }
   100% {
-  transform: translateX(-50%) translateY(110%) scaleY(3.1) scaleX(0.75);
+  transform: translateX(-20%) translateY(110%) scaleY(3.1) scaleX(0.6);
   }
 }
 
 .aboutdescription {
-  font-size: 0.08em;
+  font-size: 0.07em;
 }
 
 .aboutdescriptionfinal {
-  font-size: 0.085em;
+  font-size: 0.08em;
 }
 
 .theprojectname{
@@ -4620,7 +4607,7 @@ flex-direction: row;}
 }
 
 .porttitle{
-  font-size: 0.11em;
+  font-size: 0.1em;
 }
 
 .portdesctext {
@@ -4641,7 +4628,7 @@ flex-direction: row;}
 }
 
 .resumedescription {
-  font-size: 0.07em;
+  font-size: 0.065em;
 }
 
 .resumelink {
@@ -4671,16 +4658,80 @@ flex-direction: row;}
 
 .bigtitletext {
   font-size: 0.65em;
-  transform: translateX(-75%) translateY(118%) scaleY(2.5) scaleX(0.75);
+  transform: translateX(-30%) translateY(118%) scaleY(2.5) scaleX(0.6);
 }
 
 @keyframes rotategetgot {
   0% {
-    transform: rotateX(1200deg) translateX(-75%) translateY(118%);
+    transform: rotateX(1200deg) translateX(-30%) translateY(118%);
   }
   100% {
-  transform: translateX(-75%) translateY(118%) scaleY(2.5) scaleX(0.75);
+  transform: translateX(-30%) translateY(118%) scaleY(2.5) scaleX(0.6);
   }
+}
+
+.linkbox1 {
+  width:60px;
+  height:60px;
+  background-size: 60px 60px;
+  margin-left:calc(50% - 30px);
+  margin-top:calc(50% - 60px);
+}
+
+.linkbox1:hover{
+  width:60px;
+  height:60px;
+  background-size: 60px 60px;
+  margin-left:calc(50% - 30px);
+  margin-top:calc(50% - 60px);
+}
+
+.linkbox2 {
+  width:60px;
+  height:60px;
+  background-size: 60px 60px;
+  margin-left:calc(50% - 30px);
+  margin-top:calc(50% - 60px);
+}
+
+.linkbox2:hover{
+  width:60px;
+  height:60px;
+  background-size: 60px 60px;
+  margin-left:calc(50% - 30px);
+  margin-top:calc(50% - 60px);
+}
+
+.linkbox3 {
+  width:60px;
+  height:60px;
+  background-size: 60px 60px;
+  margin-left:calc(50% - 30px);
+  margin-top:calc(50% - 60px);
+}
+
+.linkbox3:hover{
+  width:60px;
+  height:60px;
+  background-size: 60px 60px;
+  margin-left:calc(50% - 30px);
+  margin-top:calc(50% - 60px);
+}
+
+.linkbox4 {
+  width:60px;
+  height:60px;
+  background-size: 60px 60px;
+  margin-left:calc(50% - 30px);
+  margin-top:calc(50% - 60px);
+}
+
+.linkbox4:hover{
+  width:60px;
+  height:60px;
+  background-size: 60px 60px;
+  margin-left:calc(50% - 30px);
+  margin-top:calc(50% - 60px);
 }
 
 .aboutdescription {
@@ -4748,15 +4799,15 @@ flex-direction: row;}
 
 .bigtitletext {
   font-size: 0.65em;
-  transform: translateX(-105%) translateY(125%) scaleY(1.9) scaleX(0.75);
+  transform: translateX(-55%) translateY(125%) scaleY(1.9) scaleX(0.63);
 }
 
 @keyframes rotategetgot {
   0% {
-    transform: rotateX(1200deg) translateX(-105%) translateY(125%);
+    transform: rotateX(1200deg) translateX(-55%) translateY(125%);
   }
   100% {
-  transform: translateX(-105%) translateY(125%) scaleY(1.9) scaleX(0.75);
+  transform: translateX(-55%) translateY(125%) scaleY(1.9) scaleX(0.63);
   }
 }
 
@@ -4770,7 +4821,6 @@ flex-direction: row;}
 
 .theprojectname{
   font-size:0.15em;
-  line-height:1em;
 }
 
 .portdesctext {
@@ -4794,13 +4844,8 @@ flex-direction: row;}
   font-size: 0.07em;
 }
 
-.thelcock {
-  font-size:0.1em;
-  line-height: 1em;
-}
-
 .resumedescription {
-  font-size: 0.07em;
+  font-size: 0.06em;
 }
 
 .resumelink {
@@ -4809,7 +4854,6 @@ flex-direction: row;}
 
 .thename{
   font-size: 0.35em;
-  line-height: 1em;
 }
 }
 
@@ -4819,26 +4863,22 @@ flex-direction: row;}
   margin-left:calc(50% - 750px);
 }
 
-.titleitself {
-  width:0.95em;
-}
-
 .bigtitletext {
   font-size: 0.7em;
-  transform: translateX(-105%) translateY(117%) scaleY(1.8) scaleX(0.7);
+  transform: translateX(-52%) translateY(117%) scaleY(1.8) scaleX(0.58);
 }
 
 @keyframes rotategetgot {
   0% {
-    transform: rotateX(1200deg) translateX(-105%) translateY(117%);
+    transform: rotateX(1200deg) translateX(-52%) translateY(117%);
   }
   100% {
-  transform: translateX(-105%) translateY(117%) scaleY(1.8) scaleX(0.7);
+  transform: translateX(-52%) translateY(117%) scaleY(1.8) scaleX(0.58);
   }
 }
 
 .aboutdescription {
-  font-size: 0.075em;
+  font-size: 0.07em;
 }
 
 .aboutdescriptionfinal {
@@ -4869,16 +4909,14 @@ flex-direction: row;}
 
 .portdate{
   font-size: 0.06em;
-  bottom:0px;
 }
 
 .thelcock {
   font-size:0.095em;
-  line-height: 1em;
 }
 
 .resumedescription {
-  font-size: 0.065em;
+  font-size: 0.06em;
 }
 
 .resumelink {
@@ -4887,7 +4925,6 @@ flex-direction: row;}
 
 .thename{
   font-size: 0.3em;
-  line-height: 1em;
 }
 
 .siteentry {
@@ -4906,30 +4943,26 @@ flex-direction: row;}
   margin-left:calc(50% - 700px);
 }
 
-.titleitself {
-  width:0.9em;
-}
-
 .bigtitletext {
   font-size: 0.7em;
-  transform: translateX(-110%) translateY(117%) scaleY(1.65) scaleX(0.7);
+  transform: translateX(-53%) translateY(117%) scaleY(1.65) scaleX(0.59);
 }
 
 @keyframes rotategetgot {
   0% {
-    transform: rotateX(1200deg) translateX(-110%) translateY(117%);
+    transform: rotateX(1200deg) translateX(-53%) translateY(117%);
   }
   100% {
-  transform: translateX(-110%) translateY(117%) scaleY(1.65) scaleX(0.7);
+  transform: translateX(-53%) translateY(117%) scaleY(1.65) scaleX(0.59);
   }
 }
 
 .aboutdescription {
-  font-size: 0.07em;
+  font-size: 0.06em;
 }
 
 .aboutdescriptionfinal {
-  font-size: 0.075em;
+  font-size: 0.07em;
 }
 
 .theprojectname{
@@ -4980,7 +5013,7 @@ flex-direction: row;}
 }
 
 .headlinetext {
-  font-size:2em;
+  font-size:1.3em;
 }
 }
 
@@ -4990,21 +5023,17 @@ flex-direction: row;}
   margin-left:calc(50% - 650px);
 }
 
-.titleitself {
-  width:0.9em;
-}
-
 .bigtitletext {
   font-size: 0.65em;
-  transform: translateX(-110%) translateY(126%) scaleY(1.75) scaleX(0.73);
+  transform: translateX(-55%) translateY(126%) scaleY(1.75) scaleX(0.63);
 }
 
 @keyframes rotategetgot {
   0% {
-    transform: rotateX(1200deg) translateX(-110%) translateY(126%);
+    transform: rotateX(1200deg) translateX(-55%) translateY(126%);
   }
   100% {
-  transform: translateX(-110%) translateY(126%) scaleY(1.75) scaleX(0.73);
+  transform: translateX(-55%) translateY(126%) scaleY(1.75) scaleX(0.63);
   }
 }
 
@@ -5071,10 +5100,6 @@ flex-direction: row;}
 .apatitentrypage {
   font-size:0.095em;
 }
-
-.headlinetext{
-  font-size:1.5em;
-}
 }
 
 @media screen and (max-width: 1200px) {
@@ -5093,15 +5118,15 @@ flex-direction: row;}
 
 .bigtitletext {
   font-size: 0.65em;
-  transform: translateX(-115%) translateY(125%) scaleY(1.8) scaleX(0.75);
+  transform: translateX(-60%) translateY(125%) scaleY(1.8) scaleX(0.63);
 }
 
 @keyframes rotategetgot {
   0% {
-    transform: rotateX(1200deg) translateX(-115%) translateY(125%);
+    transform: rotateX(1200deg) translateX(-60%) translateY(125%);
   }
   100% {
-  transform: translateX(-115%) translateY(125%) scaleY(1.8) scaleX(0.75);
+  transform: translateX(-60%) translateY(125%) scaleY(1.8) scaleX(0.63);
   }
 }
 
@@ -5115,12 +5140,10 @@ flex-direction: row;}
 
 .theprojectname{
   font-size:0.11em;
-  line-height:1em;
 }
 
 .theprojectyears{
   font-size:0.08em;
-  line-height:1em;
 }
 
 .portfoliooption {
@@ -5149,7 +5172,7 @@ flex-direction: row;}
 }
 
 .resumedescription {
-  font-size: 0.055em;
+  font-size: 0.05em;
 }
 
 .resumelink {
@@ -5158,7 +5181,6 @@ flex-direction: row;}
 
 .thename{
   font-size: 0.32em;
-  line-height: 1em;
 }
 
 .siteentry {
@@ -5261,7 +5283,6 @@ flex-direction: row;}
 
 .thename{
   font-size: 0.3em;
-  line-height: 1em;
 }
 
 .siteentry {
