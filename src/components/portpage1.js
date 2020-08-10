@@ -1,7 +1,5 @@
 import React, { Component } from "react"
 
-import Makhanik from "./makhanik"
-import Weltformat from "./weltformat"
 import Getgot from "./getgot"
 import Mujrimeen from "./mujrimeen"
 import Screenscrying from "./screenscrying"
@@ -11,16 +9,12 @@ import KstRDynamics from "./kstrdynamics"
 import StreetSymphonies from "./streetsymphonies"
 import CutThwice from "./cutthwice"
 
-export default class Portfoliohere extends Component {
-  constructor(props) {
+export default class Portpage1 extends Component {
+    constructor(props) {
     super(props);
     this.state = {
-      portcomp : <Makhanik />,
-      page1appearance: 'flex',
-      page2appearance: 'none'
+      portcomp : <Getgot />,
     }
-    this.onClickMakhanik = this.onClickMakhanik.bind(this);
-    this.onClickWeltformat = this.onClickWeltformat.bind(this);
     this.onClickGetgot = this.onClickGetgot.bind(this);
     this.onClickMujrimeen = this.onClickMujrimeen.bind(this);
     this.onClickScreenscrying = this.onClickScreenscrying.bind(this);
@@ -29,35 +23,9 @@ export default class Portfoliohere extends Component {
     this.onClickKstRDynamics = this.onClickKstRDynamics.bind(this);
     this.onClickStreetSymphonies = this.onClickStreetSymphonies.bind(this);
     this.onClickCutThwice = this.onClickCutThwice.bind(this);
-    this.onHoverChangeTBportokay = this.onHoverChangeTBportokay.bind(this);
-    this.onHoverLeave = this.onHoverLeave.bind(this);
-    this.onClickpage1click = this.onClickpage1click.bind(this);
-    this.onClickpage2click = this.onClickpage2click.bind(this);
   }
 
-  onHoverChangeTBportokay() {
-        var tb = <div className="headlinebox"><p className="headlinetext">Things I am working on (aside from this site)</p></div>;
-        this.props.onSelectTBdetbox(tb);
-}
-
-onHoverLeave() {
-        var tb = "";
-        this.props.onSelectTBdetbox(tb);
-}
-
-  onClickMakhanik() {
-    this.setState({
-      portcomp:<Makhanik />
-    })
-  }
-
-  onClickWeltformat() {
-    this.setState({
-      portcomp:<Weltformat />
-    })
-  }
-
-  onClickGetgot() {
+    onClickGetgot() {
     this.setState({
       portcomp:<Getgot />
     })
@@ -105,47 +73,10 @@ onHoverLeave() {
     })
   }
 
-  onClickpage1click() {
-  this.setState({
-  page1appearance:"flex",
-  page2appearance:"none"
-});this.onClickMakhanik()
-}
-
-  onClickpage2click() {
-  this.setState({
-  page1appearance:"none",
-  page2appearance:"flex"
-});this.onClickKstRDynamics()
-}
-
   render() {
   return (
-      <div className="changecontentbox">
-        <div className="detheaderbox">
-          <div className="namebox">
-            <p className="thename" >Projects</p>
-          </div>
-        </div>
-        <div className="detcontextbox"  onMouseEnter={this.onHoverChangeTBportokay} onMouseLeave={this.onHoverLeave}>
           <div className="portfoliodetwrap">
-            <div className="portfoliolistwrap" style={{display:this.state.page1appearance}}>
-              <div className="portfoliooption" onClick={this.onClickMakhanik}>
-              <div className="portfolioopttitle">
-                  <p className="porttitle">Makanik Khalid</p>
-                </div>
-                <div className="portfoliooptdate">
-                  <p className="portdate">08/2020 - ongoing</p>
-                </div>
-              </div>
-              <div className="portfoliooption" onClick={this.onClickWeltformat}>
-              <div className="portfolioopttitle">
-                  <p className="porttitle">Weltformat</p>
-                </div>
-                <div className="portfoliooptdate">
-                  <p className="portdate">07/2020 - 08/2020</p>
-                </div>
-              </div>
+            <div className="portfoliolistwrap">
               <div className="portfoliooption" onClick={this.onClickGetgot}>
                 <div className="portfolioopttitle">
                   <p className="porttitle">GetGot</p>
@@ -186,13 +117,6 @@ onHoverLeave() {
                   <p className="portdate">03/2018 - ongoing</p>
                 </div>
               </div>
-              <div className="portfoliooption">
-                <div className="pagesarea">
-                  <p className="pagetext"><span>1</span><span onClick={this.onClickpage2click}>2</span></p>
-                </div>
-              </div>
-            </div>
-            <div className="portfoliolistwrap" style={{display:this.state.page2appearance }}>
               <div className="portfoliooption" onClick={this.onClickKstRDynamics}>
                 <div className="portfolioopttitle">
                   <p className="porttitle">KstR Dynamics</p>
@@ -209,33 +133,11 @@ onHoverLeave() {
                   <p className="portdate">06/2015 - ongoing</p>
                 </div>
               </div>
-              <div className="portfoliooption" onClick={this.onClickCutThwice}>
-                <div className="portfolioopttitle">
-                  <p className="porttitle">Cut Thwice</p>
-                </div>
-                <div className="portfoliooptdate">
-                  <p className="portdate">02/2014 - 10/2019</p>
-                </div>
-              </div>
               <div className="portfoliooption">
-              </div>
-              <div className="portfoliooption">
-              </div>
-              <div className="portfoliooption">
-              </div>
-              <div className="portfoliooption">
-              </div>
-              <div className="portfoliooption">
-                <div className="pagesarea">
-                  <p className="pagetext"><span onClick={this.onClickpage1click}>1</span><span>2</span></p>
-                </div>
               </div>
             </div>
+            {this.state.portcomp}
           </div>
-          {this.state.portcomp}
-        </div>
-      </div>
-  )
+)
 }
 }
-

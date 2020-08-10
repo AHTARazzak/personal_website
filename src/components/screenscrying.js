@@ -7,7 +7,7 @@ export default class Screenscrying extends Component {
         <div className="portdescwrap">
           <div className="portdesc">
             <p className="portdesctitle">Screen Scrying</p>
-            <p className="portdesctext">This project examined how using data driven techniques to address catastrophies can recapitulate hysteria instead of resolving it. To communicate this I utilised data mining, sentiment analysis, and bioinformatics.</p>
+            <p className="portdesctext">Award winning entry to 45symbols competition for their seventh issue. Project entailed utilising data-ming and bioinformatics to eschew pandemic health science.</p>
           </div>
         </div>
         <div className="portlinkwrap">

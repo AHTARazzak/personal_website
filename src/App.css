@@ -320,10 +320,10 @@ display:flex;
 .detcontextbox {
   flex:8;
   display: flex;
-  align-items: center;
-  justify-content: center;
   flex-direction: row;
   z-index:100000000000;
+  align-items: center;
+  justify-content: center;
 }
 
 .detlinksbox {
@@ -334,14 +334,14 @@ display:flex;
 }
 
 .portfoliodetwrap {
-  width:95%;
-  height:95%;
   display:flex;
-  flex-direction: row;
+  flex-direction: column;
+  height:100%;
 }
 
 .portfoliolistwrap {
-  flex:4;
+  width:100%;
+  height:100%;
   display:flex;
   flex-direction: column;
 }
@@ -382,12 +382,11 @@ display:flex;
 }
 
 .portfoliosmalldetwrap {
-  flex:4;
+  width:50%;
   flex-direction: column;
   display:flex;
   align-items: center;
   justify-content: center;
-  width:100%;
   height:100%;
 }
 
@@ -423,6 +422,39 @@ display:flex;
   display:flex;
   align-items: center;
   justify-content: center;
+}
+
+.pagecover {
+  flex:1;
+}
+
+.pagesarea{
+  width:100%;
+}
+
+.pagetext {
+  font-size: 0.14em;
+  color : #90006A;
+  font-weight:bold;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.pagetext span{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  flex:1;
+  cursor: pointer;
+}
+
+.pagetext span:hover{
+  text-shadow: 10 10 2px white;
+  font-color: white;
+    -webkit-text-fill-color: white; /* Will override color (regardless of order) */
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #90006A;
 }
 
 .aptitbox {
@@ -4303,6 +4335,10 @@ flex-direction: row;}
 .portdesctext {
   font-size:0.08em;
 }
+
+.pagetext {
+  font-size: 0.08em;
+  }
 
 .apatitentry {
   font-size:0.09em;

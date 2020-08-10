@@ -44,7 +44,7 @@ componentWillMount() {
   render() {
 
 const meta = {
-      title: "A's space",
+      title: "AHTAR",
       description: 'Where Ali Razzak demonstrates what he spends his time doing as a artist and bioinformatician in hopes of impressing you.',
       canonical: 'https://alirazzak.info',
       meta: {
