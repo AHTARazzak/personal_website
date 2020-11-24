@@ -11,7 +11,7 @@ export default class Screenscrying extends Component {
           </div>
         </div>
         <div className="portlinkwrap">
-          <a href = 'http://www.45symbols.com/symbols/portfolio/screen-scrying-ali-razzak/' target = "_blank" rel="noopener noreferrer"><p className="linktext">PDF</p></a>
+          <a href = 'http://www.45symbols.com/symbols/portfolio/screen-scrying-ali-razzak/' target = "_blank" rel="noopener noreferrer"><p className="linktext">Site</p></a>
         </div>
       </div>
   )
