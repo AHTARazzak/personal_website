@@ -16,11 +16,11 @@ export default class Portfoliohere extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      portcomp : <Makhanik />,
+      portcomp : <AbTaniwha />,
       page1appearance: 'flex',
       page2appearance: 'none'
     }
-    this.onClickMakhanik = this.onClickAbTaniwha.bind(this);
+    this.onClickAbTaniwha = this.onClickAbTaniwha.bind(this);
     this.onClickMakhanik = this.onClickMakhanik.bind(this);
     this.onClickWeltformat = this.onClickWeltformat.bind(this);
     this.onClickGetgot = this.onClickGetgot.bind(this);
