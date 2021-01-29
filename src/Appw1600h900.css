@@ -335,8 +335,8 @@ display:flex;
   cursor: pointer;
 }
 
-.contecttrial > a{
-  font-size: 0.1em;
+.contecttrial {
+  font-size: 0.3em;
 }
 
 .linktext {
