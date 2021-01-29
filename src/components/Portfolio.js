@@ -225,7 +225,7 @@ onHoverLeave() {
                   <p className="portdate">06/2015 - 07/2019</p>
                 </div>
               </div>
-              <div className="portfoliooption">
+              <div className="portfoliooption" onClick={this.onClickCutThwice}>
                 <div className="portfolioopttitle">
                   <p className="porttitle">Cut Thwice</p>
                 </div>

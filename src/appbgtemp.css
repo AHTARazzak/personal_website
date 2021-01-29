@@ -309,7 +309,7 @@ display:flex;
   cursor: pointer;
 }
 
-.contecttrial {
+.contecttrial > a{
   font-size: 0.1em;
 }
 

@@ -464,7 +464,7 @@ display:flex;
   color: white;
 }
 
-.contecttrial {
+.contecttrial > a{
   font-size: 0.1em;
 
 }
