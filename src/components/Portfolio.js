@@ -1,5 +1,6 @@
 import React, { Component } from "react"
 
+import AbTaniwha from "./abtaniwha"
 import Makhanik from "./makhanik"
 import Weltformat from "./weltformat"
 import Getgot from "./getgot"
@@ -19,6 +20,7 @@ export default class Portfoliohere extends Component {
       page1appearance: 'flex',
       page2appearance: 'none'
     }
+    this.onClickMakhanik = this.onClickAbTaniwha.bind(this);
     this.onClickMakhanik = this.onClickMakhanik.bind(this);
     this.onClickWeltformat = this.onClickWeltformat.bind(this);
     this.onClickGetgot = this.onClickGetgot.bind(this);
@@ -44,6 +46,12 @@ onHoverLeave() {
         var tb = "";
         this.props.onSelectTBdetbox(tb);
 }
+
+  onClickAbTaniwha() {
+    this.setState({
+      portcomp:<AbTaniwha />
+    })
+  }
 
   onClickMakhanik() {
     this.setState({
@@ -130,6 +138,14 @@ onHoverLeave() {
         <div className="detcontextbox"  onMouseEnter={this.onHoverChangeTBportokay} onMouseLeave={this.onHoverLeave}>
           <div className="portfoliodetwrap">
             <div className="portfoliolistwrap" style={{display:this.state.page1appearance}}>
+              <div className="portfoliooption" onClick={this.onClickAbTaniwha}>
+              <div className="portfolioopttitle">
+                  <p className="porttitle">AbTaniwha</p>
+                </div>
+                <div className="portfoliooptdate">
+                  <p className="portdate">01/2021 - 02/2021</p>
+                </div>
+              </div>
               <div className="portfoliooption" onClick={this.onClickMakhanik}>
               <div className="portfolioopttitle">
                   <p className="porttitle">Makanik Khalid</p>
@@ -139,7 +155,7 @@ onHoverLeave() {
                 </div>
               </div>
               <div className="portfoliooption" onClick={this.onClickWeltformat}>
-              <div className="portfolioopttitle">
+                <div className="portfolioopttitle">
                   <p className="porttitle">Weltformat</p>
                 </div>
                 <div className="portfoliooptdate">
@@ -175,15 +191,7 @@ onHoverLeave() {
                   <p className="porttitle">Allostery Map</p>
                 </div>
                 <div className="portfoliooptdate">
-                  <p className="portdate">6/2019 - 06/2020</p>
-                </div>
-              </div>
-              <div className="portfoliooption" onClick={this.onClickSelfHarm}>
-                <div className="portfolioopttitle">
-                  <p className="porttitle">Self Harm</p>
-                </div>
-                <div className="portfoliooptdate">
-                  <p className="portdate">03/2018 - ongoing</p>
+                  <p className="portdate">06/2019 - 06/2020</p>
                 </div>
               </div>
               <div className="portfoliooption">
@@ -193,6 +201,14 @@ onHoverLeave() {
               </div>
             </div>
             <div className="portfoliolistwrap" style={{display:this.state.page2appearance }}>
+              <div className="portfoliooption" onClick={this.onClickSelfHarm}>
+                <div className="portfolioopttitle">
+                  <p className="porttitle">Self Harm</p>
+                </div>
+                <div className="portfoliooptdate">
+                  <p className="portdate">03/2018 - ongoing</p>
+                </div>
+              </div>
               <div className="portfoliooption" onClick={this.onClickKstRDynamics}>
                 <div className="portfolioopttitle">
                   <p className="porttitle">KstR Dynamics</p>
@@ -206,18 +222,16 @@ onHoverLeave() {
                   <p className="porttitle">Street Symph.</p>
                 </div>
                 <div className="portfoliooptdate">
-                  <p className="portdate">06/2015 - ongoing</p>
+                  <p className="portdate">06/2015 - 07/2019</p>
                 </div>
               </div>
-              <div className="portfoliooption" onClick={this.onClickCutThwice}>
+              <div className="portfoliooption">
                 <div className="portfolioopttitle">
                   <p className="porttitle">Cut Thwice</p>
                 </div>
                 <div className="portfoliooptdate">
                   <p className="portdate">02/2014 - 10/2019</p>
-                </div>
-              </div>
-              <div className="portfoliooption">
+                </div>              
               </div>
               <div className="portfoliooption">
               </div>
