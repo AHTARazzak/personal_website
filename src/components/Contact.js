@@ -18,7 +18,7 @@ export default class Contactform extends Component {
           </div>
         </div>
         <div className="detcontextbox">
-          <p className='contecttrial'><a className="detthumbnail" href="mailto:aliarazzak@hotmail.com">ali.aht.razzak@gmail.com</a></p>
+          <p className='contact_trial'><a className="detthumbnail" href="mailto:ali.aht.razzak@gmail.com">ali.aht.razzak@gmail.com</a></p>
         </div>
       </div>
   )
