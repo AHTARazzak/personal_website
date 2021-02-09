@@ -1,6 +1,6 @@
 import React, { Component } from "react"
 
-import AbTaniwha from "./abtaniwha"
+import AbuMoola from "./abumoola"
 import Makhanik from "./makhanik"
 import Weltformat from "./weltformat"
 import Getgot from "./getgot"
@@ -16,11 +16,11 @@ export default class Portfoliohere extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      portcomp : <AbTaniwha />,
+      portcomp : <AbuMoola />,
       page1appearance: 'flex',
       page2appearance: 'none'
     }
-    this.onClickAbTaniwha = this.onClickAbTaniwha.bind(this);
+    this.onClickAbuMoola = this.onClickAbuMoola.bind(this);
     this.onClickMakhanik = this.onClickMakhanik.bind(this);
     this.onClickWeltformat = this.onClickWeltformat.bind(this);
     this.onClickGetgot = this.onClickGetgot.bind(this);
@@ -47,9 +47,9 @@ onHoverLeave() {
         this.props.onSelectTBdetbox(tb);
 }
 
-  onClickAbTaniwha() {
+  onClickAbuMoola() {
     this.setState({
-      portcomp:<AbTaniwha />
+      portcomp:<AbuMoola />
     })
   }
 
@@ -138,9 +138,9 @@ onHoverLeave() {
         <div className="detcontextbox"  onMouseEnter={this.onHoverChangeTBportokay} onMouseLeave={this.onHoverLeave}>
           <div className="portfoliodetwrap">
             <div className="portfoliolistwrap" style={{display:this.state.page1appearance}}>
-              <div className="portfoliooption" onClick={this.onClickAbTaniwha}>
+              <div className="portfoliooption" onClick={this.onClickAbuMoola}>
               <div className="portfolioopttitle">
-                  <p className="porttitle">AbTaniwha</p>
+                  <p className="porttitle">AbuMoola</p>
                 </div>
                 <div className="portfoliooptdate">
                   <p className="portdate">01/2021 - 02/2021</p>
