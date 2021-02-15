@@ -11,17 +11,17 @@ import SelfHarm from "./selfharm"
 import KstRDynamics from "./kstrdynamics"
 import StreetSymphonies from "./streetsymphonies"
 import CutThwice from "./cutthwice"
-import BABABP from "./BABABP"
+import BABAABP from "./babaabp"
 
 export default class Portfoliohere extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      portcomp : <BABABP />,
+      portcomp : <BABAABP />,
       page1appearance: 'flex',
       page2appearance: 'none'
     }
-    this.onClickBABABP = this.onClickBABABP.bind(this);
+    this.onClickBABAABP = this.onClickBABAABP.bind(this);
     this.onClickAbuMoola = this.onClickAbuMoola.bind(this);
     this.onClickMakhanik = this.onClickMakhanik.bind(this);
     this.onClickWeltformat = this.onClickWeltformat.bind(this);
@@ -49,9 +49,9 @@ onHoverLeave() {
         this.props.onSelectTBdetbox(tb);
 }
 
-  onClickBABABP() {
+  onClickBABAABP() {
     this.setState({
-      portcomp:<BABABP />
+      portcomp:<BABAABP />
     })
   }
 
@@ -146,9 +146,9 @@ onHoverLeave() {
         <div className="detcontextbox"  onMouseEnter={this.onHoverChangeTBportokay} onMouseLeave={this.onHoverLeave}>
           <div className="portfoliodetwrap">
             <div className="portfoliolistwrap" style={{display:this.state.page1appearance}}>
-              <div className="portfoliooption" onClick={this.onClickBABABP}>
+              <div className="portfoliooption" onClick={this.onClickBABAABP}>
               <div className="portfolioopttitle">
-                  <p className="porttitle">BABABP</p>
+                  <p className="porttitle">BABAABP</p>
                 </div>
                 <div className="portfoliooptdate">
                   <p className="portdate">02/2021 - 02/2021</p>
