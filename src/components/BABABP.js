@@ -7,7 +7,7 @@ export default class BABABP extends Component {
         <div className="portdescwrap">
           <div className="portdesc">
             <p className="portdesctitle">BABABP</p>
-            <p className="portdesctext">Between a Bird and a Bad Place is a short movie made in collaboration with Lila Bullen-Smith.</p>
+            <p className="portdesctext">"Between a Bird and a Bad Place" is a short movie made in collaboration with Lila Bullen-Smith.</p>
           </div>
         </div>
         <div className="portlinkwrap">

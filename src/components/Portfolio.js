@@ -132,7 +132,7 @@ onHoverLeave() {
   this.setState({
   page1appearance:"none",
   page2appearance:"flex"
-});this.onClickKstRDynamics()
+});this.onClickAllosteryMap()
 }
 
   render() {
