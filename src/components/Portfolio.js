@@ -11,15 +11,17 @@ import SelfHarm from "./selfharm"
 import KstRDynamics from "./kstrdynamics"
 import StreetSymphonies from "./streetsymphonies"
 import CutThwice from "./cutthwice"
+import BABABP from "./BABABP"
 
 export default class Portfoliohere extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      portcomp : <AbuMoola />,
+      portcomp : <BABABP />,
       page1appearance: 'flex',
       page2appearance: 'none'
     }
+    this.onClickBABABP = this.onClickBABABP.bind(this);
     this.onClickAbuMoola = this.onClickAbuMoola.bind(this);
     this.onClickMakhanik = this.onClickMakhanik.bind(this);
     this.onClickWeltformat = this.onClickWeltformat.bind(this);
@@ -46,6 +48,12 @@ onHoverLeave() {
         var tb = "";
         this.props.onSelectTBdetbox(tb);
 }
+
+  onClickBABABP() {
+    this.setState({
+      portcomp:<BABABP />
+    })
+  }
 
   onClickAbuMoola() {
     this.setState({
@@ -138,8 +146,16 @@ onHoverLeave() {
         <div className="detcontextbox"  onMouseEnter={this.onHoverChangeTBportokay} onMouseLeave={this.onHoverLeave}>
           <div className="portfoliodetwrap">
             <div className="portfoliolistwrap" style={{display:this.state.page1appearance}}>
-              <div className="portfoliooption" onClick={this.onClickAbuMoola}>
+              <div className="portfoliooption" onClick={this.onClickBABABP}>
               <div className="portfolioopttitle">
+                  <p className="porttitle">BABABP</p>
+                </div>
+                <div className="portfoliooptdate">
+                  <p className="portdate">02/2021 - 02/2021</p>
+                </div>
+              </div>
+              <div className="portfoliooption" onClick={this.onClickAbuMoola}>
+                <div className="portfolioopttitle">
                   <p className="porttitle">AbuMoola</p>
                 </div>
                 <div className="portfoliooptdate">
@@ -147,7 +163,7 @@ onHoverLeave() {
                 </div>
               </div>
               <div className="portfoliooption" onClick={this.onClickMakhanik}>
-              <div className="portfolioopttitle">
+                <div className="portfolioopttitle">
                   <p className="porttitle">Makanik Khalid</p>
                 </div>
                 <div className="portfoliooptdate">
@@ -186,6 +202,13 @@ onHoverLeave() {
                   <p className="portdate">04/2020 - 05/2020</p>
                 </div>
               </div>
+              <div className="portfoliooption">
+                <div className="pagesarea">
+                  <p className="pagetext"><span>1</span><span onClick={this.onClickpage2click}>2</span></p>
+                </div>
+              </div>
+            </div>
+            <div className="portfoliolistwrap" style={{display:this.state.page2appearance }}>
               <div className="portfoliooption" onClick={this.onClickAllosteryMap}>
                 <div className="portfolioopttitle">
                   <p className="porttitle">Allostery Map</p>
@@ -194,13 +217,6 @@ onHoverLeave() {
                   <p className="portdate">06/2019 - 06/2020</p>
                 </div>
               </div>
-              <div className="portfoliooption">
-                <div className="pagesarea">
-                  <p className="pagetext"><span>1</span><span onClick={this.onClickpage2click}>2</span></p>
-                </div>
-              </div>
-            </div>
-            <div className="portfoliolistwrap" style={{display:this.state.page2appearance }}>
               <div className="portfoliooption" onClick={this.onClickSelfHarm}>
                 <div className="portfolioopttitle">
                   <p className="porttitle">Self Harm</p>
@@ -232,8 +248,6 @@ onHoverLeave() {
                 <div className="portfoliooptdate">
                   <p className="portdate">02/2014 - 10/2019</p>
                 </div>              
-              </div>
-              <div className="portfoliooption">
               </div>
               <div className="portfoliooption">
               </div>
