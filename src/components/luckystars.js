@@ -6,8 +6,8 @@ export default class LuckyStars extends Component {
       <div className="portfoliosmalldetwrap">
         <div className="portdescwrap">
           <div className="portdesc">
-            <p className="portdesctitle">LuckyStars</p>
-            <p className="portdesctext">Submission for Hoch Kant Film Fest 15. 10 second animation, abstract is <a href = "https://www.dropbox.com/s/njjzu79g5eivu46/Hoch_Kant_Film_Fest_15.pdf?dl=0">here</a> and animation "Lucky Stars" is in link below.</p>
+            <p className="portdesctitle">Lucky Stars</p>
+            <p className="portdesctext">Submission for Hoch Kant Film Fest 15 which was selected as 1 of 19 from 77 submissions to be displayed in the city center of Bremen, Germany. 10 second animation made in photoshop hand drawn frame by frame. Abstract <a href = "https://www.dropbox.com/s/l9psaiojcqoskfw/Lucky%20Stars%20%28publish%29.pdf?dl=0">here</a> and animation "Lucky Stars" is in link below.</p>
           </div>
         </div>
         <div className="portlinkwrap">

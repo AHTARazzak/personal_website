@@ -189,7 +189,6 @@ display:flex;
 }
 
 .portfoliodetwrap {
-  border:2px solid purple;
   width:95%;
   height:95%;
   display:flex;
@@ -198,14 +197,12 @@ display:flex;
 
 .portfoliolistwrap {
   flex:4;
-  border:2px solid orange;
   display:flex;
   flex-direction: column;
 }
 
 .portfoliooption {
   flex:2;
-  border:2px solid red;
   display:flex;
   flex-direction: row;
 }

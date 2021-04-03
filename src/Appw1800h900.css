@@ -189,7 +189,6 @@ display:flex;
 }
 
 .portfoliodetwrap {
-  border:2px solid purple;
   width:95%;
   height:95%;
   display:flex;
@@ -198,20 +197,17 @@ display:flex;
 
 .portfoliolistwrap {
   flex:4;
-  border:2px solid orange;
   display:flex;
   flex-direction: column;
 }
 
 .portfoliooption {
   flex:2;
-  border:2px solid red;
   display:flex;
   flex-direction: row;
 }
 
 .portfolioopttitle {
-  border:2px solid red;
   cursor:pointer;
 }
 
@@ -220,7 +216,6 @@ display:flex;
 }
 
 .portfoliooptdate {
-  border:2px solid blue;
   padding-top:4%;
   cursor:pointer;
 }
@@ -242,7 +237,6 @@ display:flex;
 }
 
 .portdescwrap {
-  border:2px solid purple;
   flex:3;
   width:95%;
   height:95%;
@@ -251,7 +245,6 @@ display:flex;
 .portdesc {
   width:100%;
   height:100%;
-  border:2px solid red;
 }
 
 .portdesctitle {

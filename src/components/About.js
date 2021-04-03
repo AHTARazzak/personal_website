@@ -35,7 +35,7 @@ onHoverLeave() {
             <div className="aboutboxwrap">
               <div className="aboutbox" onMouseEnter={this.onHoverChangeTBaboutdet} onMouseLeave={this.onHoverLeave}>
                 <p className="aboutdescription">I'm Ali, a multidisciplinary Structural Bioinformatician. I built this space to concisely shipwreck things forsaken, caught between wheat paste, & whatever else meets the cut.
-                <br/>Born Iraq, grew up New Zealand, bounced around a bunch and am currently residing in the UK. Professional gig-hitter, footage head, web mujrim, & maker on the best & worst days.<br/></p>
+                <br/>Born Iraq, grew up New Zealand, worked three years between Switzerland & the UK. Professional gig-hitter, footage head, web mujrim on the best & worst days.<br/></p>
                 <p className="aboutdescriptionfinal">I get things done & am always logged on. contact me if you're up for it.</p>
                 <p className="aboutdescriptionfinal">Can't disguise mediocrity.
                 <br/><Link style={{ textDecoration: 'none', color : '#90006A', fontWeight: 'bold'}} to="/aptitude" onMouseEnter={this.onHoverChangeTBtick} onMouseLeave={this.onHoverLeave}><span className="betterimpres">A better impression</span></Link></p>

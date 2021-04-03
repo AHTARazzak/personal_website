@@ -33,14 +33,14 @@ onHoverLeave() {
         <div className="detcontextbox">
             <div className="aboutboxwrap">
               <div className="resumebox" onMouseEnter={this.onHoverChangeTBresumedet} onMouseLeave={this.onHoverLeave}>
-              <p className="aboutdescriptionfinal">Currently <b>UNEMPLOYED</b>.</p>
-                <p className="resumedescription">I have worked as a structural bioinformatician for over five years.
+              <p className="aboutdescriptionfinal">Currently <b>APPLYING (otherwise personal projects)</b>.</p>
+                <p className="resumedescription">I have worked as a structural bioinformatician for over six years.
                 My passion lies in employing a myriad of advanced data-driven techniques to meet biomedical and pharmaceutical objectives & enhance the therapeutic landscape for all.
-                This includes developing innovative pipelines that streamline bioinformatic analysis &/or constructing online platforms which host bioinformatic resources.
-                As a computational biologist I thrive in interdisciplinary settings where members collaboratively contribute their expertise towards resolving biomolecular phenomena.
+                This includes developing innovative pipelines that streamline Bioinformatic analysis &/or constructing online Bioinformatic resources.
+                As a Computational Biologist I thrive in interdisciplinary settings where members collaboratively contribute their expertise towards resolving biomolecular phenomena.
                 What has remained true to my practice is my thirst for immersive challenging environments and the subsequent learning experience entailed.
-                I am always on the lookout for opportunities where I can utilise my expertise towards innovative endeavours.</p>
-                 <span className="controlCV"><a href='https://www.dropbox.com/s/26468eodhfnil5d/Ali_Cv_Sci_industry_15032021.pdf?dl=0' style={{ textDecoration: 'none'}} target="_blank" rel="noopener noreferrer"><p className="resumelink" style={{ color : '#90006A', fontWeight: "bold"}}  onMouseEnter={this.onHoverChangeTBCV} onMouseLeave={this.onHoverLeave}>CV (tech)</p></a><p className="resumelinkfill" style={{ color : '#90006A', fontWeight: "bold", fontSize: "0.15em" }}> &nbsp;&nbsp;|&nbsp;&nbsp; </p>
+                I am always on the lookout for opportunities where I can utilise my expertise towards impactful endeavours.</p>
+                 <span className="controlCV"><a href='https://www.dropbox.com/s/g1gz4500sl4vtnb/Ali_Cv_Sci_industry_18032021.pdf?dl=0' style={{ textDecoration: 'none'}} target="_blank" rel="noopener noreferrer"><p className="resumelink" style={{ color : '#90006A', fontWeight: "bold"}}  onMouseEnter={this.onHoverChangeTBCV} onMouseLeave={this.onHoverLeave}>CV (tech)</p></a><p className="resumelinkfill" style={{ color : '#90006A', fontWeight: "bold", fontSize: "0.15em" }}> &nbsp;&nbsp;|&nbsp;&nbsp; </p>
                  <a href='https://www.dropbox.com/s/668ukw2iii7onxm/CV_Gen_16062020.pdf?dl=0' style={{ textDecoration: 'none'}} target="_blank" rel="noopener noreferrer"><p className="resumelink" style={{ color : '#90006A', fontWeight: "bold" }}  onMouseEnter={this.onHoverChangeTBCV} onMouseLeave={this.onHoverLeave}>CV (gen)</p></a></span>
 
               </div>
