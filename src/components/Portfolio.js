@@ -15,16 +15,18 @@ import BABAABP from "./babaabp"
 import LuckyStars from "./luckystars"
 import OOP from "./oop"
 import TOM from "./tom"
+import ANIM10 from "./anim10"
 
 export default class Portfoliohere extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      portcomp : <LuckyStars />,
+      portcomp : <ANIM10 />,
       page1appearance: 'flex',
       page2appearance: 'none',
       page3appearance: 'none',
     }
+    this.onClickANIM10 = this.onClickANIM10.bind(this);
     this.onClickTOM = this.onClickTOM.bind(this);
     this.onClickLuckyStars = this.onClickLuckyStars.bind(this);
     this.onClickOOP = this.onClickOOP.bind(this);
@@ -56,6 +58,12 @@ onHoverLeave() {
         var tb = "";
         this.props.onSelectTBdetbox(tb);
 }
+
+  onClickANIM10() {
+    this.setState({
+      portcomp:<ANIM10 />
+    })
+  }
 
   onClickLuckyStars() {
     this.setState({
@@ -160,7 +168,7 @@ onHoverLeave() {
   page1appearance:"none",
   page2appearance:"flex",
   page3appearance:"none"
-});this.onClickAllosteryMap()
+});this.onClickGetgot()
 }
 
   onClickpage3click() {
@@ -168,7 +176,7 @@ onHoverLeave() {
   page1appearance:"none",
   page2appearance:"none",
   page3appearance:"flex"
-});this.onClickAllosteryMap()
+});this.onClickStreetSymphonies()
 }
 
   render() {
@@ -182,8 +190,16 @@ onHoverLeave() {
         <div className="detcontextbox"  onMouseEnter={this.onHoverChangeTBportokay} onMouseLeave={this.onHoverLeave}>
           <div className="portfoliodetwrap">
             <div className="portfoliolistwrap" style={{display:this.state.page1appearance}}>
-              <div className="portfoliooption" onClick={this.onClickTOM}>
+              <div className="portfoliooption" onClick={this.onClickANIM10}>
               <div className="portfolioopttitle">
+                  <p className="porttitle">Bric-a-ack</p>
+                </div>
+                <div className="portfoliooptdate">
+                  <p className="portdate">04/2021 - 04/2021</p>
+                </div>
+              </div>
+              <div className="portfoliooption" onClick={this.onClickTOM}>
+                <div className="portfolioopttitle">
                   <p className="porttitle">LIBERTY</p>
                 </div>
                 <div className="portfoliooptdate">
@@ -224,18 +240,10 @@ onHoverLeave() {
               </div>
               <div className="portfoliooption" onClick={this.onClickMakhanik}>
                 <div className="portfolioopttitle">
-                  <p className="porttitle">Makanik Khalid</p>
+                  <p className="porttitle">Makanak Khalee</p>
                 </div>
                 <div className="portfoliooptdate">
                   <p className="portdate">08/2020 - 05/2021</p>
-                </div>
-              </div>
-              <div className="portfoliooption" onClick={this.onClickWeltformat}>
-                <div className="portfolioopttitle">
-                  <p className="porttitle">Weltformat</p>
-                </div>
-                <div className="portfoliooptdate">
-                  <p className="portdate">07/2020 - 08/2020</p>
                 </div>
               </div>
               <div className="portfoliooption">
@@ -251,6 +259,14 @@ onHoverLeave() {
                 </div>
                 <div className="portfoliooptdate">
                   <p className="portdate">07/2020 - ongoing</p>
+                </div>
+              </div>
+              <div className="portfoliooption" onClick={this.onClickWeltformat}>
+                <div className="portfolioopttitle">
+                  <p className="porttitle">Weltformat</p>
+                </div>
+                <div className="portfoliooptdate">
+                  <p className="portdate">07/2020 - 08/2020</p>
                 </div>
               </div>
               <div className="portfoliooption" onClick={this.onClickMujrimeen}>
@@ -293,6 +309,13 @@ onHoverLeave() {
                   <p className="portdate">10/2016 - 03/2018</p>
                 </div>
               </div>
+              <div className="portfoliooption">
+                <div className="pagesarea">
+                  <p className="pagetext"><span onClick={this.onClickpage1click}>1</span><span>2</span><span onClick={this.onClickpage3click}>3</span></p>
+                </div>
+              </div>
+            </div>
+            <div className="portfoliolistwrap" style={{display:this.state.page3appearance}}>
               <div className="portfoliooption" onClick={this.onClickStreetSymphonies}>
                 <div className="portfolioopttitle">
                   <p className="porttitle">Street Symph.</p>
@@ -301,13 +324,6 @@ onHoverLeave() {
                   <p className="portdate">06/2015 - 07/2019</p>
                 </div>
               </div>
-              <div className="portfoliooption">
-                <div className="pagesarea">
-                  <p className="pagetext"><span onClick={this.onClickpage1click}>1</span><span>2</span><span onClick={this.onClickpage3click}>3</span></p>
-                </div>
-              </div>
-            </div>
-            <div className="portfoliolistwrap" style={{display:this.state.page3appearance }}>
               <div className="portfoliooption" onClick={this.onClickCutThwice}>
                 <div className="portfolioopttitle">
                   <p className="porttitle">Cut Thwice</p>
@@ -315,8 +331,6 @@ onHoverLeave() {
                 <div className="portfoliooptdate">
                   <p className="portdate">02/2014 - 10/2019</p>
                 </div>              
-              </div>
-              <div className="portfoliooption">
               </div>
               <div className="portfoliooption">
               </div>
