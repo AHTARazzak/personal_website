@@ -567,24 +567,24 @@ display:flex;
 
 .linkbox1 {
   flex:1;
-  width:100px;
-  height:100px;
+  width:90px;
+  height:90px;
   background-image: url("./github.png");
-  background-size: 100px 100px;
+  background-size: 90px 90px;
   background-repeat: no-repeat;
-  margin-left:calc(50% - 50px);
-  margin-top:calc(50% - 100px);
+  margin-left:calc(50% - 45px);
+  margin-top:calc(50% - 90px);
 }
 
 .linkbox1:hover{
   flex:1;
-  width:100px;
-  height:100px;
+  width:90px;
+  height:90px;
   background-image: url("./githubhover.png");
-  background-size: 100px 100px;
+  background-size: 90px 90px;
   background-repeat: no-repeat;
-  margin-left:calc(50% - 50px);
-  margin-top:calc(50% - 100px);
+  margin-left:calc(50% - 45px);
+  margin-top:calc(50% - 90px);
 }
 
 .linkbox1:hover .linkbox1{
@@ -603,24 +603,24 @@ display:flex;
 
 .linkbox2 {
   flex:1;
-  width:100px;
-  height:100px;
+  width:90px;
+  height:90px;
   background-image: url("./linkedin.png");
-  background-size: 100px 100px;
+  background-size: 90px 90px;
   background-repeat: no-repeat;
-  margin-left:calc(50% - 50px);
-  margin-top:calc(50% - 100px);
+  margin-left:calc(50% - 45px);
+  margin-top:calc(50% - 90px);
 }
 
 .linkbox2:hover{
   flex:1;
-  width:100px;
-  height:100px;
+  width:90px;
+  height:90px;
   background-image: url("./linkedinhover.png");
-  background-size: 100px 100px;
+  background-size: 90px 90px;
   background-repeat: no-repeat;
-  margin-left:calc(50% - 50px);
-  margin-top:calc(50% - 100px);
+  margin-left:calc(50% - 45px);
+  margin-top:calc(50% - 90px);
 }
 
 .linkboxwrap3 {
@@ -635,24 +635,24 @@ display:flex;
 
 .linkbox3 {
   flex:1;
-  width:100px;
-  height:100px;
+  width:90px;
+  height:90px;
   background-image: url("./instagram.png");
-  background-size: 100px 100px;
+  background-size: 90px 90px;;
   background-repeat: no-repeat;
-  margin-left:calc(50% - 50px);
-  margin-top:calc(50% - 100px);
+  margin-left:calc(50% - 45px);
+  margin-top:calc(50% - 90px);
 }
 
 .linkbox3:hover{
   flex:1;
-  width:100px;
-  height:100px;
+  width:90px;
+  height:90px;
   background-image: url("./instagramhover.png");
-  background-size: 100px 100px;
+  background-size: 90px 90px;;
   background-repeat: no-repeat;
-  margin-left:calc(50% - 50px);
-  margin-top:calc(50% - 100px);
+  margin-left:calc(50% - 45px);
+  margin-top:calc(50% - 90px);
 }
 
 
@@ -668,24 +668,24 @@ display:flex;
 
 .linkbox4 {
   flex:1;
-  width:100px;
-  height:100px;
+  width:90px;
+  height:90px;
   background-image: url("./email.png");
-  background-size: 100px 100px;
+  background-size:90px 90px;;
   background-repeat: no-repeat;
-  margin-left:calc(50% - 50px);
-  margin-top:calc(50% - 100px);
+  margin-left:calc(50% - 45px);
+  margin-top:calc(50% - 90px);
 }
 
 .linkbox4:hover{
   flex:1;
-  width:100px;
-  height:100px;
+  width:90px;
+  height:90px;
   background-image: url("./emailhover.png");
-  background-size: 100px 100px;
+  background-size:90px 90px;;
   background-repeat: no-repeat;
-  margin-left:calc(50% - 50px);
-  margin-top:calc(50% - 100px);
+  margin-left:calc(50% - 45px);
+  margin-top:calc(50% - 90px);
 }
 
 .linkbox4:hover .linkbox4{
