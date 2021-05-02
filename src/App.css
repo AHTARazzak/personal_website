@@ -17,6 +17,7 @@ a {
   color: transparent;
   text-shadow: 0 0 2px white;
 }
+
 ::-moz-selection {
   background: #90006A; /* Gecko Browsers */
   color: transparent;
@@ -38,7 +39,6 @@ a {
   animation-timing-function: ease-out;
   color: white;
 }
-
 
 @keyframes skitzlink {
   0%   {text-shadow: -5px 3px 1px white;}
