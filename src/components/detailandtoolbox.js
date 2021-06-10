@@ -116,7 +116,7 @@ componentWillMount() {
           <Route path="/contact" render={() => <Contact onSelectTBdetbox={this.getThumbTexttodetbox} />} />
       <div className="detlinksbox">
         <div className="linkboxwrap1">
-          <a className="detthumbnail" target="_blank" rel="noopener noreferrer" href="https://github.com/ternlef11"><div onMouseEnter={this.onHoverChangeTBgit} onMouseLeave={this.onHoverLeave} className="linkbox1"></div></a>
+          <a className="detthumbnail" target="_blank" rel="noopener noreferrer" href="https://github.com/AHTARazzak"><div onMouseEnter={this.onHoverChangeTBgit} onMouseLeave={this.onHoverLeave} className="linkbox1"></div></a>
         </div>
         <div className="linkboxwrap2">
           <a className="detthumbnail" target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/ali-razzak-datasci/"><div onMouseEnter={this.onHoverChangeTBln} onMouseLeave={this.onHoverLeave} className="linkbox2"></div></a>
@@ -144,7 +144,7 @@ componentWillMount() {
               <p className="theprojectname">ABOUT</p>
             </div>
             <div className="projectyears">
-              <p className="theprojectyears">03/05/2021</p>
+              <p className="theprojectyears">10/06/2021</p>
             </div></Link>
           </div>
           <div className="projectswrapper">
@@ -152,7 +152,7 @@ componentWillMount() {
               <p className="theprojectname">PROJECTS</p>
             </div>
             <div className="projectyears">
-            <p className="theprojectyears">25/04/2021</p>
+            <p className="theprojectyears">10/06/2021</p>
             </div></Link>
           </div>
           <div className="projectswrapper">
@@ -160,7 +160,7 @@ componentWillMount() {
               <p className="theprojectname">RESUME</p>
             </div>
             <div className="projectyears">
-            <p className="theprojectyears">03/05/2021</p>
+            <p className="theprojectyears">10/06/2021</p>
             </div></Link>
           </div>
           <div className="projectswrapper">
