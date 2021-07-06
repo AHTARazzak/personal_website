@@ -11,7 +11,7 @@ export default class OOP extends Component {
           </div>
         </div>
         <div className="portlinkwrap">
-          <a href="www.olives-on-porter.com" target="_blank" rel="noopener noreferrer"><p className="linktext">Site</p></a>
+          <a href="http://www.olives-on-porter.com" target="_blank" rel="noopener noreferrer"><p className="linktext">Site</p></a>
         </div>
       </div>
   )

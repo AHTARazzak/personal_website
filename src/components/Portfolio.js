@@ -211,7 +211,7 @@ onHoverLeave() {
                   <p className="porttitle">Ollies</p>
                 </div>
                 <div className="portfoliooptdate">
-                  <p className="portdate">05/2021 - 06/2021</p>
+                  <p className="portdate">05/2021 - 07/2021</p>
                 </div>
               </div>
               <div className="portfoliooption" onClick={this.onClickCBH21}>
