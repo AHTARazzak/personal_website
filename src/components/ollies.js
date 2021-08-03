@@ -7,7 +7,7 @@ export default class ollies extends Component {
         <div className="portdescwrap">
           <div className="portdesc">
             <p className="portdesctitle">Ollies</p>
-            <p className="portdesctext">Freelance branding, digital marketing, & design work for Cafe in Aoteroa. Designed the logo & digital assets in Adobe suite, developed & deployed website using Django & AWS, setup email server in G-suiet.</p>
+            <p className="portdesctext">Freelance branding, digital marketing, & design work for Cafe in Aotearoa. Designed the logo & digital assets in Adobe suite, developed & deployed website using Django & AWS, setup email server in G-suiet.</p>
           </div>
         </div>
         <div className="portlinkwrap">

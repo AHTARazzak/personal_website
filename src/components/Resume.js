@@ -33,7 +33,7 @@ onHoverLeave() {
         <div className="detcontextbox">
             <div className="aboutboxwrap">
               <div className="resumebox" onMouseEnter={this.onHoverChangeTBresumedet} onMouseLeave={this.onHoverLeave}>
-              <p className="aboutdescriptionfinal">Currently <b>APPLYING (otherwise personal projects)</b>.</p>
+              <p className="aboutdescriptionfinal">Currently <b>EMPLOYED (taking proposals)</b>.</p>
                 <p className="resumedescription">I have worked as a structural bioinformatician for over six years.
                 My passion lies in employing a myriad of advanced data-driven techniques to meet biomedical and pharmaceutical objectives & enhance the therapeutic landscape for all.
                 This includes developing innovative pipelines that streamline Bioinformatic analysis &/or constructing online Bioinformatic resources.
