@@ -11,7 +11,7 @@ export default class StreetSymphonies extends Component {
           </div>
         </div>
         <div className="portlinkwrap">
-          <a href= 'https://www.dropbox.com/s/vcxl6vehtbjqj0k/allposters10082020.pdf?dl=0' target= "_blank" rel="noopener noreferrer"><p className="linktext">PDF</p></a>
+          <a href= 'https://www.dropbox.com/s/ouwe95ulqrzd8ti/allposters02012022.pdf?dl=0' target= "_blank" rel="noopener noreferrer"><p className="linktext">PDF</p></a>
         </div>
       </div>
   )
