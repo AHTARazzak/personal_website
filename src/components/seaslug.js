@@ -7,7 +7,7 @@ export default class LuckyStars extends Component {
         <div className="portdescwrap">
           <div className="portdesc">
             <p className="portdesctitle">seaslug.se</p>
-            <p className="portdesctext">Founding member of Stockholm Art Calendar responsible for Web development, design, technical solutions & database management.</p>
+            <p className="portdesctext">Founding member of Stockholm Art Calendar responsible for full stack web development, design, technical solutions & database management.</p>
           </div>
         </div>
         <div className="portlinkwrap">
