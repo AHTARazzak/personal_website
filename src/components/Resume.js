@@ -39,7 +39,7 @@ onHoverLeave() {
                 This includes developing innovative pipelines that streamline Bioinformatic analysis &/or constructing online Bioinformatic resources.
                 As a Computational Biologist I thrive in interdisciplinary settings where members collaboratively contribute their expertise towards resolving biomolecular phenomena.
                 What has remained true to my practice is my thirst for immersive challenging environments and the subsequent learning experience entailed.
-                I am always on the lookout for opportunities where I can utilise my expertise towards impactful endeavours.</p>
+                I am always on the lookout for opportunities where I can utilise my expertise.</p>
                  <span className="controlCV"><a href='https://www.dropbox.com/s/tozzilnsonncd50/Ali_CV_10062021.pdf?dl=0' style={{ textDecoration: 'none'}} target="_blank" rel="noopener noreferrer"><p className="resumelink" style={{ color : '#90006A', fontWeight: "bold"}}  onMouseEnter={this.onHoverChangeTBCV} onMouseLeave={this.onHoverLeave}>CV (tech)</p></a><p className="resumelinkfill" style={{ color : '#90006A', fontWeight: "bold", fontSize: "0.15em" }}> &nbsp;&nbsp;|&nbsp;&nbsp; </p>
                  <a href='https://www.dropbox.com/s/668ukw2iii7onxm/CV_Gen_16062020.pdf?dl=0' style={{ textDecoration: 'none'}} target="_blank" rel="noopener noreferrer"><p className="resumelink" style={{ color : '#90006A', fontWeight: "bold" }}  onMouseEnter={this.onHoverChangeTBCV} onMouseLeave={this.onHoverLeave}>CV (gen)</p></a></span>
 
