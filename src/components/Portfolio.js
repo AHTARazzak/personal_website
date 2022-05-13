@@ -20,7 +20,7 @@ import Ollies from "./ollies"
 import CBH21 from "./cbh21"
 import TOCsb from "./tocsb"
 import SeaSlug from "./seaslug"
-import RickOF from "./rickof"
+import Threadbare from "./threadbare"
 
 export default class Portfoliohere extends Component {
   constructor(props) {
@@ -31,7 +31,7 @@ export default class Portfoliohere extends Component {
       page2appearance: 'none',
       page3appearance: 'none',
     }
-    this.onClickRickOF = this.onClickRickOF.bind(this);
+    this.onClickThreadbare = this.onClickThreadbare.bind(this);
     this.onClickSeaSlug = this.onClickSeaSlug.bind(this);
     this.onClickTOCsb = this.onClickTOCsb.bind(this);
     this.onClickOllies = this.onClickOllies.bind(this);
@@ -189,9 +189,9 @@ onHoverLeave() {
     })
   }
 
-  onClickRickOF() {
+  onClickThreadbare() {
     this.setState({
-      portcomp:<RickOF />
+      portcomp:<Threadbare />
     })
   }
 
@@ -200,7 +200,7 @@ onHoverLeave() {
   page1appearance:"flex",
   page2appearance:"none",
   page3appearance:"none"
-});this.onClickRickOF()
+});this.onClickThreadbare()
 }
 
   onClickpage2click() {
@@ -230,9 +230,9 @@ onHoverLeave() {
         <div className="detcontextbox"  onMouseEnter={this.onHoverChangeTBportokay} onMouseLeave={this.onHoverLeave}>
           <div className="portfoliodetwrap">
             <div className="portfoliolistwrap" style={{display:this.state.page1appearance}}>
-              <div className="portfoliooption" onClick={this.onClickRickOF}>
+              <div className="portfoliooption" onClick={this.onClickThreadbare}>
               <div className="portfolioopttitle">
-                  <p className="porttitle">R O F</p>
+                  <p className="porttitle">Threadbare</p>
                 </div>
                 <div className="portfoliooptdate">
                   <p className="portdate">02/2022 - present</p>
