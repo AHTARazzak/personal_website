@@ -11,7 +11,7 @@ export default class RickOF extends Component {
           </div>
         </div>
         <div className="portlinkwrap">
-          <a href="" target="_blank" rel="noopener noreferrer"><p className="linktext">PRIVATE</p></a>
+          <a target="_blank" rel="noopener noreferrer"><p className="linktext">PRIVATE</p></a>
         </div>
       </div>
   )
