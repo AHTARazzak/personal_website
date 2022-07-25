@@ -144,7 +144,7 @@ componentWillMount() {
               <p className="theprojectname">ABOUT</p>
             </div>
             <div className="projectyears">
-              <p className="theprojectyears">10/06/2021</p>
+              <p className="theprojectyears">25/07/2022</p>
             </div></Link>
           </div>
           <div className="projectswrapper">
@@ -152,7 +152,7 @@ componentWillMount() {
               <p className="theprojectname">PROJECTS</p>
             </div>
             <div className="projectyears">
-            <p className="theprojectyears">03/01/2022</p>
+            <p className="theprojectyears">25/07/2022</p>
             </div></Link>
           </div>
           <div className="projectswrapper">
@@ -160,7 +160,7 @@ componentWillMount() {
               <p className="theprojectname">RESUME</p>
             </div>
             <div className="projectyears">
-            <p className="theprojectyears">10/06/2021</p>
+            <p className="theprojectyears">25/07/2022</p>
             </div></Link>
           </div>
           <div className="projectswrapper">
@@ -168,7 +168,7 @@ componentWillMount() {
               <p className="theprojectname">APTITUDE</p>
             </div>
             <div className="projectyears">
-            <p className="theprojectyears">01/07/2020</p>
+            <p className="theprojectyears">25/07/2022</p>
             </div></Link>
           </div>
           <div className="projectswrapper">
@@ -176,7 +176,7 @@ componentWillMount() {
               <p className="theprojectname">ASPIREDOM</p>
             </div>
             <div className="projectyears">
-            <p className="theprojectyears">01/07/2020</p>
+            <p className="theprojectyears">25/07/2022</p>
             </div></Link>
           </div>
           <div className="projectswrapper" style={{zIndex:'-1'}}>

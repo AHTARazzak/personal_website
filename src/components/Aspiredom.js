@@ -21,7 +21,7 @@ onHoverLeave() {
       <div className="changecontentbox">
         <div className="detheaderbox">
           <div className="namebox">
-            <p className="thename">Aspiredom</p>
+            <p className="thename">Aspiredom 🕳</p>
           </div>
         </div>
         <div className="detcontextbox">
@@ -29,7 +29,7 @@ onHoverLeave() {
               <div className="site1">
                 <a href="https://cass.si/" target="_blank" rel="noopener noreferrer"><p className="siteentry" >cass.si</p></a>
                 <a href="https://sixey.es/" target="_blank" rel="noopener noreferrer"><p className="siteentry" >sixey.es</p></a>
-                <a href="https://eti.tf/" target="_blank" rel="noopener noreferrer"><p className="siteentry" >eti.if</p></a>
+                <a href="https://obys.agency/" target="_blank" rel="noopener noreferrer"><p className="siteentry" >obys.agency</p></a>
                 <a href="https://shards.lectronice.com/" target="_blank" rel="noopener noreferrer"><p className="siteentry" >shards.lectronice.com</p></a>
                 <a href="https://ricky.codes/" target="_blank" rel="noopener noreferrer"><p className="siteentry" >ricky.codes</p></a>
                 <a href="https://simone.computer/#/" target="_blank" rel="noopener noreferrer"><p className="siteentry" >simone.computer</p></a>

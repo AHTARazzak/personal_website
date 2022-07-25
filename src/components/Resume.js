@@ -27,7 +27,7 @@ onHoverLeave() {
       <div className="changecontentbox">
         <div className="detheaderbox">
           <div className="namebox">
-            <p className="thename">Resume</p>
+            <p className="thename">Resume 📹</p>
           </div>
         </div>
         <div className="detcontextbox">
@@ -40,7 +40,7 @@ onHoverLeave() {
                 As a Computational Biologist I thrive in interdisciplinary settings where members collaboratively contribute their expertise towards resolving biomolecular phenomena.
                 What has remained true to my practice is my thirst for immersive challenging environments and the subsequent learning experience entailed.
                 I am always on the lookout for opportunities where I can utilise my expertise.</p>
-                 <span className="controlCV"><a href='https://www.dropbox.com/s/j995o7vxubu94wg/Ali_CV_01042022.pdf?dl=0' style={{ textDecoration: 'none'}} target="_blank" rel="noopener noreferrer"><p className="resumelink" style={{ color : '#90006A', fontWeight: "bold"}}  onMouseEnter={this.onHoverChangeTBCV} onMouseLeave={this.onHoverLeave}>CV (tech)</p></a><p className="resumelinkfill" style={{ color : '#90006A', fontWeight: "bold", fontSize: "0.15em" }}> &nbsp;&nbsp;|&nbsp;&nbsp; </p>
+                 <span className="controlCV"><a href='https://www.dropbox.com/s/w2wrxmfvq5e4ux9/Ali_CV_25072022.pdf?dl=0' style={{ textDecoration: 'none'}} target="_blank" rel="noopener noreferrer"><p className="resumelink" style={{ color : '#90006A', fontWeight: "bold"}}  onMouseEnter={this.onHoverChangeTBCV} onMouseLeave={this.onHoverLeave}>CV (tech)</p></a><p className="resumelinkfill" style={{ color : '#90006A', fontWeight: "bold", fontSize: "0.15em" }}> &nbsp;&nbsp;|&nbsp;&nbsp; </p>
                  <a href='https://www.dropbox.com/s/668ukw2iii7onxm/CV_Gen_16062020.pdf?dl=0' style={{ textDecoration: 'none'}} target="_blank" rel="noopener noreferrer"><p className="resumelink" style={{ color : '#90006A', fontWeight: "bold" }}  onMouseEnter={this.onHoverChangeTBCV} onMouseLeave={this.onHoverLeave}>CV (gen)</p></a></span>
 
               </div>

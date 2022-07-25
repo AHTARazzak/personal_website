@@ -28,14 +28,14 @@ onHoverLeave() {
       <div className="changecontentbox">
         <div className="detheaderbox">
           <div className="namebox">
-            <p className="thename">About</p>
+            <p className="thename">About ♟</p>
           </div>
         </div>
         <div className="detcontextbox">
             <div className="aboutboxwrap">
               <div className="aboutbox" onMouseEnter={this.onHoverChangeTBaboutdet} onMouseLeave={this.onHoverLeave}>
-                <p className="aboutdescription">I'm Ali, a multidisciplinary Structural Bioinformatician. This site is dedicated to consolidating & documenting projects I have worked on or am working on. Born Iraq, grew up New Zealand, worked four years between Switzerland, UK, & Sweden. Professional gig-hitter, footage-head, web-mujrim, code-junkie, & poster-paster on the best & worst days.<br/></p>
-                <p className="aboutdescriptionfinal"><br/>I get things done & am always logged on. contact me if you're up for it.</p>
+                <p className="aboutdescription">This site is dedicated to consolidating & documenting projects I have worked on or am working on. Born Iraq, grew up New Zealand, worked five years between Switzerland, United Kingdom, & Sweden as a Structural Bioinformatician, Full Stack Developer, & Data Scientist. On my best & woorst days I can be found hitting gigs, shooting footage, doodling, coding, cycling & pasting posters.<br/></p>
+                <p className="aboutdescriptionfinal"><br/>I get things done & am always logged on. Feel free to contact me.</p>
                 <p className="aboutdescriptionfinal"><br/></p>
                 <p className="aboutdescriptionfinal"><Link style={{ textDecoration: 'none', color : '#90006A', fontWeight: 'bold'}} to="/aptitude" onMouseEnter={this.onHoverChangeTBtick} onMouseLeave={this.onHoverLeave}><span className="betterimpres">A better impression</span></Link></p>
               </div>
