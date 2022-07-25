@@ -224,7 +224,7 @@ onHoverLeave() {
       <div className="changecontentbox">
         <div className="detheaderbox">
           <div className="namebox">
-            <p className="thename" >Projects <span role="img">☁</span></p>
+            <p className="thename" >Projects <span role="img" aria-label="black cloud">☁</span></p>
           </div>
         </div>
         <div className="detcontextbox"  onMouseEnter={this.onHoverChangeTBportokay} onMouseLeave={this.onHoverLeave}>

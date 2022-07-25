@@ -21,7 +21,7 @@ onHoverLeave() {
       <div className="changecontentbox">
         <div className="detheaderbox">
           <div className="namebox">
-            <p className="thename">Aspiredom <span role="img">🕳</span></p>
+            <p className="thename">Aspiredom <span role="img" aria-label="hole emoji">🕳</span></p>
           </div>
         </div>
         <div className="detcontextbox">
