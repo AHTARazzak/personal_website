@@ -152,7 +152,7 @@ componentWillMount() {
               <p className="theprojectname">PROJECTS</p>
             </div>
             <div className="projectyears">
-            <p className="theprojectyears">25/07/2022</p>
+            <p className="theprojectyears">07/11/2022</p>
             </div></Link>
           </div>
           <div className="projectswrapper">
