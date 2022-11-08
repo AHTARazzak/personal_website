@@ -243,7 +243,7 @@ onHoverLeave() {
                   <p className="porttitle">Sweet Stain</p>
                 </div>
                 <div className="portfoliooptdate">
-                  <p className="portdate">10/2022 - present</p>
+                  <p className="portdate">10/2022 - ongoing</p>
                 </div>
               </div>
               <div className="portfoliooption" onClick={this.onClickThreadbare}>
@@ -251,7 +251,7 @@ onHoverLeave() {
                   <p className="porttitle">Threadbare</p>
                 </div>
                 <div className="portfoliooptdate">
-                  <p className="portdate">02/2022 - present</p>
+                  <p className="portdate">02/2022 - ongoing</p>
                 </div>
               </div>
               <div className="portfoliooption" onClick={this.onClickSeaSlug}>
@@ -259,7 +259,7 @@ onHoverLeave() {
                   <p className="porttitle">seaslug.se</p>
                 </div>
                 <div className="portfoliooptdate">
-                  <p className="portdate">10/2021 - present</p>
+                  <p className="portdate">10/2021 - ongoing</p>
                 </div>
               </div>
               <div className="portfoliooption" onClick={this.onClickTOCsb}>
@@ -346,7 +346,7 @@ onHoverLeave() {
                   <p className="porttitle">GetGot</p>
                 </div>
                 <div className="portfoliooptdate">
-                  <p className="portdate">07/2020 - ongoing</p>
+                  <p className="portdate">07/2020 - 01/2022</p>
                 </div>
               </div>
               <div className="portfoliooption" onClick={this.onClickWeltformat}>
@@ -369,7 +369,7 @@ onHoverLeave() {
                   <p className="porttitle">Mujrimeen</p>
                 </div>
                 <div className="portfoliooptdate">
-                  <p className="portdate">05/2020 - ongoing</p>
+                  <p className="portdate">05/2020 - 01/2022</p>
                 </div>
               </div>
               <div className="portfoliooption" onClick={this.onClickScreenscrying}>
@@ -409,7 +409,7 @@ onHoverLeave() {
                   <p className="porttitle">Street Symph.</p>
                 </div>
                 <div className="portfoliooptdate">
-                  <p className="portdate">06/2015 - present</p>
+                  <p className="portdate">06/2015 - ongoing</p>
                 </div>
               </div>
               <div className="portfoliooption" onClick={this.onClickCutThwice}>
