@@ -56,11 +56,11 @@ onHoverLeave() {
               </div>
               <div className="site1">
                 <a href="http://laurelschwulst.com/" target="_blank" rel="noopener noreferrer"><p className="siteentry" >laurelschwulst.com</p></a>
-                <a href="http://morgane.com/" target="_blank" rel="noopener noreferrer"><p className="siteentry" >morgane.com</p></a>
+                <a href="https://awge.com/" target="_blank" rel="noopener noreferrer"><p className="siteentry" >awge.com</p></a>
                 <a href="https://matildepark.ca/" target="_blank" rel="noopener noreferrer"><p className="siteentry" >matildepark.ca</p></a>
                 <a href="https://notapipe.today/" target="_blank" rel="noopener noreferrer"><p className="siteentry" >notapipe.today</p></a>
-                <a href="https://teknari.com/" target="_blank" rel="noopener noreferrer"><p className="siteentry" >teknari.com</p></a>
-                <a href="http://www.miha-co.ca/" target="_blank" rel="noopener noreferrer"><p className="siteentry" >miha-co.ca</p></a>
+                <a href="https://constantvzw.org/" target="_blank" rel="noopener noreferrer"><p className="siteentry" >constantvzw.org</p></a>
+                <a href="http://pluslorem.wiki/" target="_blank" rel="noopener noreferrer"><p className="siteentry" >pluslorem.wiki</p></a>
                 <a href="https://rezmason.net/" target="_blank" rel="noopener noreferrer"><p className="siteentry" >rezmason.net</p></a>
                 <a href="https://teddavis.org/" target="_blank" rel="noopener noreferrer"><p className="siteentry" >teddavis.org</p></a>
                 <a href="https://magoz.studio/" target="_blank" rel="noopener noreferrer"><p className="siteentry" >magoz.studio</p></a>
