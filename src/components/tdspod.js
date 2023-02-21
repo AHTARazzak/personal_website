@@ -6,7 +6,7 @@ export default class TDSpod extends Component {
       <div className="portfoliosmalldetwrap">
         <div className="portdescwrap">
           <div className="portdesc">
-            <p className="portdesctitle">The Dogsense</p>
+            <p className="portdesctitle">thedogsense</p>
             <p className="portdesctext">Co-host, co-founder, research, editing & web design.</p>
           </div>
         </div>

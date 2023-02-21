@@ -248,7 +248,7 @@ onHoverLeave() {
             <div className="portfoliolistwrap" style={{display:this.state.page1appearance}}>
               <div className="portfoliooption" onClick={this.onTDSpod}>
               <div className="portfolioopttitle">
-                  <p className="porttitle">The Dogsense</p>
+                  <p className="porttitle">thedogsense</p>
                 </div>
                 <div className="portfoliooptdate">
                   <p className="portdate">12/2022 - ongoing</p>
